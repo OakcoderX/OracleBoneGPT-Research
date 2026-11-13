@@ -1,0 +1,3232 @@
+{
+  "hidden": 453,
+  "training": {
+    "0": {
+      "seed": 20261115,
+      "parameters": 142784,
+      "context": 80,
+      "width": 64,
+      "layers": 2,
+      "heads": 4,
+      "max_batch": 64,
+      "steps": 2000,
+      "lr": 0.002,
+      "optimizer": "AdamW",
+      "dtype": "float32",
+      "training_and_validation_seconds": 5.8376847500912845,
+      "selected_step": 1500,
+      "validation_nll": 3.32298693220004,
+      "checkpoints": [
+        {
+          "step": 250,
+          "batch_nll": 3.873272657394409,
+          "validation_nll": 3.7394588825022144,
+          "elapsed_seconds": 0.748983290977776
+        },
+        {
+          "step": 500,
+          "batch_nll": 3.486011266708374,
+          "validation_nll": 3.4811585035933894,
+          "elapsed_seconds": 1.4765730830840766
+        },
+        {
+          "step": 750,
+          "batch_nll": 3.4844412803649902,
+          "validation_nll": 3.4113987499581566,
+          "elapsed_seconds": 2.206054375041276
+        },
+        {
+          "step": 1000,
+          "batch_nll": 2.858696937561035,
+          "validation_nll": 3.372706172492996,
+          "elapsed_seconds": 2.9583425410091877
+        },
+        {
+          "step": 1250,
+          "batch_nll": 3.394749402999878,
+          "validation_nll": 3.3340503488941735,
+          "elapsed_seconds": 3.7687066660728306
+        },
+        {
+          "step": 1500,
+          "batch_nll": 2.864215612411499,
+          "validation_nll": 3.32298693220004,
+          "elapsed_seconds": 4.482417125022039
+        },
+        {
+          "step": 1750,
+          "batch_nll": 3.3461434841156006,
+          "validation_nll": 3.3345996753589526,
+          "elapsed_seconds": 5.1730716249439865
+        },
+        {
+          "step": 2000,
+          "batch_nll": 3.0577030181884766,
+          "validation_nll": 3.323994917545809,
+          "elapsed_seconds": 5.837617041077465
+        }
+      ],
+      "device": "Device(gpu, 0)",
+      "hardware": "Apple M5 Pro",
+      "mlx": "0.32.2",
+      "numpy": "2.5.3",
+      "python": "3.12.13",
+      "macos": "27.0.1",
+      "gpu": "Apple M5 Pro",
+      "sha256": "618da9c50e30f6c306ba24d141b209748699b2e1bd4670fba7c05f389f57ce7f"
+    },
+    "1": {
+      "seed": 20262015,
+      "parameters": 142784,
+      "context": 80,
+      "width": 64,
+      "layers": 2,
+      "heads": 4,
+      "max_batch": 64,
+      "steps": 2000,
+      "lr": 0.002,
+      "optimizer": "AdamW",
+      "dtype": "float32",
+      "training_and_validation_seconds": 5.289436083985493,
+      "selected_step": 2000,
+      "validation_nll": 3.164466006331982,
+      "checkpoints": [
+        {
+          "step": 250,
+          "batch_nll": 3.6902618408203125,
+          "validation_nll": 3.6203084482283434,
+          "elapsed_seconds": 0.6503484998829663
+        },
+        {
+          "step": 500,
+          "batch_nll": 3.3939566612243652,
+          "validation_nll": 3.3513358036741794,
+          "elapsed_seconds": 1.3127796249464154
+        },
+        {
+          "step": 750,
+          "batch_nll": 3.3599741458892822,
+          "validation_nll": 3.2840448571898677,
+          "elapsed_seconds": 2.0050880420021713
+        },
+        {
+          "step": 1000,
+          "batch_nll": 3.069730758666992,
+          "validation_nll": 3.2177878086586738,
+          "elapsed_seconds": 2.6517227918375283
+        },
+        {
+          "step": 1250,
+          "batch_nll": 3.079500913619995,
+          "validation_nll": 3.201239255346031,
+          "elapsed_seconds": 3.3260858338326216
+        },
+        {
+          "step": 1500,
+          "batch_nll": 2.9047162532806396,
+          "validation_nll": 3.19960422525193,
+          "elapsed_seconds": 3.973337374860421
+        },
+        {
+          "step": 1750,
+          "batch_nll": 2.6612401008605957,
+          "validation_nll": 3.1811044365726078,
+          "elapsed_seconds": 4.62664533383213
+        },
+        {
+          "step": 2000,
+          "batch_nll": 2.6212363243103027,
+          "validation_nll": 3.164466006331982,
+          "elapsed_seconds": 5.288318416802213
+        }
+      ],
+      "device": "Device(gpu, 0)",
+      "hardware": "Apple M5 Pro",
+      "mlx": "0.32.2",
+      "numpy": "2.5.3",
+      "python": "3.12.13",
+      "macos": "27.0.1",
+      "gpu": "Apple M5 Pro",
+      "sha256": "9719f8259ff6545debc443782aa3e4f1c8e0dfedd85c4c4fe629c56fcf9ec53f"
+    }
+  },
+  "blocks": [
+    [
+      "tdznjmpywo",
+      "0rv771drzl",
+      "1b3rdlleou",
+      "ed04il53n7",
+      "e5v2cd930z",
+      "zxuw992m8p",
+      "yomncuf13y",
+      "9aai46wd9w",
+      "dc22oah1v8",
+      "uhk4plz1rm",
+      "33r901db0e",
+      "n92bww8sym",
+      "1cqtj1q73a",
+      "ntecsn5xqw",
+      "x5din0lbep",
+      "jupa4d7mu6"
+    ],
+    [
+      "u54u515u56",
+      "x9y4slwu2b",
+      "mrz7t6gxh0",
+      "ihzje59ylg",
+      "lcxtisdp6y",
+      "1m93z2t8wf",
+      "d31znlyylh",
+      "jshaxuelhn",
+      "txqs43zo24",
+      "anku02zxgu",
+      "m4dq2q9jiv",
+      "hku4d0ck4n",
+      "cawhttc4j5",
+      "dagr43m1aj",
+      "hbltymdyef",
+      "a7fntjnau2"
+    ],
+    [
+      "bw6bl0elx5",
+      "6kf650i4zk",
+      "fu6caa5q2a",
+      "c0j4lyz6aj",
+      "6m1qvxsh3e",
+      "gx8z45578c",
+      "pymg8s4d83",
+      "c5vr6lndrx",
+      "rfhhuaqrts",
+      "ce6hpt5ju5",
+      "9649n5rjvr",
+      "y7e97sd82a",
+      "nwi5rk9lkb",
+      "crd6njmjax",
+      "shksxlt8ok",
+      "u5pens8hl2"
+    ],
+    [
+      "awg8lyvedy",
+      "9y6qgnclpk",
+      "9tpoluos1q",
+      "doqvaj2vzu",
+      "yvbokzhzmz",
+      "811h3kcxvb",
+      "zapprwvtx9",
+      "ubq4rpw1wu",
+      "j29igjvgwl",
+      "uhn8agncvy",
+      "n0bfvspr0d",
+      "bfwtwd92m1",
+      "ix033niy64",
+      "akl0kdke8r",
+      "82z4h91v4r",
+      "2s666tklgo"
+    ],
+    [
+      "q8n2xmqs1o",
+      "gvea18bccm",
+      "h9rt4lxd99",
+      "1fjsmv778r",
+      "61p261idyu",
+      "nq3neh9i5i",
+      "1bdnhihf1z",
+      "h1yvqbcpot",
+      "8amt82vs7o",
+      "medazzhc49",
+      "r90d2o0i9y",
+      "bb0wdwlexf",
+      "y1fizk7ybg",
+      "hq2zgeaqqf",
+      "fcooblbqyz",
+      "du93rs9pec"
+    ],
+    [
+      "u6h3c0iftd",
+      "tyn2yfryvp",
+      "nqghhf5br6",
+      "8ggcq3obcu",
+      "47ioadp9wd",
+      "yunhitgxgx",
+      "g7a146vwlb",
+      "8lxqk97zyh",
+      "j5cl5jcqdz",
+      "npl316l4j0",
+      "ch3eogm319",
+      "a73fq76370",
+      "1ie27xm4md",
+      "9s8i2290qg",
+      "b1ojfpwayk",
+      "0kcfgksim7"
+    ],
+    [
+      "4eiujvozyl",
+      "ho95nnufi7",
+      "f7hr5ku09c",
+      "khg8b4r65l",
+      "rnar1q86c5",
+      "vgdnx3zrkn",
+      "c13j4nmoij",
+      "clwxtgnjpw",
+      "em9wf77jqc",
+      "huoz3b61jz",
+      "5xzg937unb",
+      "zz00qbgu3m",
+      "msctk8rvba",
+      "kyjr61sdkq",
+      "bnzum9xkvt",
+      "ev5rkbdabc"
+    ],
+    [
+      "5u17bmbs6p",
+      "i44zmo51c7",
+      "vgtvawlq60",
+      "upv9mf4trj",
+      "gaf7rmekoj",
+      "81cqeht6m8",
+      "8gro2b24ja",
+      "um3hp76w21",
+      "34yhwco17n",
+      "vqo5659li5",
+      "qhmhxv0zyb",
+      "dlza5ir0k7",
+      "r9cvuw9v1t",
+      "4nm99xtfab",
+      "j904v6fm79",
+      "w4frb60x9v"
+    ],
+    [
+      "w8l90of6xz",
+      "27jl2n6uoo",
+      "2r051ups8k",
+      "b3fudy3nhc",
+      "sbjf4foazl",
+      "f7hrrl0bh9",
+      "qzgadtxm9i",
+      "jvuf4ut3c5",
+      "zyzqoa0xlj",
+      "lv9rlaeib9",
+      "nmwnjd5u4n",
+      "h204u5h9ms",
+      "0kg5dhdk4s",
+      "4cylbd0s3d",
+      "fmv0hxp7i5",
+      "g8k12dfmg6"
+    ],
+    [
+      "ih7qa28rb3",
+      "x4t1t00zpg",
+      "jfc5ld8k0t",
+      "9ypw4dceci",
+      "vwahtur1cj",
+      "79c9fojxw0",
+      "bh3e3oql61",
+      "fd2xhqwsjk",
+      "ewiqwj2bq8",
+      "ctejf56of8",
+      "aetgi1oyaa",
+      "oaaqvh5dtf",
+      "phjj09b89l",
+      "z8s6u45g2k",
+      "z0pbcna9kk",
+      "h9hoshfwwj"
+    ],
+    [
+      "xjoc12tti2",
+      "g12sx19cjl",
+      "h8exoqnpru",
+      "6dnfyfs9ol",
+      "hvm3m8ypgu",
+      "d9r8vouxue",
+      "tx3m8otqgw",
+      "d15m8dd17h",
+      "tp2kuz956n",
+      "qmsdu51da8",
+      "8pu7n71zyl",
+      "ecbetcendb",
+      "nscqmvthk1",
+      "kkt3pdctdg",
+      "dp8imn8ze4",
+      "xvt1om20u0"
+    ]
+  ],
+  "rows": [
+    {
+      "uid": "33r901db0e",
+      "frequency": 2,
+      "block": 0,
+      "methods": {
+        "gpt": {
+          "rank": 1,
+          "present_score": 0.6802718289965821,
+          "absent_score": 0.661248883905842,
+          "present_margin": 0.019022945090740095,
+          "absent_margin": 0.02217714732427145
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 1,
+          "present_score": 0.27809118491527635,
+          "absent_score": 0.23832336229797452,
+          "present_margin": 0.03976782261730183,
+          "absent_margin": 0.009471384364741514
+        }
+      },
+      "query": "H8311",
+      "reference": "H33177"
+    },
+    {
+      "uid": "ntecsn5xqw",
+      "frequency": 2,
+      "block": 0,
+      "methods": {
+        "gpt": {
+          "rank": 15,
+          "present_score": 0.6821125036571953,
+          "absent_score": 0.6821125036571953,
+          "present_margin": 0.007523534543453669,
+          "absent_margin": 0.007523534543453669
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 1,
+          "present_score": 0.3283213063536115,
+          "absent_score": 0.1306062952230947,
+          "present_margin": 0.19771501113051682,
+          "absent_margin": 0.004284968669501982
+        }
+      },
+      "query": "H30884",
+      "reference": "H31120"
+    },
+    {
+      "uid": "m4dq2q9jiv",
+      "frequency": 3,
+      "block": 1,
+      "methods": {
+        "gpt": {
+          "rank": 12,
+          "present_score": 0.5973547357409527,
+          "absent_score": 0.5973547357409527,
+          "present_margin": 0.012638386030959237,
+          "absent_margin": 0.012638386030959237
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 2,
+          "present_score": 0.25248972101590716,
+          "absent_score": 0.25248972101590716,
+          "present_margin": 0.007904467564161577,
+          "absent_margin": 0.0336944164770015
+        }
+      },
+      "query": "H10728",
+      "reference": "H11456"
+    },
+    {
+      "uid": "1m93z2t8wf",
+      "frequency": 3,
+      "block": 1,
+      "methods": {
+        "gpt": {
+          "rank": 3,
+          "present_score": 0.8224794465663572,
+          "absent_score": 0.8224794465663572,
+          "present_margin": 0.018634377098890154,
+          "absent_margin": 0.018634377098890154
+        },
+        "adjacent": {
+          "rank": 6,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 4,
+          "present_score": 0.29925576642249313,
+          "absent_score": 0.29925576642249313,
+          "present_margin": 0.014941445031175504,
+          "absent_margin": 0.014941445031175504
+        }
+      },
+      "query": "H32485",
+      "reference": "H529"
+    },
+    {
+      "uid": "c5vr6lndrx",
+      "frequency": 4,
+      "block": 2,
+      "methods": {
+        "gpt": {
+          "rank": 8,
+          "present_score": 0.662353326838832,
+          "absent_score": 0.662353326838832,
+          "present_margin": 0.001507917062122166,
+          "absent_margin": 0.001507917062122166
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.31927211621362567,
+          "absent_score": 0.31927211621362567,
+          "present_margin": 0.062377306275293476,
+          "absent_margin": 0.062377306275293476
+        }
+      },
+      "query": "H29712",
+      "reference": "H33128"
+    },
+    {
+      "uid": "pymg8s4d83",
+      "frequency": 4,
+      "block": 2,
+      "methods": {
+        "gpt": {
+          "rank": 11,
+          "present_score": 0.8815929682033425,
+          "absent_score": 0.8815929682033425,
+          "present_margin": 0.05552812684725428,
+          "absent_margin": 0.05552812684725428
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.9999999999999998,
+          "absent_score": 0.9999999999999998,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 12,
+          "present_score": 0.5992788877667636,
+          "absent_score": 0.5992788877667636,
+          "present_margin": 0.22558266522178194,
+          "absent_margin": 0.22558266522178194
+        }
+      },
+      "query": "H15793",
+      "reference": "H313"
+    },
+    {
+      "uid": "a7fntjnau2",
+      "frequency": 4,
+      "block": 1,
+      "methods": {
+        "gpt": {
+          "rank": 3,
+          "present_score": 0.6790857677369124,
+          "absent_score": 0.6790857677369124,
+          "present_margin": 0.0041115983014343715,
+          "absent_margin": 0.0041115983014343715
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 8,
+          "present_score": 0.4449409510340768,
+          "absent_score": 0.4449409510340768,
+          "present_margin": 0.061472962878343695,
+          "absent_margin": 0.061472962878343695
+        }
+      },
+      "query": "H17145",
+      "reference": "H4493"
+    },
+    {
+      "uid": "fu6caa5q2a",
+      "frequency": 4,
+      "block": 2,
+      "methods": {
+        "gpt": {
+          "rank": 1,
+          "present_score": 0.8868096756697186,
+          "absent_score": 0.5621467048839759,
+          "present_margin": 0.3246629707857427,
+          "absent_margin": 0.028929334603687407
+        },
+        "adjacent": {
+          "rank": 1,
+          "present_score": 0.9999999999999998,
+          "absent_score": 0.0,
+          "present_margin": 0.9999999999999998,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 1,
+          "present_score": 0.5106518681101716,
+          "absent_score": 0.19562285125359669,
+          "present_margin": 0.3150290168565749,
+          "absent_margin": 0.014486065110593638
+        }
+      },
+      "query": "H30270",
+      "reference": "H30271"
+    },
+    {
+      "uid": "9tpoluos1q",
+      "frequency": 6,
+      "block": 3,
+      "methods": {
+        "gpt": {
+          "rank": 8,
+          "present_score": 0.7306597731608309,
+          "absent_score": 0.7306597731608309,
+          "present_margin": 0.01747739082227473,
+          "absent_margin": 0.01747739082227473
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 5,
+          "present_score": 0.5724599348085129,
+          "absent_score": 0.5724599348085129,
+          "present_margin": 0.2548371520347812,
+          "absent_margin": 0.2548371520347812
+        }
+      },
+      "query": "H14716",
+      "reference": "H14718"
+    },
+    {
+      "uid": "u5pens8hl2",
+      "frequency": 6,
+      "block": 2,
+      "methods": {
+        "gpt": {
+          "rank": 2,
+          "present_score": 0.8464734824007549,
+          "absent_score": 0.8464734824007549,
+          "present_margin": 0.056765470829183706,
+          "absent_margin": 0.14447245185460622
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.25454724662096795,
+          "absent_score": 0.25454724662096795,
+          "present_margin": 0.006457862719211727,
+          "absent_margin": 0.006457862719211727
+        }
+      },
+      "query": "H71",
+      "reference": "H4124"
+    },
+    {
+      "uid": "shksxlt8ok",
+      "frequency": 6,
+      "block": 2,
+      "methods": {
+        "gpt": {
+          "rank": 3,
+          "present_score": 0.9226008979793046,
+          "absent_score": 0.9226008979793046,
+          "present_margin": 0.1420341774920708,
+          "absent_margin": 0.1420341774920708
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.9999999999999998,
+          "absent_score": 0.9999999999999998,
+          "present_margin": 0.4999999999999999,
+          "absent_margin": 0.4999999999999999
+        },
+        "bag": {
+          "rank": 11,
+          "present_score": 0.2776178381978699,
+          "absent_score": 0.2776178381978699,
+          "present_margin": 0.0511988631766824,
+          "absent_margin": 0.0511988631766824
+        }
+      },
+      "query": "H7853",
+      "reference": "H8317"
+    },
+    {
+      "uid": "yvbokzhzmz",
+      "frequency": 7,
+      "block": 3,
+      "methods": {
+        "gpt": {
+          "rank": 3,
+          "present_score": 0.7643627353107212,
+          "absent_score": 0.7643627353107212,
+          "present_margin": 0.07811039683510357,
+          "absent_margin": 0.07811039683510357
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.37966613802959887,
+          "absent_score": 0.37966613802959887,
+          "present_margin": 0.0994255318768717,
+          "absent_margin": 0.0994255318768717
+        }
+      },
+      "query": "H24441",
+      "reference": "H21801"
+    },
+    {
+      "uid": "doqvaj2vzu",
+      "frequency": 7,
+      "block": 3,
+      "methods": {
+        "gpt": {
+          "rank": 10,
+          "present_score": 0.8107927340906982,
+          "absent_score": 0.8107927340906982,
+          "present_margin": 0.1846408826433572,
+          "absent_margin": 0.1846408826433572
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.3209851114403679,
+          "absent_score": 0.3209851114403679,
+          "present_margin": 0.04243461508004842,
+          "absent_margin": 0.04243461508004842
+        }
+      },
+      "query": "H2038",
+      "reference": "H15"
+    },
+    {
+      "uid": "akl0kdke8r",
+      "frequency": 8,
+      "block": 3,
+      "methods": {
+        "gpt": {
+          "rank": 10,
+          "present_score": 0.9167281918373495,
+          "absent_score": 0.9167281918373495,
+          "present_margin": 0.206851030018239,
+          "absent_margin": 0.206851030018239
+        },
+        "adjacent": {
+          "rank": 5,
+          "present_score": 0.9999999999999998,
+          "absent_score": 0.9999999999999998,
+          "present_margin": 0.4999999999999999,
+          "absent_margin": 0.4999999999999999
+        },
+        "bag": {
+          "rank": 9,
+          "present_score": 0.5138458971531012,
+          "absent_score": 0.5138458971531012,
+          "present_margin": 0.11456244441012287,
+          "absent_margin": 0.11456244441012287
+        }
+      },
+      "query": "H5384",
+      "reference": "H5743"
+    },
+    {
+      "uid": "2s666tklgo",
+      "frequency": 9,
+      "block": 3,
+      "methods": {
+        "gpt": {
+          "rank": 1,
+          "present_score": 0.6544861898955648,
+          "absent_score": 0.5478533921540341,
+          "present_margin": 0.10663279774153078,
+          "absent_margin": 0.10930229173033801
+        },
+        "adjacent": {
+          "rank": 2,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.4999999999999999
+        },
+        "bag": {
+          "rank": 6,
+          "present_score": 0.19997418179352433,
+          "absent_score": 0.19997418179352433,
+          "present_margin": 0.05368925519974524,
+          "absent_margin": 0.05368925519974524
+        }
+      },
+      "query": "H30282",
+      "reference": "H30090"
+    },
+    {
+      "uid": "q8n2xmqs1o",
+      "frequency": 9,
+      "block": 4,
+      "methods": {
+        "gpt": {
+          "rank": 3,
+          "present_score": 0.7816252297201548,
+          "absent_score": 0.7816252297201548,
+          "present_margin": 0.033278187872222365,
+          "absent_margin": 0.033278187872222365
+        },
+        "adjacent": {
+          "rank": 8,
+          "present_score": 0.9999999999999998,
+          "absent_score": 0.9999999999999998,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 4,
+          "present_score": 0.7554142949842035,
+          "absent_score": 0.7554142949842035,
+          "present_margin": 0.06979163688613466,
+          "absent_margin": 0.06979163688613466
+        }
+      },
+      "query": "H16003",
+      "reference": "H31018"
+    },
+    {
+      "uid": "82z4h91v4r",
+      "frequency": 9,
+      "block": 3,
+      "methods": {
+        "gpt": {
+          "rank": 12,
+          "present_score": 0.7009749762437989,
+          "absent_score": 0.7009749762437989,
+          "present_margin": 0.016690856531288656,
+          "absent_margin": 0.016690856531288656
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        }
+      },
+      "query": "H15411",
+      "reference": "H452"
+    },
+    {
+      "uid": "1bdnhihf1z",
+      "frequency": 10,
+      "block": 4,
+      "methods": {
+        "gpt": {
+          "rank": 16,
+          "present_score": 0.9230164524097296,
+          "absent_score": 0.9230164524097296,
+          "present_margin": 0.014559733843905298,
+          "absent_margin": 0.014559733843905298
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.9999999999999998,
+          "absent_score": 0.9999999999999998,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 10,
+          "present_score": 0.7496865758412485,
+          "absent_score": 0.7496865758412485,
+          "present_margin": 0.16783034350940917,
+          "absent_margin": 0.16783034350940917
+        }
+      },
+      "query": "H17909",
+      "reference": "H33183"
+    },
+    {
+      "uid": "medazzhc49",
+      "frequency": 10,
+      "block": 4,
+      "methods": {
+        "gpt": {
+          "rank": 14,
+          "present_score": 0.6553061448779356,
+          "absent_score": 0.6553061448779356,
+          "present_margin": 0.17102227713105195,
+          "absent_margin": 0.17102227713105195
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.3867958343980691,
+          "absent_score": 0.3867958343980691,
+          "present_margin": 0.06862653967598153,
+          "absent_margin": 0.06862653967598153
+        }
+      },
+      "query": "H25592",
+      "reference": "H69"
+    },
+    {
+      "uid": "h1yvqbcpot",
+      "frequency": 10,
+      "block": 4,
+      "methods": {
+        "gpt": {
+          "rank": 5,
+          "present_score": 0.7057883407808814,
+          "absent_score": 0.7057883407808814,
+          "present_margin": 0.029775169069396146,
+          "absent_margin": 0.029775169069396146
+        },
+        "adjacent": {
+          "rank": 4,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 2,
+          "present_score": 0.5244619832887967,
+          "absent_score": 0.5244619832887967,
+          "present_margin": 0.08760748807318597,
+          "absent_margin": 0.16511559359660644
+        }
+      },
+      "query": "H20270",
+      "reference": "H24958"
+    },
+    {
+      "uid": "r90d2o0i9y",
+      "frequency": 11,
+      "block": 4,
+      "methods": {
+        "gpt": {
+          "rank": 9,
+          "present_score": 0.8518987176859044,
+          "absent_score": 0.8518987176859044,
+          "present_margin": 0.15372239562229095,
+          "absent_margin": 0.15372239562229095
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.3422462486043497,
+          "absent_score": 0.3422462486043497,
+          "present_margin": 0.052476455215511864,
+          "absent_margin": 0.052476455215511864
+        }
+      },
+      "query": "H7846",
+      "reference": "H14052"
+    },
+    {
+      "uid": "hq2zgeaqqf",
+      "frequency": 11,
+      "block": 4,
+      "methods": {
+        "gpt": {
+          "rank": 16,
+          "present_score": 0.7873264538784683,
+          "absent_score": 0.7873264538784683,
+          "present_margin": 0.006002377715442542,
+          "absent_margin": 0.006002377715442542
+        },
+        "adjacent": {
+          "rank": 6,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 8,
+          "present_score": 0.3533126196983182,
+          "absent_score": 0.3533126196983182,
+          "present_margin": 0.068376988165197,
+          "absent_margin": 0.068376988165197
+        }
+      },
+      "query": "H11729",
+      "reference": "H19326"
+    },
+    {
+      "uid": "y1fizk7ybg",
+      "frequency": 11,
+      "block": 4,
+      "methods": {
+        "gpt": {
+          "rank": 8,
+          "present_score": 0.5474979080299744,
+          "absent_score": 0.5474979080299744,
+          "present_margin": 0.0038774941335495416,
+          "absent_margin": 0.0038774941335495416
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.15676307979100415,
+          "absent_score": 0.15676307979100415,
+          "present_margin": 0.09092715106627199,
+          "absent_margin": 0.09092715106627199
+        }
+      },
+      "query": "HD492",
+      "reference": "H6878"
+    },
+    {
+      "uid": "8ggcq3obcu",
+      "frequency": 12,
+      "block": 5,
+      "methods": {
+        "gpt": {
+          "rank": 9,
+          "present_score": 0.7095832082870084,
+          "absent_score": 0.7095832082870084,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.9999999999999998,
+          "absent_score": 0.9999999999999998,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 8,
+          "present_score": 0.4752198679709034,
+          "absent_score": 0.4752198679709034,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        }
+      },
+      "query": "H10481",
+      "reference": "H32763"
+    },
+    {
+      "uid": "du93rs9pec",
+      "frequency": 12,
+      "block": 4,
+      "methods": {
+        "gpt": {
+          "rank": 11,
+          "present_score": 0.7674543294061836,
+          "absent_score": 0.7674543294061836,
+          "present_margin": 0.08117183621094703,
+          "absent_margin": 0.08117183621094703
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 4,
+          "present_score": 0.4019874565475368,
+          "absent_score": 0.4019874565475368,
+          "present_margin": 0.006660291996505807,
+          "absent_margin": 0.006660291996505807
+        }
+      },
+      "query": "H32718",
+      "reference": "H30293"
+    },
+    {
+      "uid": "yunhitgxgx",
+      "frequency": 13,
+      "block": 5,
+      "methods": {
+        "gpt": {
+          "rank": 11,
+          "present_score": 0.7728492526452436,
+          "absent_score": 0.7728492526452436,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 10,
+          "present_score": 0.28887813439711396,
+          "absent_score": 0.28887813439711396,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        }
+      },
+      "query": "H3806",
+      "reference": "H10713"
+    },
+    {
+      "uid": "47ioadp9wd",
+      "frequency": 13,
+      "block": 5,
+      "methods": {
+        "gpt": {
+          "rank": 9,
+          "present_score": 0.8381738584867715,
+          "absent_score": 0.8381738584867715,
+          "present_margin": 0.21630588627294078,
+          "absent_margin": 0.21630588627294078
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.4999999999999999,
+          "absent_margin": 0.4999999999999999
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        }
+      },
+      "query": "H21828",
+      "reference": "H229"
+    },
+    {
+      "uid": "j5cl5jcqdz",
+      "frequency": 14,
+      "block": 5,
+      "methods": {
+        "gpt": {
+          "rank": 16,
+          "present_score": 0.5492908884740252,
+          "absent_score": 0.5492908884740252,
+          "present_margin": 0.013519759272260234,
+          "absent_margin": 0.013519759272260234
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 3,
+          "present_score": 0.2943396387072573,
+          "absent_score": 0.2943396387072573,
+          "present_margin": 0.10928641428254193,
+          "absent_margin": 0.10928641428254193
+        }
+      },
+      "query": "HD34",
+      "reference": "H20810"
+    },
+    {
+      "uid": "npl316l4j0",
+      "frequency": 15,
+      "block": 5,
+      "methods": {
+        "gpt": {
+          "rank": 10,
+          "present_score": 0.6278898508456461,
+          "absent_score": 0.6278898508456461,
+          "present_margin": 0.003578940139087994,
+          "absent_margin": 0.003578940139087994
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.249492636006483,
+          "absent_score": 0.249492636006483,
+          "present_margin": 0.05306406062984978,
+          "absent_margin": 0.05306406062984978
+        }
+      },
+      "query": "H10546",
+      "reference": "H32954"
+    },
+    {
+      "uid": "a73fq76370",
+      "frequency": 16,
+      "block": 5,
+      "methods": {
+        "gpt": {
+          "rank": 2,
+          "present_score": 0.7990063430179466,
+          "absent_score": 0.7990063430179466,
+          "present_margin": 0.0,
+          "absent_margin": 0.06060561482286242
+        },
+        "adjacent": {
+          "rank": 2,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.4999999999999999
+        },
+        "bag": {
+          "rank": 5,
+          "present_score": 0.3826364089057408,
+          "absent_score": 0.3826364089057408,
+          "present_margin": 0.0019554444808263516,
+          "absent_margin": 0.0019554444808263516
+        }
+      },
+      "query": "H2736",
+      "reference": "H6346"
+    },
+    {
+      "uid": "9s8i2290qg",
+      "frequency": 17,
+      "block": 5,
+      "methods": {
+        "gpt": {
+          "rank": 13,
+          "present_score": 0.8583951684744852,
+          "absent_score": 0.8583951684744852,
+          "present_margin": 0.04099690543819323,
+          "absent_margin": 0.04099690543819323
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.33559291012517845,
+          "absent_score": 0.33559291012517845,
+          "present_margin": 0.33559291012517845,
+          "absent_margin": 0.33559291012517845
+        }
+      },
+      "query": "H15668",
+      "reference": "H25414"
+    },
+    {
+      "uid": "b1ojfpwayk",
+      "frequency": 17,
+      "block": 5,
+      "methods": {
+        "gpt": {
+          "rank": 2,
+          "present_score": 0.8731098363601907,
+          "absent_score": 0.8731098363601907,
+          "present_margin": 0.03240155516597365,
+          "absent_margin": 0.08461734801106979
+        },
+        "adjacent": {
+          "rank": 8,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.46963980078451134,
+          "absent_score": 0.46963980078451134,
+          "present_margin": 0.08793166843321076,
+          "absent_margin": 0.08793166843321076
+        }
+      },
+      "query": "H20051",
+      "reference": "HD373"
+    },
+    {
+      "uid": "rnar1q86c5",
+      "frequency": 18,
+      "block": 6,
+      "methods": {
+        "gpt": {
+          "rank": 7,
+          "present_score": 0.9222593849557175,
+          "absent_score": 0.9222593849557175,
+          "present_margin": 0.01170525525448829,
+          "absent_margin": 0.01170525525448829
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 5,
+          "present_score": 0.3408423534953701,
+          "absent_score": 0.3408423534953701,
+          "present_margin": 0.07089055322510973,
+          "absent_margin": 0.07089055322510973
+        }
+      },
+      "query": "H10205",
+      "reference": "H10219"
+    },
+    {
+      "uid": "c13j4nmoij",
+      "frequency": 19,
+      "block": 6,
+      "methods": {
+        "gpt": {
+          "rank": 4,
+          "present_score": 0.6045982859039454,
+          "absent_score": 0.6045982859039454,
+          "present_margin": 0.05759687451190376,
+          "absent_margin": 0.05759687451190376
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.13579232620888837,
+          "absent_score": 0.13579232620888837,
+          "present_margin": 0.00529026327890611,
+          "absent_margin": 0.00529026327890611
+        }
+      },
+      "query": "H30178",
+      "reference": "H5140"
+    },
+    {
+      "uid": "em9wf77jqc",
+      "frequency": 20,
+      "block": 6,
+      "methods": {
+        "gpt": {
+          "rank": 8,
+          "present_score": 0.9229731424654124,
+          "absent_score": 0.9229731424654124,
+          "present_margin": 0.025510732868147645,
+          "absent_margin": 0.025510732868147645
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 14,
+          "present_score": 0.3036306323005197,
+          "absent_score": 0.3036306323005197,
+          "present_margin": 0.007360848520342134,
+          "absent_margin": 0.007360848520342134
+        }
+      },
+      "query": "H1453",
+      "reference": "H20615"
+    },
+    {
+      "uid": "5xzg937unb",
+      "frequency": 20,
+      "block": 6,
+      "methods": {
+        "gpt": {
+          "rank": 1,
+          "present_score": 0.8209734886835801,
+          "absent_score": 0.8071354314697331,
+          "present_margin": 0.01383805721384701,
+          "absent_margin": 0.14651300715761773
+        },
+        "adjacent": {
+          "rank": 4,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.285495555187528,
+          "absent_score": 0.285495555187528,
+          "present_margin": 0.285495555187528,
+          "absent_margin": 0.285495555187528
+        }
+      },
+      "query": "H14070",
+      "reference": "H14044"
+    },
+    {
+      "uid": "huoz3b61jz",
+      "frequency": 20,
+      "block": 6,
+      "methods": {
+        "gpt": {
+          "rank": 6,
+          "present_score": 0.8012580242890868,
+          "absent_score": 0.8012580242890868,
+          "present_margin": 0.0043097127389533085,
+          "absent_margin": 0.0043097127389533085
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.22149928714088366,
+          "absent_score": 0.22149928714088366,
+          "present_margin": 0.05227649475549051,
+          "absent_margin": 0.05227649475549051
+        }
+      },
+      "query": "HD454",
+      "reference": "H25172"
+    },
+    {
+      "uid": "msctk8rvba",
+      "frequency": 21,
+      "block": 6,
+      "methods": {
+        "gpt": {
+          "rank": 1,
+          "present_score": 0.6978565952960867,
+          "absent_score": 0.6912272573184722,
+          "present_margin": 0.006629337977614447,
+          "absent_margin": 0.05611484406611267
+        },
+        "adjacent": {
+          "rank": 2,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.4999999999999999
+        },
+        "bag": {
+          "rank": 9,
+          "present_score": 0.3076891396594249,
+          "absent_score": 0.3076891396594249,
+          "present_margin": 0.028830607738253522,
+          "absent_margin": 0.028830607738253522
+        }
+      },
+      "query": "H32227",
+      "reference": "H11630"
+    },
+    {
+      "uid": "bnzum9xkvt",
+      "frequency": 22,
+      "block": 6,
+      "methods": {
+        "gpt": {
+          "rank": 9,
+          "present_score": 0.7796939659436337,
+          "absent_score": 0.7796939659436337,
+          "present_margin": 0.0821787264482734,
+          "absent_margin": 0.0821787264482734
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.4999999999999999,
+          "absent_margin": 0.4999999999999999
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.43092498036756954,
+          "absent_score": 0.43092498036756954,
+          "present_margin": 0.13457169937276336,
+          "absent_margin": 0.13457169937276336
+        }
+      },
+      "query": "H7633",
+      "reference": "HD381"
+    },
+    {
+      "uid": "kyjr61sdkq",
+      "frequency": 22,
+      "block": 6,
+      "methods": {
+        "gpt": {
+          "rank": 11,
+          "present_score": 0.7695745748944506,
+          "absent_score": 0.7695745748944506,
+          "present_margin": 0.17708577062417352,
+          "absent_margin": 0.17708577062417352
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.15764657657419942,
+          "absent_score": 0.15764657657419942,
+          "present_margin": 0.15764657657419942,
+          "absent_margin": 0.15764657657419942
+        }
+      },
+      "query": "H29765",
+      "reference": "H33203"
+    },
+    {
+      "uid": "5u17bmbs6p",
+      "frequency": 23,
+      "block": 7,
+      "methods": {
+        "gpt": {
+          "rank": 6,
+          "present_score": 0.6057489374129955,
+          "absent_score": 0.6057489374129955,
+          "present_margin": 0.06296929571633536,
+          "absent_margin": 0.06296929571633536
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.23589089627066984,
+          "absent_score": 0.23589089627066984,
+          "present_margin": 0.03785864482707607,
+          "absent_margin": 0.03785864482707607
+        }
+      },
+      "query": "H13532",
+      "reference": "H32237"
+    },
+    {
+      "uid": "vgtvawlq60",
+      "frequency": 24,
+      "block": 7,
+      "methods": {
+        "gpt": {
+          "rank": 6,
+          "present_score": 0.5283853798317999,
+          "absent_score": 0.5283853798317999,
+          "present_margin": 0.004201195159797666,
+          "absent_margin": 0.004201195159797666
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 10,
+          "present_score": 0.218311887671363,
+          "absent_score": 0.218311887671363,
+          "present_margin": 0.03774238584468709,
+          "absent_margin": 0.03774238584468709
+        }
+      },
+      "query": "H5806",
+      "reference": "H6742"
+    },
+    {
+      "uid": "gaf7rmekoj",
+      "frequency": 25,
+      "block": 7,
+      "methods": {
+        "gpt": {
+          "rank": 6,
+          "present_score": 0.7131213391473772,
+          "absent_score": 0.7131213391473772,
+          "present_margin": 0.051696297809202374,
+          "absent_margin": 0.051696297809202374
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.10317574402220102,
+          "absent_score": 0.10317574402220102,
+          "present_margin": 0.007082283042411319,
+          "absent_margin": 0.007082283042411319
+        }
+      },
+      "query": "H14664",
+      "reference": "H445"
+    },
+    {
+      "uid": "upv9mf4trj",
+      "frequency": 25,
+      "block": 7,
+      "methods": {
+        "gpt": {
+          "rank": 5,
+          "present_score": 0.863790629593916,
+          "absent_score": 0.863790629593916,
+          "present_margin": 0.2401193730793938,
+          "absent_margin": 0.2401193730793938
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.4999999999999999,
+          "absent_margin": 0.4999999999999999
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        }
+      },
+      "query": "H32484",
+      "reference": "H17073"
+    },
+    {
+      "uid": "34yhwco17n",
+      "frequency": 26,
+      "block": 7,
+      "methods": {
+        "gpt": {
+          "rank": 12,
+          "present_score": 0.7968848715936543,
+          "absent_score": 0.7968848715936543,
+          "present_margin": 0.21108107829117184,
+          "absent_margin": 0.21108107829117184
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 4,
+          "present_score": 0.294947832600614,
+          "absent_score": 0.294947832600614,
+          "present_margin": 0.05754484079234384,
+          "absent_margin": 0.05754484079234384
+        }
+      },
+      "query": "H3975",
+      "reference": "H21051"
+    },
+    {
+      "uid": "vqo5659li5",
+      "frequency": 27,
+      "block": 7,
+      "methods": {
+        "gpt": {
+          "rank": 16,
+          "present_score": 0.7584387440345265,
+          "absent_score": 0.7584387440345265,
+          "present_margin": 0.018523950922735954,
+          "absent_margin": 0.018523950922735954
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 8,
+          "present_score": 0.3395581220997686,
+          "absent_score": 0.3395581220997686,
+          "present_margin": 0.031308663401295456,
+          "absent_margin": 0.031308663401295456
+        }
+      },
+      "query": "H5584",
+      "reference": "H5567"
+    },
+    {
+      "uid": "dlza5ir0k7",
+      "frequency": 28,
+      "block": 7,
+      "methods": {
+        "gpt": {
+          "rank": 14,
+          "present_score": 0.6821523021516063,
+          "absent_score": 0.6821523021516063,
+          "present_margin": 0.022858429503403332,
+          "absent_margin": 0.022858429503403332
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 3,
+          "present_score": 0.3238430336445561,
+          "absent_score": 0.3238430336445561,
+          "present_margin": 0.011184989586465965,
+          "absent_margin": 0.011184989586465965
+        }
+      },
+      "query": "H1399",
+      "reference": "H1361"
+    },
+    {
+      "uid": "r9cvuw9v1t",
+      "frequency": 30,
+      "block": 7,
+      "methods": {
+        "gpt": {
+          "rank": 7,
+          "present_score": 0.6197689971256419,
+          "absent_score": 0.6197689971256419,
+          "present_margin": 0.008766407229345963,
+          "absent_margin": 0.008766407229345963
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.3651034216557636,
+          "absent_score": 0.3651034216557636,
+          "present_margin": 0.16635915787171543,
+          "absent_margin": 0.16635915787171543
+        }
+      },
+      "query": "HD255",
+      "reference": "H6455"
+    },
+    {
+      "uid": "j904v6fm79",
+      "frequency": 31,
+      "block": 7,
+      "methods": {
+        "gpt": {
+          "rank": 7,
+          "present_score": 0.8253586065518141,
+          "absent_score": 0.8253586065518141,
+          "present_margin": 0.003931278065439914,
+          "absent_margin": 0.003931278065439914
+        },
+        "adjacent": {
+          "rank": 8,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.21022801360001223,
+          "absent_score": 0.21022801360001223,
+          "present_margin": 0.00116963598301989,
+          "absent_margin": 0.00116963598301989
+        }
+      },
+      "query": "H818",
+      "reference": "H13273"
+    },
+    {
+      "uid": "w4frb60x9v",
+      "frequency": 32,
+      "block": 7,
+      "methods": {
+        "gpt": {
+          "rank": 2,
+          "present_score": 0.7903586391316738,
+          "absent_score": 0.7903586391316738,
+          "present_margin": 0.056941225027979936,
+          "absent_margin": 0.06194501497414506
+        },
+        "adjacent": {
+          "rank": 5,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 2,
+          "present_score": 0.30795870384825164,
+          "absent_score": 0.30795870384825164,
+          "present_margin": 0.03220960602623968,
+          "absent_margin": 0.04568046972401729
+        }
+      },
+      "query": "H7882",
+      "reference": "H18554"
+    },
+    {
+      "uid": "27jl2n6uoo",
+      "frequency": 34,
+      "block": 8,
+      "methods": {
+        "gpt": {
+          "rank": 4,
+          "present_score": 0.8629305351912916,
+          "absent_score": 0.8629305351912916,
+          "present_margin": 0.08539815555867214,
+          "absent_margin": 0.08539815555867214
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 7,
+          "present_score": 0.360985534258792,
+          "absent_score": 0.360985534258792,
+          "present_margin": 0.03630501358092875,
+          "absent_margin": 0.03630501358092875
+        }
+      },
+      "query": "H144",
+      "reference": "H126"
+    },
+    {
+      "uid": "b3fudy3nhc",
+      "frequency": 35,
+      "block": 8,
+      "methods": {
+        "gpt": {
+          "rank": 2,
+          "present_score": 0.772341021640527,
+          "absent_score": 0.772341021640527,
+          "present_margin": 0.01990990461475073,
+          "absent_margin": 0.10409565440757629
+        },
+        "adjacent": {
+          "rank": 2,
+          "present_score": 0.9999999999999998,
+          "absent_score": 0.9999999999999998,
+          "present_margin": 0.0,
+          "absent_margin": 0.4999999999999999
+        },
+        "bag": {
+          "rank": 2,
+          "present_score": 0.5226011590149484,
+          "absent_score": 0.5226011590149484,
+          "present_margin": 0.15793299915150272,
+          "absent_margin": 0.22005296329116353
+        }
+      },
+      "query": "H35979",
+      "reference": "H35371"
+    },
+    {
+      "uid": "sbjf4foazl",
+      "frequency": 35,
+      "block": 8,
+      "methods": {
+        "gpt": {
+          "rank": 12,
+          "present_score": 0.6451995731581255,
+          "absent_score": 0.6451995731581255,
+          "present_margin": 0.08214093447084259,
+          "absent_margin": 0.08214093447084259
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.9999999999999998,
+          "absent_score": 0.9999999999999998,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 10,
+          "present_score": 0.39625894148238455,
+          "absent_score": 0.39625894148238455,
+          "present_margin": 0.11704346812359018,
+          "absent_margin": 0.11704346812359018
+        }
+      },
+      "query": "H32758",
+      "reference": "H678"
+    },
+    {
+      "uid": "f7hrrl0bh9",
+      "frequency": 37,
+      "block": 8,
+      "methods": {
+        "gpt": {
+          "rank": 3,
+          "present_score": 0.6741355152528495,
+          "absent_score": 0.6741355152528495,
+          "present_margin": 0.07918402759050547,
+          "absent_margin": 0.07918402759050547
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 7,
+          "present_score": 0.4371165340082023,
+          "absent_score": 0.4371165340082023,
+          "present_margin": 0.13518036852843168,
+          "absent_margin": 0.13518036852843168
+        }
+      },
+      "query": "H5838",
+      "reference": "H10766"
+    },
+    {
+      "uid": "qzgadtxm9i",
+      "frequency": 37,
+      "block": 8,
+      "methods": {
+        "gpt": {
+          "rank": 7,
+          "present_score": 0.607311343878439,
+          "absent_score": 0.607311343878439,
+          "present_margin": 0.017244483325709603,
+          "absent_margin": 0.017244483325709603
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.4999999999999999,
+          "absent_margin": 0.4999999999999999
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.31691818034653607,
+          "absent_score": 0.31691818034653607,
+          "present_margin": 0.019336042382070207,
+          "absent_margin": 0.019336042382070207
+        }
+      },
+      "query": "H12822",
+      "reference": "H31030"
+    },
+    {
+      "uid": "lv9rlaeib9",
+      "frequency": 38,
+      "block": 8,
+      "methods": {
+        "gpt": {
+          "rank": 5,
+          "present_score": 0.865253755174721,
+          "absent_score": 0.865253755174721,
+          "present_margin": 0.0690474892424422,
+          "absent_margin": 0.0690474892424422
+        },
+        "adjacent": {
+          "rank": 5,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 3,
+          "present_score": 0.5189621303186878,
+          "absent_score": 0.5189621303186878,
+          "present_margin": 0.09564591101871722,
+          "absent_margin": 0.09564591101871722
+        }
+      },
+      "query": "H32993",
+      "reference": "H6761"
+    },
+    {
+      "uid": "nmwnjd5u4n",
+      "frequency": 41,
+      "block": 8,
+      "methods": {
+        "gpt": {
+          "rank": 3,
+          "present_score": 0.8332996049916147,
+          "absent_score": 0.8332996049916147,
+          "present_margin": 0.027819474885196205,
+          "absent_margin": 0.027819474885196205
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.4999999999999999,
+          "absent_margin": 0.4999999999999999
+        },
+        "bag": {
+          "rank": 1,
+          "present_score": 0.173273662347991,
+          "absent_score": 0.12399329888020062,
+          "present_margin": 0.04928036346779037,
+          "absent_margin": 0.12399329888020062
+        }
+      },
+      "query": "H30295",
+      "reference": "H5678"
+    },
+    {
+      "uid": "0kg5dhdk4s",
+      "frequency": 42,
+      "block": 8,
+      "methods": {
+        "gpt": {
+          "rank": 2,
+          "present_score": 0.605940968924594,
+          "absent_score": 0.605940968924594,
+          "present_margin": 0.12813071191260245,
+          "absent_margin": 0.18726789049406822
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        }
+      },
+      "query": "H8946",
+      "reference": "H4214"
+    },
+    {
+      "uid": "4cylbd0s3d",
+      "frequency": 43,
+      "block": 8,
+      "methods": {
+        "gpt": {
+          "rank": 16,
+          "present_score": 0.9212692147517779,
+          "absent_score": 0.9212692147517779,
+          "present_margin": 0.08931128532180488,
+          "absent_margin": 0.08931128532180488
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.9999999999999998,
+          "absent_score": 0.9999999999999998,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 2,
+          "present_score": 0.5640645826083044,
+          "absent_score": 0.5640645826083044,
+          "present_margin": 0.24637586581568088,
+          "absent_margin": 0.3040182192852573
+        }
+      },
+      "query": "H15866",
+      "reference": "H22745"
+    },
+    {
+      "uid": "fmv0hxp7i5",
+      "frequency": 44,
+      "block": 8,
+      "methods": {
+        "gpt": {
+          "rank": 1,
+          "present_score": 0.9314649749253027,
+          "absent_score": 0.7827763913418606,
+          "present_margin": 0.14868858358344206,
+          "absent_margin": 0.072743731423345
+        },
+        "adjacent": {
+          "rank": 1,
+          "present_score": 0.9999999999999998,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.4999999999999999,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 1,
+          "present_score": 0.4503111546238535,
+          "absent_score": 0.25363178030679856,
+          "present_margin": 0.19667937431705496,
+          "absent_margin": 0.03233894669512222
+        }
+      },
+      "query": "H10433",
+      "reference": "H10429"
+    },
+    {
+      "uid": "x4t1t00zpg",
+      "frequency": 47,
+      "block": 9,
+      "methods": {
+        "gpt": {
+          "rank": 14,
+          "present_score": 0.7878255054258567,
+          "absent_score": 0.7878255054258567,
+          "present_margin": 0.010994828371869492,
+          "absent_margin": 0.010994828371869492
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.4999999999999999,
+          "absent_margin": 0.4999999999999999
+        },
+        "bag": {
+          "rank": 12,
+          "present_score": 0.2592267528719711,
+          "absent_score": 0.2592267528719711,
+          "present_margin": 0.004108694621767495,
+          "absent_margin": 0.004108694621767495
+        }
+      },
+      "query": "H21027",
+      "reference": "H7869"
+    },
+    {
+      "uid": "79c9fojxw0",
+      "frequency": 48,
+      "block": 9,
+      "methods": {
+        "gpt": {
+          "rank": 1,
+          "present_score": 0.8593005188720211,
+          "absent_score": 0.7934328179118363,
+          "present_margin": 0.0658677009601848,
+          "absent_margin": 0.21324518912951762
+        },
+        "adjacent": {
+          "rank": 1,
+          "present_score": 0.9999999999999998,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.4999999999999999,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 1,
+          "present_score": 0.5530199988425657,
+          "absent_score": 0.37788538186839493,
+          "present_margin": 0.17513461697417076,
+          "absent_margin": 0.03738265272740238
+        }
+      },
+      "query": "H25136",
+      "reference": "H25758"
+    },
+    {
+      "uid": "jfc5ld8k0t",
+      "frequency": 48,
+      "block": 9,
+      "methods": {
+        "gpt": {
+          "rank": 2,
+          "present_score": 0.8065028103921188,
+          "absent_score": 0.8065028103921188,
+          "present_margin": 0.1118374718613433,
+          "absent_margin": 0.11519794780613579
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.4999999999999999,
+          "absent_margin": 0.4999999999999999
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.26140167626671446,
+          "absent_score": 0.26140167626671446,
+          "present_margin": 0.005211764551428577,
+          "absent_margin": 0.005211764551428577
+        }
+      },
+      "query": "H32058",
+      "reference": "H19828"
+    },
+    {
+      "uid": "9ypw4dceci",
+      "frequency": 48,
+      "block": 9,
+      "methods": {
+        "gpt": {
+          "rank": 4,
+          "present_score": 0.7492950090308526,
+          "absent_score": 0.7492950090308526,
+          "present_margin": 0.013974109521180056,
+          "absent_margin": 0.013974109521180056
+        },
+        "adjacent": {
+          "rank": 5,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 8,
+          "present_score": 0.31846195411558187,
+          "absent_score": 0.31846195411558187,
+          "present_margin": 0.03951774723801782,
+          "absent_margin": 0.03951774723801782
+        }
+      },
+      "query": "H14324",
+      "reference": "H7102"
+    },
+    {
+      "uid": "vwahtur1cj",
+      "frequency": 48,
+      "block": 9,
+      "methods": {
+        "gpt": {
+          "rank": 15,
+          "present_score": 0.8389336078211886,
+          "absent_score": 0.8389336078211886,
+          "present_margin": 0.07511802601895179,
+          "absent_margin": 0.07511802601895179
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.9999999999999998,
+          "absent_score": 0.9999999999999998,
+          "present_margin": 0.4999999999999999,
+          "absent_margin": 0.4999999999999999
+        },
+        "bag": {
+          "rank": 13,
+          "present_score": 0.3801597056606539,
+          "absent_score": 0.3801597056606539,
+          "present_margin": 0.12569114314489127,
+          "absent_margin": 0.12569114314489127
+        }
+      },
+      "query": "H17896",
+      "reference": "H300"
+    },
+    {
+      "uid": "bh3e3oql61",
+      "frequency": 53,
+      "block": 9,
+      "methods": {
+        "gpt": {
+          "rank": 12,
+          "present_score": 0.7653671060890677,
+          "absent_score": 0.7653671060890677,
+          "present_margin": 0.14183408492720107,
+          "absent_margin": 0.14183408492720107
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.4999999999999999,
+          "absent_margin": 0.4999999999999999
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.42675363207476164,
+          "absent_score": 0.42675363207476164,
+          "present_margin": 0.05160330749872033,
+          "absent_margin": 0.05160330749872033
+        }
+      },
+      "query": "H2929",
+      "reference": "H2924"
+    },
+    {
+      "uid": "fd2xhqwsjk",
+      "frequency": 55,
+      "block": 9,
+      "methods": {
+        "gpt": {
+          "rank": 15,
+          "present_score": 0.723236676434243,
+          "absent_score": 0.723236676434243,
+          "present_margin": 0.07153147920609348,
+          "absent_margin": 0.07153147920609348
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 6,
+          "present_score": 0.3229683456756016,
+          "absent_score": 0.3229683456756016,
+          "present_margin": 0.03852167333877876,
+          "absent_margin": 0.03852167333877876
+        }
+      },
+      "query": "H12686",
+      "reference": "H5679"
+    },
+    {
+      "uid": "ctejf56of8",
+      "frequency": 58,
+      "block": 9,
+      "methods": {
+        "gpt": {
+          "rank": 10,
+          "present_score": 0.6747428543284202,
+          "absent_score": 0.6747428543284202,
+          "present_margin": 0.012249362953235421,
+          "absent_margin": 0.012249362953235421
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.15238580557688583,
+          "absent_score": 0.15238580557688583,
+          "present_margin": 0.024438959817840056,
+          "absent_margin": 0.024438959817840056
+        }
+      },
+      "query": "H6558",
+      "reference": "H1803"
+    },
+    {
+      "uid": "aetgi1oyaa",
+      "frequency": 63,
+      "block": 9,
+      "methods": {
+        "gpt": {
+          "rank": 2,
+          "present_score": 0.929775821051549,
+          "absent_score": 0.929775821051549,
+          "present_margin": 0.06731794098065003,
+          "absent_margin": 0.12094332607626801
+        },
+        "adjacent": {
+          "rank": 9,
+          "present_score": 0.9999999999999998,
+          "absent_score": 0.9999999999999998,
+          "present_margin": 0.4999999999999999,
+          "absent_margin": 0.4999999999999999
+        },
+        "bag": {
+          "rank": 7,
+          "present_score": 0.6241362677559448,
+          "absent_score": 0.6241362677559448,
+          "present_margin": 0.16028092413395323,
+          "absent_margin": 0.16028092413395323
+        }
+      },
+      "query": "H74",
+      "reference": "H30"
+    },
+    {
+      "uid": "oaaqvh5dtf",
+      "frequency": 66,
+      "block": 9,
+      "methods": {
+        "gpt": {
+          "rank": 6,
+          "present_score": 0.7018215887922472,
+          "absent_score": 0.7018215887922472,
+          "present_margin": 0.057092502424849756,
+          "absent_margin": 0.057092502424849756
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 2,
+          "present_score": 0.18013730331706213,
+          "absent_score": 0.18013730331706213,
+          "present_margin": 0.006439443957711927,
+          "absent_margin": 0.02138086814870538
+        }
+      },
+      "query": "H2668",
+      "reference": "H2645"
+    },
+    {
+      "uid": "phjj09b89l",
+      "frequency": 67,
+      "block": 9,
+      "methods": {
+        "gpt": {
+          "rank": 3,
+          "present_score": 0.36041789401469393,
+          "absent_score": 0.36041789401469393,
+          "present_margin": 0.01800988735872472,
+          "absent_margin": 0.01800988735872472
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.338962668932463,
+          "absent_score": 0.338962668932463,
+          "present_margin": 0.12803865214624732,
+          "absent_margin": 0.12803865214624732
+        }
+      },
+      "query": "H19454",
+      "reference": "H1201"
+    },
+    {
+      "uid": "z0pbcna9kk",
+      "frequency": 69,
+      "block": 9,
+      "methods": {
+        "gpt": {
+          "rank": 5,
+          "present_score": 0.8046760972994633,
+          "absent_score": 0.8046760972994633,
+          "present_margin": 0.06617258193509035,
+          "absent_margin": 0.06617258193509035
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 1,
+          "present_score": 0.280297104567362,
+          "absent_score": 0.25620938680358174,
+          "present_margin": 0.02408771776378027,
+          "absent_margin": 0.03773079443415575
+        }
+      },
+      "query": "H30317",
+      "reference": "H25217"
+    },
+    {
+      "uid": "z8s6u45g2k",
+      "frequency": 69,
+      "block": 9,
+      "methods": {
+        "gpt": {
+          "rank": 3,
+          "present_score": 0.9069843796196759,
+          "absent_score": 0.9069843796196759,
+          "present_margin": 0.10213597874369618,
+          "absent_margin": 0.10213597874369618
+        },
+        "adjacent": {
+          "rank": 5,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 4,
+          "present_score": 0.24352488052759153,
+          "absent_score": 0.24352488052759153,
+          "present_margin": 0.0038598229380454874,
+          "absent_margin": 0.0038598229380454874
+        }
+      },
+      "query": "H24144",
+      "reference": "H11597"
+    },
+    {
+      "uid": "h9hoshfwwj",
+      "frequency": 70,
+      "block": 9,
+      "methods": {
+        "gpt": {
+          "rank": 8,
+          "present_score": 0.6954583910313072,
+          "absent_score": 0.6954583910313072,
+          "present_margin": 0.021975017708430133,
+          "absent_margin": 0.021975017708430133
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 2,
+          "present_score": 0.1093557785727764,
+          "absent_score": 0.1093557785727764,
+          "present_margin": 0.0024787303146311668,
+          "absent_margin": 0.008278054777380514
+        }
+      },
+      "query": "H14331",
+      "reference": "H20679"
+    },
+    {
+      "uid": "xjoc12tti2",
+      "frequency": 71,
+      "block": 10,
+      "methods": {
+        "gpt": {
+          "rank": 11,
+          "present_score": 0.646218549770329,
+          "absent_score": 0.646218549770329,
+          "present_margin": 0.05769328081185576,
+          "absent_margin": 0.05769328081185576
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 11,
+          "present_score": 0.1612940647975024,
+          "absent_score": 0.1612940647975024,
+          "present_margin": 0.0009662531880486047,
+          "absent_margin": 0.0009662531880486047
+        }
+      },
+      "query": "H30594",
+      "reference": "H22788"
+    },
+    {
+      "uid": "g12sx19cjl",
+      "frequency": 72,
+      "block": 10,
+      "methods": {
+        "gpt": {
+          "rank": 1,
+          "present_score": 0.6769695500005382,
+          "absent_score": 0.6095031098497158,
+          "present_margin": 0.06746644015082237,
+          "absent_margin": 0.06733121399334607
+        },
+        "adjacent": {
+          "rank": 2,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.4999999999999999
+        },
+        "bag": {
+          "rank": 1,
+          "present_score": 0.26214536318789505,
+          "absent_score": 0.17675356637602427,
+          "present_margin": 0.08539179681187078,
+          "absent_margin": 0.014311175024668249
+        }
+      },
+      "query": "H2784",
+      "reference": "H11590"
+    },
+    {
+      "uid": "h8exoqnpru",
+      "frequency": 72,
+      "block": 10,
+      "methods": {
+        "gpt": {
+          "rank": 7,
+          "present_score": 0.8280642027443039,
+          "absent_score": 0.8280642027443039,
+          "present_margin": 0.04601183519308649,
+          "absent_margin": 0.04601183519308649
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 2,
+          "present_score": 0.2871561947020759,
+          "absent_score": 0.2871561947020759,
+          "present_margin": 0.06839034928507187,
+          "absent_margin": 0.11328503297109044
+        }
+      },
+      "query": "H2596",
+      "reference": "H23229"
+    },
+    {
+      "uid": "6dnfyfs9ol",
+      "frequency": 73,
+      "block": 10,
+      "methods": {
+        "gpt": {
+          "rank": 12,
+          "present_score": 0.7694338536206519,
+          "absent_score": 0.7694338536206519,
+          "present_margin": 0.06889715574216959,
+          "absent_margin": 0.06889715574216959
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.18613715692880328,
+          "absent_score": 0.18613715692880328,
+          "present_margin": 0.18613715692880328,
+          "absent_margin": 0.18613715692880328
+        }
+      },
+      "query": "HD262",
+      "reference": "H33055"
+    },
+    {
+      "uid": "hvm3m8ypgu",
+      "frequency": 74,
+      "block": 10,
+      "methods": {
+        "gpt": {
+          "rank": 8,
+          "present_score": 0.7911711576542233,
+          "absent_score": 0.7911711576542233,
+          "present_margin": 0.008142134053180872,
+          "absent_margin": 0.008142134053180872
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.0780787103153732,
+          "absent_score": 0.0780787103153732,
+          "present_margin": 0.0004677407247171278,
+          "absent_margin": 0.0004677407247171278
+        }
+      },
+      "query": "H22430",
+      "reference": "H9129"
+    },
+    {
+      "uid": "d9r8vouxue",
+      "frequency": 75,
+      "block": 10,
+      "methods": {
+        "gpt": {
+          "rank": 16,
+          "present_score": 0.6640644193262465,
+          "absent_score": 0.6640644193262465,
+          "present_margin": 0.024459258387617755,
+          "absent_margin": 0.024459258387617755
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 7,
+          "present_score": 0.4994017468612737,
+          "absent_score": 0.4994017468612737,
+          "present_margin": 0.19004084902892404,
+          "absent_margin": 0.19004084902892404
+        }
+      },
+      "query": "H7947",
+      "reference": "H13135"
+    },
+    {
+      "uid": "tx3m8otqgw",
+      "frequency": 76,
+      "block": 10,
+      "methods": {
+        "gpt": {
+          "rank": 5,
+          "present_score": 0.8554086473693103,
+          "absent_score": 0.8554086473693103,
+          "present_margin": 0.13293850039129884,
+          "absent_margin": 0.13293850039129884
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.4999999999999999,
+          "absent_margin": 0.4999999999999999
+        },
+        "bag": {
+          "rank": 9,
+          "present_score": 0.3493608940318953,
+          "absent_score": 0.3493608940318953,
+          "present_margin": 0.1018926724903754,
+          "absent_margin": 0.1018926724903754
+        }
+      },
+      "query": "H1422",
+      "reference": "H4030"
+    },
+    {
+      "uid": "d15m8dd17h",
+      "frequency": 79,
+      "block": 10,
+      "methods": {
+        "gpt": {
+          "rank": 3,
+          "present_score": 0.6766143307302966,
+          "absent_score": 0.6766143307302966,
+          "present_margin": 0.05673420124979078,
+          "absent_margin": 0.05673420124979078
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.4999999999999999,
+          "absent_margin": 0.4999999999999999
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.14614686917032807,
+          "absent_score": 0.14614686917032807,
+          "present_margin": 0.14614686917032807,
+          "absent_margin": 0.14614686917032807
+        }
+      },
+      "query": "H33175",
+      "reference": "H33003"
+    },
+    {
+      "uid": "tp2kuz956n",
+      "frequency": 81,
+      "block": 10,
+      "methods": {
+        "gpt": {
+          "rank": 4,
+          "present_score": 0.8075966750113842,
+          "absent_score": 0.8075966750113842,
+          "present_margin": 0.027569284150711693,
+          "absent_margin": 0.027569284150711693
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.3897074063486283,
+          "absent_score": 0.3897074063486283,
+          "present_margin": 0.04872374073296032,
+          "absent_margin": 0.04872374073296032
+        }
+      },
+      "query": "H21175",
+      "reference": "H14226"
+    },
+    {
+      "uid": "qmsdu51da8",
+      "frequency": 83,
+      "block": 10,
+      "methods": {
+        "gpt": {
+          "rank": 1,
+          "present_score": 0.7352395032563401,
+          "absent_score": 0.615240264073159,
+          "present_margin": 0.11999923918318112,
+          "absent_margin": 0.010628457737048014
+        },
+        "adjacent": {
+          "rank": 1,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.0,
+          "present_margin": 0.4999999999999999,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 5,
+          "present_score": 0.4802246669140047,
+          "absent_score": 0.4802246669140047,
+          "present_margin": 0.05058038317477326,
+          "absent_margin": 0.05058038317477326
+        }
+      },
+      "query": "H2026",
+      "reference": "H32606"
+    },
+    {
+      "uid": "8pu7n71zyl",
+      "frequency": 84,
+      "block": 10,
+      "methods": {
+        "gpt": {
+          "rank": 9,
+          "present_score": 0.8277357987170834,
+          "absent_score": 0.8277357987170834,
+          "present_margin": 0.06416243268354294,
+          "absent_margin": 0.06416243268354294
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 7,
+          "present_score": 0.2967688115228976,
+          "absent_score": 0.2967688115228976,
+          "present_margin": 0.10639202949219123,
+          "absent_margin": 0.10639202949219123
+        }
+      },
+      "query": "H20619",
+      "reference": "H11523"
+    },
+    {
+      "uid": "ecbetcendb",
+      "frequency": 85,
+      "block": 10,
+      "methods": {
+        "gpt": {
+          "rank": 2,
+          "present_score": 0.6654957097848511,
+          "absent_score": 0.6654957097848511,
+          "present_margin": 0.008190321676256107,
+          "absent_margin": 0.07381262737662464
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 16,
+          "present_score": 0.24327961542534443,
+          "absent_score": 0.24327961542534443,
+          "present_margin": 0.04821503803623525,
+          "absent_margin": 0.04821503803623525
+        }
+      },
+      "query": "H4151",
+      "reference": "H4170"
+    },
+    {
+      "uid": "nscqmvthk1",
+      "frequency": 86,
+      "block": 10,
+      "methods": {
+        "gpt": {
+          "rank": 1,
+          "present_score": 0.7744149497290134,
+          "absent_score": 0.6592110964775671,
+          "present_margin": 0.11520385325144622,
+          "absent_margin": 0.04117164191652478
+        },
+        "adjacent": {
+          "rank": 2,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.4999999999999999
+        },
+        "bag": {
+          "rank": 1,
+          "present_score": 0.23421286045578707,
+          "absent_score": 0.18849360122669898,
+          "present_margin": 0.045719259229088094,
+          "absent_margin": 0.023816143127906808
+        }
+      },
+      "query": "H14432",
+      "reference": "H30420"
+    },
+    {
+      "uid": "kkt3pdctdg",
+      "frequency": 87,
+      "block": 10,
+      "methods": {
+        "gpt": {
+          "rank": 9,
+          "present_score": 0.3960931145517012,
+          "absent_score": 0.3960931145517012,
+          "present_margin": 0.029837591642338457,
+          "absent_margin": 0.029837591642338457
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 11,
+          "present_score": 0.4725674436099784,
+          "absent_score": 0.4725674436099784,
+          "present_margin": 0.03198189625027431,
+          "absent_margin": 0.03198189625027431
+        }
+      },
+      "query": "H3762",
+      "reference": "H6956"
+    },
+    {
+      "uid": "dp8imn8ze4",
+      "frequency": 89,
+      "block": 10,
+      "methods": {
+        "gpt": {
+          "rank": 2,
+          "present_score": 0.6996959930678213,
+          "absent_score": 0.6996959930678213,
+          "present_margin": 0.008127776619043847,
+          "absent_margin": 0.14098130410571408
+        },
+        "adjacent": {
+          "rank": 16,
+          "present_score": 0.0,
+          "absent_score": 0.0,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 2,
+          "present_score": 0.11489211066408139,
+          "absent_score": 0.11489211066408139,
+          "present_margin": 0.012925718645628831,
+          "absent_margin": 0.03336122578774477
+        }
+      },
+      "query": "H32099",
+      "reference": "H15662"
+    },
+    {
+      "uid": "xvt1om20u0",
+      "frequency": 90,
+      "block": 10,
+      "methods": {
+        "gpt": {
+          "rank": 2,
+          "present_score": 0.612548896235495,
+          "absent_score": 0.612548896235495,
+          "present_margin": 0.002909964595113057,
+          "absent_margin": 0.04653597160688305
+        },
+        "adjacent": {
+          "rank": 3,
+          "present_score": 0.4999999999999999,
+          "absent_score": 0.4999999999999999,
+          "present_margin": 0.0,
+          "absent_margin": 0.0
+        },
+        "bag": {
+          "rank": 13,
+          "present_score": 0.3167315378076717,
+          "absent_score": 0.3167315378076717,
+          "present_margin": 0.0927966394767005,
+          "absent_margin": 0.0927966394767005
+        }
+      },
+      "query": "H22984",
+      "reference": "H30632"
+    }
+  ],
+  "summary": {
+    "all": {
+      "gpt": [
+        10,
+        40
+      ],
+      "adjacent": [
+        4,
+        18
+      ],
+      "bag": [
+        9,
+        30
+      ]
+    },
+    "rare": {
+      "gpt": [
+        3,
+        9
+      ],
+      "adjacent": [
+        1,
+        3
+      ],
+      "bag": [
+        3,
+        7
+      ]
+    },
+    "no_block_reference": [
+      "0fjs8401bp",
+      "0h1vf0twxr",
+      "25iafmky1x",
+      "2rptsk0t7g",
+      "4ytix1aozf",
+      "51p2xxpvps",
+      "5t6au2olk9",
+      "7nw813njs0",
+      "7xgwsikqad",
+      "8om7bxkb13",
+      "8p0clmx851",
+      "8uh1kfvlhb",
+      "9fv82qyced",
+      "9mg6ifqmny",
+      "9zn0g0wd9v",
+      "aoaipuy20h",
+      "b9q6ewwhki",
+      "csyhzui9uc",
+      "cvxsbiqy4g",
+      "f1uojpw9ej",
+      "fd6c02qezd",
+      "fr8d5xn4ih",
+      "ghaj284ctb",
+      "gs6ng54l0l",
+      "i2m9i5ytbg",
+      "j5q9a8d49b",
+      "jgdbp661hw",
+      "jnpp6r84xp",
+      "kcbhwd2hb6",
+      "kgfsb68wnb",
+      "kggb6goupa",
+      "l12a906yri",
+      "l4lq5esn5g",
+      "lzfy8o1b7b",
+      "n3oe6amcoo",
+      "n4g5hrawu4",
+      "nllrzldww6",
+      "ohovbcjeax",
+      "om61e8d11r",
+      "orpiitt449",
+      "v8blfuvx4g",
+      "wf1lpsb2vj",
+      "wf3aejbrt3",
+      "xgtqk1w4ya",
+      "xl187q597e",
+      "xnaggs7qe3",
+      "yhqkhecxxc",
+      "zolc6o82zt",
+      "zu0urjl5fr"
+    ],
+    "n": 90,
+    "rare_n": 17
+  },
+  "contrasts": {
+    "adjacent/1": {
+      "net": 6,
+      "interval": [
+        11,
+        16,
+        [
+          1.4919885864793683,
+          13.0
+        ]
+      ]
+    },
+    "adjacent/5": {
+      "net": 22,
+      "interval": [
+        11,
+        16,
+        [
+          16.048148148148147,
+          32.631578947368425
+        ]
+      ]
+    },
+    "bag/1": {
+      "net": 1,
+      "interval": [
+        11,
+        16,
+        [
+          -5.333333333333334,
+          8.0
+        ]
+      ]
+    },
+    "bag/5": {
+      "net": 10,
+      "interval": [
+        11,
+        16,
+        [
+          0.0,
+          19.81132075471698
+        ]
+      ]
+    }
+  },
+  "rejection": {
+    "calibration": 30,
+    "test": 60,
+    "methods": {
+      "gpt": {
+        "score": {
+          "threshold": 0.929775821051549,
+          "accepted": 1,
+          "correct": 1,
+          "false_accept": 0
+        },
+        "margin": {
+          "threshold": 0.21324518912951762,
+          "accepted": 3,
+          "correct": 1,
+          "false_accept": 2
+        }
+      },
+      "adjacent": {
+        "score": {
+          "threshold": 0.4999999999999999,
+          "accepted": 10,
+          "correct": 2,
+          "false_accept": 8
+        },
+        "margin": {
+          "threshold": 0.4999999999999999,
+          "accepted": 1,
+          "correct": 1,
+          "false_accept": 0
+        }
+      },
+      "bag": {
+        "score": {
+          "threshold": 0.5138458971531012,
+          "accepted": 7,
+          "correct": 0,
+          "false_accept": 7
+        },
+        "margin": {
+          "threshold": 0.16028092413395323,
+          "accepted": 9,
+          "correct": 2,
+          "false_accept": 9
+        }
+      }
+    }
+  }
+}

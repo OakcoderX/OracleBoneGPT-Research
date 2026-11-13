@@ -1,0 +1,7665 @@
+{
+  "inputs": {
+    "常见字图文复验方案.md": "f24c65e2a6ab72a14ce5c8383c85c8f6cdeeeb94074aed60bfc4ac6c22e3bc18",
+    "常见字扩库封存.json": "2f9a2ad01bf99e113f04cf77fffdb265a32b31b032a7d8f274d7454281bbca3a",
+    "常见字扩库结果.json": "8a01f9415c5a69b165dfe0579bb720a322983b5075fcf655f34bdeae86e8af1d",
+    "experiments/unseen-usage/29/forward/gpt.safetensors": "1f047895a6d4fc960f3495df9d421b3c18c7f57cefbcfe4527e212ac7aaece5b",
+    "experiments/unseen-usage/29/reverse/gpt.safetensors": "235fc120ba8ab40226b5de6d2d2a17b90357fef7d8c3bbe2b23b70b6fb0c7363",
+    "evaluate_common_gallery_fusion.py": "d3dc33ac7182048960305decd9501d5dde2e43ba51b3952a58a3796d7dd7ccc7"
+  },
+  "classes": 378,
+  "domains": {
+    "rubbing": {
+      "added": {
+        "summary": {
+          "visual": {
+            "n": 80,
+            "wrong_frame_top5": 2,
+            "top1": 4,
+            "gained_top1": 0,
+            "lost_top1": 0,
+            "top5": 12,
+            "gained_top5": 0,
+            "lost_top5": 0,
+            "delta_top5_pp95": [
+              0.0,
+              0.0
+            ]
+          },
+          "stats": {
+            "n": 80,
+            "wrong_frame_top5": 9,
+            "top1": 2,
+            "gained_top1": 2,
+            "lost_top1": 4,
+            "top5": 9,
+            "gained_top5": 9,
+            "lost_top5": 12,
+            "delta_top5_pp95": [
+              -15.0,
+              7.5
+            ]
+          },
+          "stats_fusion": {
+            "n": 80,
+            "wrong_frame_top5": 6,
+            "top1": 5,
+            "gained_top1": 4,
+            "lost_top1": 3,
+            "top5": 15,
+            "gained_top5": 6,
+            "lost_top5": 3,
+            "delta_top5_pp95": [
+              -3.75,
+              11.25
+            ]
+          },
+          "gpt": {
+            "n": 80,
+            "wrong_frame_top5": 5,
+            "top1": 3,
+            "gained_top1": 3,
+            "lost_top1": 4,
+            "top5": 5,
+            "gained_top5": 4,
+            "lost_top5": 11,
+            "delta_top5_pp95": [
+              -17.5,
+              0.0
+            ]
+          },
+          "gpt_fusion": {
+            "n": 80,
+            "wrong_frame_top5": 7,
+            "top1": 6,
+            "gained_top1": 5,
+            "lost_top1": 3,
+            "top5": 11,
+            "gained_top5": 5,
+            "lost_top5": 6,
+            "delta_top5_pp95": [
+              -10.0,
+              7.5
+            ]
+          }
+        },
+        "rows": [
+          {
+            "identity": "H22562",
+            "uid": "5ntior2ch1",
+            "ranks": {
+              "visual": [
+                32,
+                248,
+                57
+              ],
+              "stats": [
+                2,
+                2,
+                2
+              ],
+              "stats_fusion": [
+                1,
+                7,
+                1
+              ],
+              "gpt": [
+                2,
+                2,
+                2
+              ],
+              "gpt_fusion": [
+                1,
+                6,
+                1
+              ]
+            }
+          },
+          {
+            "identity": "H32317",
+            "uid": "c40r3zyq5t",
+            "ranks": {
+              "visual": [
+                105,
+                47,
+                164
+              ],
+              "stats": [
+                241,
+                241,
+                241
+              ],
+              "stats_fusion": [
+                136,
+                65,
+                185
+              ],
+              "gpt": [
+                284,
+                284,
+                284
+              ],
+              "gpt_fusion": [
+                169,
+                97,
+                218
+              ]
+            }
+          },
+          {
+            "identity": "H4301",
+            "uid": "1s5t2e9cdw",
+            "ranks": {
+              "visual": [
+                311,
+                42,
+                260
+              ],
+              "stats": [
+                48,
+                48,
+                48
+              ],
+              "stats_fusion": [
+                274,
+                25,
+                210
+              ],
+              "gpt": [
+                79,
+                79,
+                79
+              ],
+              "gpt_fusion": [
+                270,
+                25,
+                209
+              ]
+            }
+          },
+          {
+            "identity": "H32723",
+            "uid": "h0gzv3styy",
+            "ranks": {
+              "visual": [
+                95,
+                210,
+                107
+              ],
+              "stats": [
+                5,
+                5,
+                5
+              ],
+              "stats_fusion": [
+                6,
+                57,
+                7
+              ],
+              "gpt": [
+                8,
+                8,
+                8
+              ],
+              "gpt_fusion": [
+                10,
+                60,
+                11
+              ]
+            }
+          },
+          {
+            "identity": "H12542",
+            "uid": "p77d58vew4",
+            "ranks": {
+              "visual": [
+                192,
+                3,
+                357
+              ],
+              "stats": [
+                23,
+                23,
+                23
+              ],
+              "stats_fusion": [
+                107,
+                4,
+                335
+              ],
+              "gpt": [
+                109,
+                109,
+                109
+              ],
+              "gpt_fusion": [
+                162,
+                5,
+                347
+              ]
+            }
+          },
+          {
+            "identity": "H15738",
+            "uid": "5k1l85d8n2",
+            "ranks": {
+              "visual": [
+                79,
+                188,
+                19
+              ],
+              "stats": [
+                27,
+                27,
+                27
+              ],
+              "stats_fusion": [
+                36,
+                63,
+                3
+              ],
+              "gpt": [
+                53,
+                53,
+                53
+              ],
+              "gpt_fusion": [
+                49,
+                98,
+                7
+              ]
+            }
+          },
+          {
+            "identity": "H1616",
+            "uid": "66iowpdbuc",
+            "ranks": {
+              "visual": [
+                268,
+                8,
+                177
+              ],
+              "stats": [
+                2,
+                2,
+                2
+              ],
+              "stats_fusion": [
+                67,
+                1,
+                26
+              ],
+              "gpt": [
+                22,
+                22,
+                22
+              ],
+              "gpt_fusion": [
+                161,
+                3,
+                81
+              ]
+            }
+          },
+          {
+            "identity": "H2554",
+            "uid": "6ewkk2w7r1",
+            "ranks": {
+              "visual": [
+                316,
+                46,
+                282
+              ],
+              "stats": [
+                321,
+                321,
+                321
+              ],
+              "stats_fusion": [
+                341,
+                121,
+                317
+              ],
+              "gpt": [
+                256,
+                256,
+                256
+              ],
+              "gpt_fusion": [
+                320,
+                82,
+                289
+              ]
+            }
+          },
+          {
+            "identity": "H29780",
+            "uid": "hftl4m18q0",
+            "ranks": {
+              "visual": [
+                3,
+                4,
+                76
+              ],
+              "stats": [
+                339,
+                339,
+                339
+              ],
+              "stats_fusion": [
+                23,
+                48,
+                147
+              ],
+              "gpt": [
+                237,
+                237,
+                237
+              ],
+              "gpt_fusion": [
+                7,
+                11,
+                84
+              ]
+            }
+          },
+          {
+            "identity": "H8357",
+            "uid": "d91rup9lkj",
+            "ranks": {
+              "visual": [
+                75,
+                336,
+                313
+              ],
+              "stats": [
+                111,
+                111,
+                111
+              ],
+              "stats_fusion": [
+                34,
+                297,
+                273
+              ],
+              "gpt": [
+                127,
+                127,
+                127
+              ],
+              "gpt_fusion": [
+                48,
+                306,
+                282
+              ]
+            }
+          },
+          {
+            "identity": "H9126",
+            "uid": "5n30uigzj6",
+            "ranks": {
+              "visual": [
+                44,
+                62,
+                292
+              ],
+              "stats": [
+                237,
+                237,
+                237
+              ],
+              "stats_fusion": [
+                71,
+                98,
+                292
+              ],
+              "gpt": [
+                73,
+                73,
+                73
+              ],
+              "gpt_fusion": [
+                18,
+                35,
+                238
+              ]
+            }
+          },
+          {
+            "identity": "H12778",
+            "uid": "akwyl4gzy2",
+            "ranks": {
+              "visual": [
+                96,
+                166,
+                270
+              ],
+              "stats": [
+                14,
+                14,
+                14
+              ],
+              "stats_fusion": [
+                25,
+                80,
+                188
+              ],
+              "gpt": [
+                116,
+                116,
+                116
+              ],
+              "gpt_fusion": [
+                62,
+                118,
+                222
+              ]
+            }
+          },
+          {
+            "identity": "H21308",
+            "uid": "hftl4m18q0",
+            "ranks": {
+              "visual": [
+                5,
+                10,
+                20
+              ],
+              "stats": [
+                289,
+                289,
+                289
+              ],
+              "stats_fusion": [
+                29,
+                48,
+                72
+              ],
+              "gpt": [
+                111,
+                111,
+                111
+              ],
+              "gpt_fusion": [
+                9,
+                12,
+                13
+              ]
+            }
+          },
+          {
+            "identity": "H12910",
+            "uid": "p77d58vew4",
+            "ranks": {
+              "visual": [
+                37,
+                4,
+                123
+              ],
+              "stats": [
+                23,
+                23,
+                23
+              ],
+              "stats_fusion": [
+                17,
+                3,
+                71
+              ],
+              "gpt": [
+                109,
+                109,
+                109
+              ],
+              "gpt_fusion": [
+                37,
+                7,
+                110
+              ]
+            }
+          },
+          {
+            "identity": "H33309",
+            "uid": "a1lmo1xxj5",
+            "ranks": {
+              "visual": [
+                209,
+                182,
+                220
+              ],
+              "stats": [
+                4,
+                4,
+                4
+              ],
+              "stats_fusion": [
+                8,
+                15,
+                16
+              ],
+              "gpt": [
+                25,
+                25,
+                25
+              ],
+              "gpt_fusion": [
+                110,
+                95,
+                129
+              ]
+            }
+          },
+          {
+            "identity": "H1490",
+            "uid": "u7v6rlhp81",
+            "ranks": {
+              "visual": [
+                229,
+                87,
+                135
+              ],
+              "stats": [
+                360,
+                360,
+                360
+              ],
+              "stats_fusion": [
+                324,
+                265,
+                277
+              ],
+              "gpt": [
+                378,
+                378,
+                378
+              ],
+              "gpt_fusion": [
+                357,
+                327,
+                330
+              ]
+            }
+          },
+          {
+            "identity": "H11748",
+            "uid": "y0f5gu3q0a",
+            "ranks": {
+              "visual": [
+                289,
+                39,
+                290
+              ],
+              "stats": [
+                136,
+                136,
+                136
+              ],
+              "stats_fusion": [
+                272,
+                43,
+                276
+              ],
+              "gpt": [
+                212,
+                212,
+                212
+              ],
+              "gpt_fusion": [
+                295,
+                61,
+                297
+              ]
+            }
+          },
+          {
+            "identity": "H10636",
+            "uid": "r79attbhro",
+            "ranks": {
+              "visual": [
+                17,
+                89,
+                368
+              ],
+              "stats": [
+                13,
+                13,
+                13
+              ],
+              "stats_fusion": [
+                5,
+                36,
+                348
+              ],
+              "gpt": [
+                11,
+                11,
+                11
+              ],
+              "gpt_fusion": [
+                3,
+                13,
+                323
+              ]
+            }
+          },
+          {
+            "identity": "H25370",
+            "uid": "q71z8tnnc6",
+            "ranks": {
+              "visual": [
+                375,
+                83,
+                14
+              ],
+              "stats": [
+                79,
+                79,
+                79
+              ],
+              "stats_fusion": [
+                372,
+                38,
+                13
+              ],
+              "gpt": [
+                24,
+                24,
+                24
+              ],
+              "gpt_fusion": [
+                357,
+                23,
+                9
+              ]
+            }
+          },
+          {
+            "identity": "H11764",
+            "uid": "dhewuxyotl",
+            "ranks": {
+              "visual": [
+                59,
+                79,
+                172
+              ],
+              "stats": [
+                267,
+                267,
+                267
+              ],
+              "stats_fusion": [
+                100,
+                117,
+                219
+              ],
+              "gpt": [
+                198,
+                198,
+                198
+              ],
+              "gpt_fusion": [
+                78,
+                93,
+                176
+              ]
+            }
+          },
+          {
+            "identity": "H1415",
+            "uid": "0uhj5zj3ce",
+            "ranks": {
+              "visual": [
+                19,
+                151,
+                252
+              ],
+              "stats": [
+                69,
+                69,
+                69
+              ],
+              "stats_fusion": [
+                14,
+                107,
+                208
+              ],
+              "gpt": [
+                135,
+                135,
+                135
+              ],
+              "gpt_fusion": [
+                21,
+                129,
+                227
+              ]
+            }
+          },
+          {
+            "identity": "H14071",
+            "uid": "55qv0winah",
+            "ranks": {
+              "visual": [
+                150,
+                112,
+                357
+              ],
+              "stats": [
+                331,
+                331,
+                331
+              ],
+              "stats_fusion": [
+                238,
+                219,
+                369
+              ],
+              "gpt": [
+                123,
+                123,
+                123
+              ],
+              "gpt_fusion": [
+                121,
+                83,
+                340
+              ]
+            }
+          },
+          {
+            "identity": "H1648",
+            "uid": "htn7736sjm",
+            "ranks": {
+              "visual": [
+                242,
+                23,
+                84
+              ],
+              "stats": [
+                201,
+                201,
+                201
+              ],
+              "stats_fusion": [
+                223,
+                45,
+                95
+              ],
+              "gpt": [
+                105,
+                105,
+                105
+              ],
+              "gpt_fusion": [
+                184,
+                25,
+                68
+              ]
+            }
+          },
+          {
+            "identity": "H7818",
+            "uid": "h2mhpxskhk",
+            "ranks": {
+              "visual": [
+                71,
+                1,
+                235
+              ],
+              "stats": [
+                101,
+                101,
+                101
+              ],
+              "stats_fusion": [
+                49,
+                3,
+                179
+              ],
+              "gpt": [
+                120,
+                120,
+                120
+              ],
+              "gpt_fusion": [
+                48,
+                2,
+                185
+              ]
+            }
+          },
+          {
+            "identity": "H30422",
+            "uid": "7grlc2aopw",
+            "ranks": {
+              "visual": [
+                56,
+                327,
+                331
+              ],
+              "stats": [
+                9,
+                9,
+                9
+              ],
+              "stats_fusion": [
+                9,
+                248,
+                271
+              ],
+              "gpt": [
+                52,
+                52,
+                52
+              ],
+              "gpt_fusion": [
+                21,
+                269,
+                282
+              ]
+            }
+          },
+          {
+            "identity": "H31136",
+            "uid": "4n6v7cj6m9",
+            "ranks": {
+              "visual": [
+                110,
+                146,
+                94
+              ],
+              "stats": [
+                235,
+                235,
+                235
+              ],
+              "stats_fusion": [
+                143,
+                166,
+                126
+              ],
+              "gpt": [
+                104,
+                104,
+                104
+              ],
+              "gpt_fusion": [
+                67,
+                107,
+                63
+              ]
+            }
+          },
+          {
+            "identity": "H12480",
+            "uid": "nak4ioxpg1",
+            "ranks": {
+              "visual": [
+                206,
+                169,
+                210
+              ],
+              "stats": [
+                371,
+                371,
+                371
+              ],
+              "stats_fusion": [
+                336,
+                318,
+                330
+              ],
+              "gpt": [
+                354,
+                354,
+                354
+              ],
+              "gpt_fusion": [
+                283,
+                274,
+                293
+              ]
+            }
+          },
+          {
+            "identity": "H1856",
+            "uid": "l7cyvm7kbt",
+            "ranks": {
+              "visual": [
+                373,
+                30,
+                377
+              ],
+              "stats": [
+                3,
+                3,
+                3
+              ],
+              "stats_fusion": [
+                363,
+                1,
+                359
+              ],
+              "gpt": [
+                1,
+                1,
+                1
+              ],
+              "gpt_fusion": [
+                342,
+                1,
+                334
+              ]
+            }
+          },
+          {
+            "identity": "H32635",
+            "uid": "hftl4m18q0",
+            "ranks": {
+              "visual": [
+                9,
+                6,
+                92
+              ],
+              "stats": [
+                343,
+                343,
+                343
+              ],
+              "stats_fusion": [
+                54,
+                71,
+                200
+              ],
+              "gpt": [
+                167,
+                167,
+                167
+              ],
+              "gpt_fusion": [
+                5,
+                9,
+                80
+              ]
+            }
+          },
+          {
+            "identity": "H7032",
+            "uid": "1rzrhj2j4j",
+            "ranks": {
+              "visual": [
+                264,
+                100,
+                238
+              ],
+              "stats": [
+                15,
+                15,
+                15
+              ],
+              "stats_fusion": [
+                133,
+                26,
+                111
+              ],
+              "gpt": [
+                12,
+                12,
+                12
+              ],
+              "gpt_fusion": [
+                139,
+                37,
+                117
+              ]
+            }
+          },
+          {
+            "identity": "H23578",
+            "uid": "4r0g6bx5rc",
+            "ranks": {
+              "visual": [
+                28,
+                2,
+                269
+              ],
+              "stats": [
+                155,
+                155,
+                155
+              ],
+              "stats_fusion": [
+                31,
+                3,
+                233
+              ],
+              "gpt": [
+                26,
+                26,
+                26
+              ],
+              "gpt_fusion": [
+                8,
+                1,
+                176
+              ]
+            }
+          },
+          {
+            "identity": "H30817",
+            "uid": "q4rk3syf2x",
+            "ranks": {
+              "visual": [
+                154,
+                8,
+                327
+              ],
+              "stats": [
+                179,
+                179,
+                179
+              ],
+              "stats_fusion": [
+                129,
+                15,
+                319
+              ],
+              "gpt": [
+                66,
+                66,
+                66
+              ],
+              "gpt_fusion": [
+                88,
+                6,
+                291
+              ]
+            }
+          },
+          {
+            "identity": "H13427",
+            "uid": "p77d58vew4",
+            "ranks": {
+              "visual": [
+                261,
+                15,
+                365
+              ],
+              "stats": [
+                193,
+                193,
+                193
+              ],
+              "stats_fusion": [
+                239,
+                16,
+                362
+              ],
+              "gpt": [
+                228,
+                228,
+                228
+              ],
+              "gpt_fusion": [
+                258,
+                24,
+                367
+              ]
+            }
+          },
+          {
+            "identity": "H469",
+            "uid": "d7mczw6osp",
+            "ranks": {
+              "visual": [
+                124,
+                118,
+                87
+              ],
+              "stats": [
+                13,
+                13,
+                13
+              ],
+              "stats_fusion": [
+                62,
+                44,
+                39
+              ],
+              "gpt": [
+                9,
+                9,
+                9
+              ],
+              "gpt_fusion": [
+                43,
+                23,
+                17
+              ]
+            }
+          },
+          {
+            "identity": "H813",
+            "uid": "a1lmo1xxj5",
+            "ranks": {
+              "visual": [
+                263,
+                352,
+                166
+              ],
+              "stats": [
+                35,
+                35,
+                35
+              ],
+              "stats_fusion": [
+                188,
+                303,
+                90
+              ],
+              "gpt": [
+                256,
+                256,
+                256
+              ],
+              "gpt_fusion": [
+                284,
+                353,
+                195
+              ]
+            }
+          },
+          {
+            "identity": "H24385",
+            "uid": "4n6v7cj6m9",
+            "ranks": {
+              "visual": [
+                279,
+                25,
+                149
+              ],
+              "stats": [
+                143,
+                143,
+                143
+              ],
+              "stats_fusion": [
+                229,
+                24,
+                116
+              ],
+              "gpt": [
+                67,
+                67,
+                67
+              ],
+              "gpt_fusion": [
+                191,
+                13,
+                78
+              ]
+            }
+          },
+          {
+            "identity": "H11550",
+            "uid": "jrzjjh3g1r",
+            "ranks": {
+              "visual": [
+                359,
+                1,
+                378
+              ],
+              "stats": [
+                11,
+                11,
+                11
+              ],
+              "stats_fusion": [
+                285,
+                1,
+                375
+              ],
+              "gpt": [
+                20,
+                20,
+                20
+              ],
+              "gpt_fusion": [
+                294,
+                1,
+                377
+              ]
+            }
+          },
+          {
+            "identity": "H4183",
+            "uid": "7grlc2aopw",
+            "ranks": {
+              "visual": [
+                346,
+                272,
+                354
+              ],
+              "stats": [
+                273,
+                273,
+                273
+              ],
+              "stats_fusion": [
+                352,
+                292,
+                361
+              ],
+              "gpt": [
+                259,
+                259,
+                259
+              ],
+              "gpt_fusion": [
+                350,
+                283,
+                351
+              ]
+            }
+          },
+          {
+            "identity": "H32448",
+            "uid": "0wfbo7ml5k",
+            "ranks": {
+              "visual": [
+                311,
+                168,
+                321
+              ],
+              "stats": [
+                317,
+                317,
+                317
+              ],
+              "stats_fusion": [
+                333,
+                231,
+                341
+              ],
+              "gpt": [
+                349,
+                349,
+                349
+              ],
+              "gpt_fusion": [
+                344,
+                267,
+                353
+              ]
+            }
+          },
+          {
+            "identity": "H17183",
+            "uid": "0uhj5zj3ce",
+            "ranks": {
+              "visual": [
+                101,
+                7,
+                127
+              ],
+              "stats": [
+                274,
+                274,
+                274
+              ],
+              "stats_fusion": [
+                133,
+                29,
+                166
+              ],
+              "gpt": [
+                234,
+                234,
+                234
+              ],
+              "gpt_fusion": [
+                128,
+                21,
+                158
+              ]
+            }
+          },
+          {
+            "identity": "H18157",
+            "uid": "7grlc2aopw",
+            "ranks": {
+              "visual": [
+                22,
+                59,
+                345
+              ],
+              "stats": [
+                216,
+                216,
+                216
+              ],
+              "stats_fusion": [
+                38,
+                70,
+                333
+              ],
+              "gpt": [
+                162,
+                162,
+                162
+              ],
+              "gpt_fusion": [
+                25,
+                62,
+                324
+              ]
+            }
+          },
+          {
+            "identity": "H6547",
+            "uid": "6ewkk2w7r1",
+            "ranks": {
+              "visual": [
+                141,
+                68,
+                16
+              ],
+              "stats": [
+                22,
+                22,
+                22
+              ],
+              "stats_fusion": [
+                72,
+                16,
+                2
+              ],
+              "gpt": [
+                21,
+                21,
+                21
+              ],
+              "gpt_fusion": [
+                64,
+                19,
+                4
+              ]
+            }
+          },
+          {
+            "identity": "H1439",
+            "uid": "dhewuxyotl",
+            "ranks": {
+              "visual": [
+                95,
+                6,
+                292
+              ],
+              "stats": [
+                185,
+                185,
+                185
+              ],
+              "stats_fusion": [
+                90,
+                13,
+                281
+              ],
+              "gpt": [
+                9,
+                9,
+                9
+              ],
+              "gpt_fusion": [
+                28,
+                1,
+                173
+              ]
+            }
+          },
+          {
+            "identity": "H1959",
+            "uid": "s2e076ohb1",
+            "ranks": {
+              "visual": [
+                62,
+                218,
+                199
+              ],
+              "stats": [
+                42,
+                42,
+                42
+              ],
+              "stats_fusion": [
+                35,
+                145,
+                110
+              ],
+              "gpt": [
+                54,
+                54,
+                54
+              ],
+              "gpt_fusion": [
+                33,
+                142,
+                104
+              ]
+            }
+          },
+          {
+            "identity": "H11828",
+            "uid": "q71z8tnnc6",
+            "ranks": {
+              "visual": [
+                322,
+                172,
+                167
+              ],
+              "stats": [
+                14,
+                14,
+                14
+              ],
+              "stats_fusion": [
+                192,
+                43,
+                39
+              ],
+              "gpt": [
+                26,
+                26,
+                26
+              ],
+              "gpt_fusion": [
+                232,
+                70,
+                67
+              ]
+            }
+          },
+          {
+            "identity": "H21334",
+            "uid": "h0gzv3styy",
+            "ranks": {
+              "visual": [
+                289,
+                330,
+                161
+              ],
+              "stats": [
+                201,
+                201,
+                201
+              ],
+              "stats_fusion": [
+                278,
+                317,
+                150
+              ],
+              "gpt": [
+                200,
+                200,
+                200
+              ],
+              "gpt_fusion": [
+                280,
+                320,
+                159
+              ]
+            }
+          },
+          {
+            "identity": "H9882",
+            "uid": "6p9s6p6wyb",
+            "ranks": {
+              "visual": [
+                6,
+                43,
+                93
+              ],
+              "stats": [
+                79,
+                79,
+                79
+              ],
+              "stats_fusion": [
+                6,
+                24,
+                76
+              ],
+              "gpt": [
+                13,
+                13,
+                13
+              ],
+              "gpt_fusion": [
+                4,
+                16,
+                37
+              ]
+            }
+          },
+          {
+            "identity": "H12882",
+            "uid": "ftj0qy2f7b",
+            "ranks": {
+              "visual": [
+                135,
+                91,
+                316
+              ],
+              "stats": [
+                83,
+                83,
+                83
+              ],
+              "stats_fusion": [
+                91,
+                69,
+                250
+              ],
+              "gpt": [
+                291,
+                291,
+                291
+              ],
+              "gpt_fusion": [
+                188,
+                154,
+                325
+              ]
+            }
+          },
+          {
+            "identity": "H4489",
+            "uid": "ji97td3npi",
+            "ranks": {
+              "visual": [
+                368,
+                227,
+                355
+              ],
+              "stats": [
+                32,
+                32,
+                32
+              ],
+              "stats_fusion": [
+                342,
+                129,
+                318
+              ],
+              "gpt": [
+                40,
+                40,
+                40
+              ],
+              "gpt_fusion": [
+                338,
+                125,
+                315
+              ]
+            }
+          },
+          {
+            "identity": "H23233",
+            "uid": "dhewuxyotl",
+            "ranks": {
+              "visual": [
+                117,
+                117,
+                165
+              ],
+              "stats": [
+                112,
+                112,
+                112
+              ],
+              "stats_fusion": [
+                78,
+                84,
+                124
+              ],
+              "gpt": [
+                202,
+                202,
+                202
+              ],
+              "gpt_fusion": [
+                120,
+                114,
+                177
+              ]
+            }
+          },
+          {
+            "identity": "H15646",
+            "uid": "s9y9vbblxa",
+            "ranks": {
+              "visual": [
+                243,
+                28,
+                210
+              ],
+              "stats": [
+                22,
+                22,
+                22
+              ],
+              "stats_fusion": [
+                126,
+                7,
+                88
+              ],
+              "gpt": [
+                12,
+                12,
+                12
+              ],
+              "gpt_fusion": [
+                117,
+                6,
+                78
+              ]
+            }
+          },
+          {
+            "identity": "H22327",
+            "uid": "a8n7ywfrd3",
+            "ranks": {
+              "visual": [
+                334,
+                79,
+                335
+              ],
+              "stats": [
+                325,
+                325,
+                325
+              ],
+              "stats_fusion": [
+                357,
+                171,
+                355
+              ],
+              "gpt": [
+                304,
+                304,
+                304
+              ],
+              "gpt_fusion": [
+                349,
+                148,
+                349
+              ]
+            }
+          },
+          {
+            "identity": "H5813",
+            "uid": "dhewuxyotl",
+            "ranks": {
+              "visual": [
+                149,
+                7,
+                303
+              ],
+              "stats": [
+                66,
+                66,
+                66
+              ],
+              "stats_fusion": [
+                94,
+                3,
+                260
+              ],
+              "gpt": [
+                299,
+                299,
+                299
+              ],
+              "gpt_fusion": [
+                211,
+                32,
+                324
+              ]
+            }
+          },
+          {
+            "identity": "H1998",
+            "uid": "7grlc2aopw",
+            "ranks": {
+              "visual": [
+                100,
+                100,
+                276
+              ],
+              "stats": [
+                206,
+                206,
+                206
+              ],
+              "stats_fusion": [
+                102,
+                106,
+                263
+              ],
+              "gpt": [
+                230,
+                230,
+                230
+              ],
+              "gpt_fusion": [
+                120,
+                124,
+                274
+              ]
+            }
+          },
+          {
+            "identity": "H4493",
+            "uid": "7grlc2aopw",
+            "ranks": {
+              "visual": [
+                305,
+                56,
+                317
+              ],
+              "stats": [
+                243,
+                243,
+                243
+              ],
+              "stats_fusion": [
+                304,
+                85,
+                313
+              ],
+              "gpt": [
+                263,
+                263,
+                263
+              ],
+              "gpt_fusion": [
+                314,
+                98,
+                325
+              ]
+            }
+          },
+          {
+            "identity": "H21031",
+            "uid": "qmvfvw99v9",
+            "ranks": {
+              "visual": [
+                271,
+                24,
+                370
+              ],
+              "stats": [
+                319,
+                319,
+                319
+              ],
+              "stats_fusion": [
+                313,
+                91,
+                370
+              ],
+              "gpt": [
+                314,
+                314,
+                314
+              ],
+              "gpt_fusion": [
+                309,
+                84,
+                372
+              ]
+            }
+          },
+          {
+            "identity": "H32248",
+            "uid": "h2mhpxskhk",
+            "ranks": {
+              "visual": [
+                279,
+                174,
+                174
+              ],
+              "stats": [
+                254,
+                254,
+                254
+              ],
+              "stats_fusion": [
+                280,
+                191,
+                208
+              ],
+              "gpt": [
+                228,
+                228,
+                228
+              ],
+              "gpt_fusion": [
+                260,
+                161,
+                183
+              ]
+            }
+          },
+          {
+            "identity": "H15538",
+            "uid": "h0gzv3styy",
+            "ranks": {
+              "visual": [
+                48,
+                38,
+                306
+              ],
+              "stats": [
+                1,
+                1,
+                1
+              ],
+              "stats_fusion": [
+                1,
+                2,
+                112
+              ],
+              "gpt": [
+                31,
+                31,
+                31
+              ],
+              "gpt_fusion": [
+                15,
+                12,
+                229
+              ]
+            }
+          },
+          {
+            "identity": "H24204",
+            "uid": "rlx0knkq0v",
+            "ranks": {
+              "visual": [
+                169,
+                185,
+                248
+              ],
+              "stats": [
+                56,
+                56,
+                56
+              ],
+              "stats_fusion": [
+                114,
+                113,
+                175
+              ],
+              "gpt": [
+                33,
+                33,
+                33
+              ],
+              "gpt_fusion": [
+                92,
+                96,
+                158
+              ]
+            }
+          },
+          {
+            "identity": "H5612",
+            "uid": "dhewuxyotl",
+            "ranks": {
+              "visual": [
+                45,
+                2,
+                269
+              ],
+              "stats": [
+                77,
+                77,
+                77
+              ],
+              "stats_fusion": [
+                27,
+                4,
+                218
+              ],
+              "gpt": [
+                300,
+                300,
+                300
+              ],
+              "gpt_fusion": [
+                114,
+                22,
+                300
+              ]
+            }
+          },
+          {
+            "identity": "H32411",
+            "uid": "dhewuxyotl",
+            "ranks": {
+              "visual": [
+                308,
+                3,
+                280
+              ],
+              "stats": [
+                162,
+                162,
+                162
+              ],
+              "stats_fusion": [
+                284,
+                1,
+                263
+              ],
+              "gpt": [
+                201,
+                201,
+                201
+              ],
+              "gpt_fusion": [
+                307,
+                8,
+                285
+              ]
+            }
+          },
+          {
+            "identity": "H19900",
+            "uid": "i3lktxnh52",
+            "ranks": {
+              "visual": [
+                160,
+                129,
+                18
+              ],
+              "stats": [
+                2,
+                2,
+                2
+              ],
+              "stats_fusion": [
+                50,
+                32,
+                1
+              ],
+              "gpt": [
+                2,
+                2,
+                2
+              ],
+              "gpt_fusion": [
+                22,
+                10,
+                1
+              ]
+            }
+          },
+          {
+            "identity": "H8221",
+            "uid": "jjm889wxay",
+            "ranks": {
+              "visual": [
+                220,
+                1,
+                296
+              ],
+              "stats": [
+                127,
+                127,
+                127
+              ],
+              "stats_fusion": [
+                169,
+                2,
+                255
+              ],
+              "gpt": [
+                160,
+                160,
+                160
+              ],
+              "gpt_fusion": [
+                195,
+                2,
+                273
+              ]
+            }
+          },
+          {
+            "identity": "H208",
+            "uid": "6p9s6p6wyb",
+            "ranks": {
+              "visual": [
+                48,
+                45,
+                104
+              ],
+              "stats": [
+                61,
+                61,
+                61
+              ],
+              "stats_fusion": [
+                19,
+                21,
+                68
+              ],
+              "gpt": [
+                81,
+                81,
+                81
+              ],
+              "gpt_fusion": [
+                33,
+                22,
+                67
+              ]
+            }
+          },
+          {
+            "identity": "H30552",
+            "uid": "353gxm6hd4",
+            "ranks": {
+              "visual": [
+                236,
+                154,
+                215
+              ],
+              "stats": [
+                219,
+                219,
+                219
+              ],
+              "stats_fusion": [
+                234,
+                160,
+                209
+              ],
+              "gpt": [
+                85,
+                85,
+                85
+              ],
+              "gpt_fusion": [
+                166,
+                114,
+                146
+              ]
+            }
+          },
+          {
+            "identity": "H14892",
+            "uid": "0uhj5zj3ce",
+            "ranks": {
+              "visual": [
+                286,
+                2,
+                188
+              ],
+              "stats": [
+                338,
+                338,
+                338
+              ],
+              "stats_fusion": [
+                319,
+                29,
+                281
+              ],
+              "gpt": [
+                316,
+                316,
+                316
+              ],
+              "gpt_fusion": [
+                312,
+                21,
+                255
+              ]
+            }
+          },
+          {
+            "identity": "H3068",
+            "uid": "jjm889wxay",
+            "ranks": {
+              "visual": [
+                75,
+                3,
+                298
+              ],
+              "stats": [
+                6,
+                6,
+                6
+              ],
+              "stats_fusion": [
+                11,
+                2,
+                183
+              ],
+              "gpt": [
+                1,
+                1,
+                1
+              ],
+              "gpt_fusion": [
+                2,
+                1,
+                67
+              ]
+            }
+          },
+          {
+            "identity": "H29872",
+            "uid": "mdwfmpr3c8",
+            "ranks": {
+              "visual": [
+                364,
+                24,
+                374
+              ],
+              "stats": [
+                1,
+                1,
+                1
+              ],
+              "stats_fusion": [
+                136,
+                2,
+                308
+              ],
+              "gpt": [
+                6,
+                6,
+                6
+              ],
+              "gpt_fusion": [
+                293,
+                6,
+                362
+              ]
+            }
+          },
+          {
+            "identity": "H20932",
+            "uid": "l7cyvm7kbt",
+            "ranks": {
+              "visual": [
+                376,
+                6,
+                307
+              ],
+              "stats": [
+                134,
+                134,
+                134
+              ],
+              "stats_fusion": [
+                371,
+                6,
+                273
+              ],
+              "gpt": [
+                40,
+                40,
+                40
+              ],
+              "gpt_fusion": [
+                372,
+                5,
+                232
+              ]
+            }
+          },
+          {
+            "identity": "H30431",
+            "uid": "jrzjjh3g1r",
+            "ranks": {
+              "visual": [
+                378,
+                84,
+                378
+              ],
+              "stats": [
+                52,
+                52,
+                52
+              ],
+              "stats_fusion": [
+                377,
+                46,
+                378
+              ],
+              "gpt": [
+                47,
+                47,
+                47
+              ],
+              "gpt_fusion": [
+                377,
+                49,
+                378
+              ]
+            }
+          },
+          {
+            "identity": "H22637",
+            "uid": "dhewuxyotl",
+            "ranks": {
+              "visual": [
+                150,
+                17,
+                90
+              ],
+              "stats": [
+                186,
+                186,
+                186
+              ],
+              "stats_fusion": [
+                138,
+                26,
+                90
+              ],
+              "gpt": [
+                250,
+                250,
+                250
+              ],
+              "gpt_fusion": [
+                174,
+                51,
+                122
+              ]
+            }
+          },
+          {
+            "identity": "H3230",
+            "uid": "dhewuxyotl",
+            "ranks": {
+              "visual": [
+                289,
+                1,
+                24
+              ],
+              "stats": [
+                278,
+                278,
+                278
+              ],
+              "stats_fusion": [
+                316,
+                18,
+                74
+              ],
+              "gpt": [
+                220,
+                220,
+                220
+              ],
+              "gpt_fusion": [
+                286,
+                6,
+                52
+              ]
+            }
+          },
+          {
+            "identity": "H32479",
+            "uid": "5ntior2ch1",
+            "ranks": {
+              "visual": [
+                270,
+                8,
+                260
+              ],
+              "stats": [
+                4,
+                4,
+                4
+              ],
+              "stats_fusion": [
+                78,
+                1,
+                52
+              ],
+              "gpt": [
+                1,
+                1,
+                1
+              ],
+              "gpt_fusion": [
+                56,
+                1,
+                39
+              ]
+            }
+          },
+          {
+            "identity": "H30695",
+            "uid": "353gxm6hd4",
+            "ranks": {
+              "visual": [
+                68,
+                79,
+                44
+              ],
+              "stats": [
+                153,
+                153,
+                153
+              ],
+              "stats_fusion": [
+                55,
+                65,
+                43
+              ],
+              "gpt": [
+                58,
+                58,
+                58
+              ],
+              "gpt_fusion": [
+                36,
+                42,
+                20
+              ]
+            }
+          },
+          {
+            "identity": "H427",
+            "uid": "jjm889wxay",
+            "ranks": {
+              "visual": [
+                162,
+                63,
+                153
+              ],
+              "stats": [
+                15,
+                15,
+                15
+              ],
+              "stats_fusion": [
+                54,
+                28,
+                58
+              ],
+              "gpt": [
+                18,
+                18,
+                18
+              ],
+              "gpt_fusion": [
+                46,
+                28,
+                47
+              ]
+            }
+          },
+          {
+            "identity": "H30480",
+            "uid": "c40r3zyq5t",
+            "ranks": {
+              "visual": [
+                91,
+                188,
+                82
+              ],
+              "stats": [
+                91,
+                91,
+                91
+              ],
+              "stats_fusion": [
+                56,
+                131,
+                50
+              ],
+              "gpt": [
+                145,
+                145,
+                145
+              ],
+              "gpt_fusion": [
+                72,
+                147,
+                72
+              ]
+            }
+          },
+          {
+            "identity": "H30031",
+            "uid": "c40r3zyq5t",
+            "ranks": {
+              "visual": [
+                102,
+                19,
+                112
+              ],
+              "stats": [
+                200,
+                200,
+                200
+              ],
+              "stats_fusion": [
+                93,
+                32,
+                97
+              ],
+              "gpt": [
+                216,
+                216,
+                216
+              ],
+              "gpt_fusion": [
+                91,
+                33,
+                110
+              ]
+            }
+          },
+          {
+            "identity": "H404",
+            "uid": "p77d58vew4",
+            "ranks": {
+              "visual": [
+                349,
+                39,
+                306
+              ],
+              "stats": [
+                185,
+                185,
+                185
+              ],
+              "stats_fusion": [
+                339,
+                35,
+                287
+              ],
+              "gpt": [
+                291,
+                291,
+                291
+              ],
+              "gpt_fusion": [
+                352,
+                76,
+                320
+              ]
+            }
+          },
+          {
+            "identity": "H22718",
+            "uid": "ghln7uplih",
+            "ranks": {
+              "visual": [
+                68,
+                24,
+                285
+              ],
+              "stats": [
+                122,
+                122,
+                122
+              ],
+              "stats_fusion": [
+                61,
+                25,
+                246
+              ],
+              "gpt": [
+                132,
+                132,
+                132
+              ],
+              "gpt_fusion": [
+                51,
+                24,
+                233
+              ]
+            }
+          },
+          {
+            "identity": "H24427",
+            "uid": "52a130pcmy",
+            "ranks": {
+              "visual": [
+                294,
+                115,
+                76
+              ],
+              "stats": [
+                275,
+                275,
+                275
+              ],
+              "stats_fusion": [
+                304,
+                152,
+                114
+              ],
+              "gpt": [
+                267,
+                267,
+                267
+              ],
+              "gpt_fusion": [
+                302,
+                147,
+                106
+              ]
+            }
+          }
+        ]
+      },
+      "old_replay": {
+        "summary": {
+          "visual": {
+            "n": 30,
+            "wrong_frame_top5": 0,
+            "top1": 1,
+            "gained_top1": 0,
+            "lost_top1": 0,
+            "top5": 2,
+            "gained_top5": 0,
+            "lost_top5": 0,
+            "delta_top5_pp95": [
+              0.0,
+              0.0
+            ]
+          },
+          "stats": {
+            "n": 30,
+            "wrong_frame_top5": 6,
+            "top1": 2,
+            "gained_top1": 2,
+            "lost_top1": 1,
+            "top5": 6,
+            "gained_top5": 5,
+            "lost_top5": 1,
+            "delta_top5_pp95": [
+              0.0,
+              30.0
+            ]
+          },
+          "stats_fusion": {
+            "n": 30,
+            "wrong_frame_top5": 4,
+            "top1": 4,
+            "gained_top1": 3,
+            "lost_top1": 0,
+            "top5": 4,
+            "gained_top5": 2,
+            "lost_top5": 0,
+            "delta_top5_pp95": [
+              0.0,
+              16.666666666666664
+            ]
+          },
+          "gpt": {
+            "n": 30,
+            "wrong_frame_top5": 6,
+            "top1": 3,
+            "gained_top1": 3,
+            "lost_top1": 1,
+            "top5": 6,
+            "gained_top5": 5,
+            "lost_top5": 1,
+            "delta_top5_pp95": [
+              0.0,
+              30.0
+            ]
+          },
+          "gpt_fusion": {
+            "n": 30,
+            "wrong_frame_top5": 4,
+            "top1": 3,
+            "gained_top1": 2,
+            "lost_top1": 0,
+            "top5": 4,
+            "gained_top5": 2,
+            "lost_top5": 0,
+            "delta_top5_pp95": [
+              0.0,
+              16.666666666666664
+            ]
+          }
+        },
+        "rows": [
+          {
+            "identity": "H14422",
+            "uid": "ch3eogm319",
+            "ranks": {
+              "visual": [
+                348,
+                328,
+                267
+              ],
+              "stats": [
+                52,
+                52,
+                52
+              ],
+              "stats_fusion": [
+                308,
+                275,
+                182
+              ],
+              "gpt": [
+                32,
+                32,
+                32
+              ],
+              "gpt_fusion": [
+                294,
+                247,
+                171
+              ]
+            }
+          },
+          {
+            "identity": "H19847",
+            "uid": "lv9rlaeib9",
+            "ranks": {
+              "visual": [
+                11,
+                24,
+                21
+              ],
+              "stats": [
+                164,
+                164,
+                164
+              ],
+              "stats_fusion": [
+                13,
+                30,
+                23
+              ],
+              "gpt": [
+                194,
+                194,
+                194
+              ],
+              "gpt_fusion": [
+                19,
+                38,
+                34
+              ]
+            }
+          },
+          {
+            "identity": "HD426",
+            "uid": "u7j8pvl5zq",
+            "ranks": {
+              "visual": [
+                162,
+                91,
+                226
+              ],
+              "stats": [
+                62,
+                62,
+                62
+              ],
+              "stats_fusion": [
+                111,
+                52,
+                162
+              ],
+              "gpt": [
+                237,
+                237,
+                237
+              ],
+              "gpt_fusion": [
+                180,
+                124,
+                236
+              ]
+            }
+          },
+          {
+            "identity": "H4139",
+            "uid": "upv9mf4trj",
+            "ranks": {
+              "visual": [
+                94,
+                325,
+                21
+              ],
+              "stats": [
+                31,
+                31,
+                31
+              ],
+              "stats_fusion": [
+                24,
+                266,
+                6
+              ],
+              "gpt": [
+                49,
+                49,
+                49
+              ],
+              "gpt_fusion": [
+                40,
+                283,
+                8
+              ]
+            }
+          },
+          {
+            "identity": "H21051",
+            "uid": "79c9fojxw0",
+            "ranks": {
+              "visual": [
+                232,
+                122,
+                42
+              ],
+              "stats": [
+                101,
+                101,
+                101
+              ],
+              "stats_fusion": [
+                187,
+                102,
+                28
+              ],
+              "gpt": [
+                191,
+                191,
+                191
+              ],
+              "gpt_fusion": [
+                214,
+                124,
+                50
+              ]
+            }
+          },
+          {
+            "identity": "H2883",
+            "uid": "bh3e3oql61",
+            "ranks": {
+              "visual": [
+                144,
+                2,
+                296
+              ],
+              "stats": [
+                2,
+                2,
+                2
+              ],
+              "stats_fusion": [
+                1,
+                1,
+                43
+              ],
+              "gpt": [
+                2,
+                2,
+                2
+              ],
+              "gpt_fusion": [
+                1,
+                1,
+                41
+              ]
+            }
+          },
+          {
+            "identity": "H15675",
+            "uid": "fd2xhqwsjk",
+            "ranks": {
+              "visual": [
+                180,
+                279,
+                7
+              ],
+              "stats": [
+                3,
+                3,
+                3
+              ],
+              "stats_fusion": [
+                24,
+                75,
+                2
+              ],
+              "gpt": [
+                1,
+                1,
+                1
+              ],
+              "gpt_fusion": [
+                29,
+                67,
+                1
+              ]
+            }
+          },
+          {
+            "identity": "HD412",
+            "uid": "xbypbgiy9z",
+            "ranks": {
+              "visual": [
+                194,
+                123,
+                312
+              ],
+              "stats": [
+                197,
+                197,
+                197
+              ],
+              "stats_fusion": [
+                185,
+                118,
+                308
+              ],
+              "gpt": [
+                282,
+                282,
+                282
+              ],
+              "gpt_fusion": [
+                243,
+                172,
+                326
+              ]
+            }
+          },
+          {
+            "identity": "H839",
+            "uid": "2sdz63p9g6",
+            "ranks": {
+              "visual": [
+                337,
+                173,
+                354
+              ],
+              "stats": [
+                247,
+                247,
+                247
+              ],
+              "stats_fusion": [
+                333,
+                194,
+                352
+              ],
+              "gpt": [
+                120,
+                120,
+                120
+              ],
+              "gpt_fusion": [
+                290,
+                124,
+                328
+              ]
+            }
+          },
+          {
+            "identity": "H7896",
+            "uid": "86d04i30jc",
+            "ranks": {
+              "visual": [
+                97,
+                215,
+                157
+              ],
+              "stats": [
+                151,
+                151,
+                151
+              ],
+              "stats_fusion": [
+                88,
+                186,
+                142
+              ],
+              "gpt": [
+                66,
+                66,
+                66
+              ],
+              "gpt_fusion": [
+                61,
+                142,
+                97
+              ]
+            }
+          },
+          {
+            "identity": "H32509",
+            "uid": "mepmffeebh",
+            "ranks": {
+              "visual": [
+                19,
+                37,
+                7
+              ],
+              "stats": [
+                343,
+                343,
+                343
+              ],
+              "stats_fusion": [
+                118,
+                154,
+                90
+              ],
+              "gpt": [
+                227,
+                227,
+                227
+              ],
+              "gpt_fusion": [
+                46,
+                45,
+                22
+              ]
+            }
+          },
+          {
+            "identity": "H32882",
+            "uid": "fmv0hxp7i5",
+            "ranks": {
+              "visual": [
+                88,
+                83,
+                120
+              ],
+              "stats": [
+                22,
+                22,
+                22
+              ],
+              "stats_fusion": [
+                30,
+                47,
+                49
+              ],
+              "gpt": [
+                9,
+                9,
+                9
+              ],
+              "gpt_fusion": [
+                14,
+                29,
+                21
+              ]
+            }
+          },
+          {
+            "identity": "H5710",
+            "uid": "lv9rlaeib9",
+            "ranks": {
+              "visual": [
+                311,
+                40,
+                34
+              ],
+              "stats": [
+                281,
+                281,
+                281
+              ],
+              "stats_fusion": [
+                313,
+                80,
+                83
+              ],
+              "gpt": [
+                256,
+                256,
+                256
+              ],
+              "gpt_fusion": [
+                301,
+                69,
+                78
+              ]
+            }
+          },
+          {
+            "identity": "H30183",
+            "uid": "bwcuiuwtaz",
+            "ranks": {
+              "visual": [
+                40,
+                8,
+                86
+              ],
+              "stats": [
+                1,
+                1,
+                1
+              ],
+              "stats_fusion": [
+                2,
+                1,
+                2
+              ],
+              "gpt": [
+                2,
+                2,
+                2
+              ],
+              "gpt_fusion": [
+                1,
+                1,
+                2
+              ]
+            }
+          },
+          {
+            "identity": "H35832",
+            "uid": "oe6xmwn3s6",
+            "ranks": {
+              "visual": [
+                371,
+                1,
+                343
+              ],
+              "stats": [
+                22,
+                22,
+                22
+              ],
+              "stats_fusion": [
+                322,
+                1,
+                246
+              ],
+              "gpt": [
+                22,
+                22,
+                22
+              ],
+              "gpt_fusion": [
+                328,
+                1,
+                262
+              ]
+            }
+          },
+          {
+            "identity": "H30524",
+            "uid": "fkhhsjy5jk",
+            "ranks": {
+              "visual": [
+                135,
+                79,
+                281
+              ],
+              "stats": [
+                292,
+                292,
+                292
+              ],
+              "stats_fusion": [
+                191,
+                125,
+                314
+              ],
+              "gpt": [
+                285,
+                285,
+                285
+              ],
+              "gpt_fusion": [
+                178,
+                124,
+                300
+              ]
+            }
+          },
+          {
+            "identity": "H3854",
+            "uid": "huoz3b61jz",
+            "ranks": {
+              "visual": [
+                305,
+                165,
+                228
+              ],
+              "stats": [
+                181,
+                181,
+                181
+              ],
+              "stats_fusion": [
+                277,
+                163,
+                211
+              ],
+              "gpt": [
+                184,
+                184,
+                184
+              ],
+              "gpt_fusion": [
+                274,
+                166,
+                216
+              ]
+            }
+          },
+          {
+            "identity": "H32175",
+            "uid": "cvzszyp6bm",
+            "ranks": {
+              "visual": [
+                117,
+                188,
+                65
+              ],
+              "stats": [
+                189,
+                189,
+                189
+              ],
+              "stats_fusion": [
+                103,
+                164,
+                55
+              ],
+              "gpt": [
+                270,
+                270,
+                270
+              ],
+              "gpt_fusion": [
+                150,
+                221,
+                98
+              ]
+            }
+          },
+          {
+            "identity": "H20689",
+            "uid": "jn8qw1nhns",
+            "ranks": {
+              "visual": [
+                83,
+                51,
+                248
+              ],
+              "stats": [
+                28,
+                28,
+                28
+              ],
+              "stats_fusion": [
+                25,
+                18,
+                155
+              ],
+              "gpt": [
+                41,
+                41,
+                41
+              ],
+              "gpt_fusion": [
+                37,
+                21,
+                173
+              ]
+            }
+          },
+          {
+            "identity": "H32047",
+            "uid": "jfc5ld8k0t",
+            "ranks": {
+              "visual": [
+                215,
+                188,
+                304
+              ],
+              "stats": [
+                5,
+                5,
+                5
+              ],
+              "stats_fusion": [
+                56,
+                36,
+                166
+              ],
+              "gpt": [
+                3,
+                3,
+                3
+              ],
+              "gpt_fusion": [
+                68,
+                44,
+                177
+              ]
+            }
+          },
+          {
+            "identity": "H20031",
+            "uid": "6vdibqvqd8",
+            "ranks": {
+              "visual": [
+                310,
+                293,
+                241
+              ],
+              "stats": [
+                1,
+                1,
+                1
+              ],
+              "stats_fusion": [
+                123,
+                98,
+                54
+              ],
+              "gpt": [
+                1,
+                1,
+                1
+              ],
+              "gpt_fusion": [
+                153,
+                121,
+                78
+              ]
+            }
+          },
+          {
+            "identity": "H3294",
+            "uid": "e8qibnliym",
+            "ranks": {
+              "visual": [
+                232,
+                179,
+                230
+              ],
+              "stats": [
+                53,
+                53,
+                53
+              ],
+              "stats_fusion": [
+                149,
+                116,
+                140
+              ],
+              "gpt": [
+                120,
+                120,
+                120
+              ],
+              "gpt_fusion": [
+                179,
+                144,
+                176
+              ]
+            }
+          },
+          {
+            "identity": "H31983",
+            "uid": "2rptsk0t7g",
+            "ranks": {
+              "visual": [
+                214,
+                100,
+                167
+              ],
+              "stats": [
+                18,
+                18,
+                18
+              ],
+              "stats_fusion": [
+                118,
+                41,
+                66
+              ],
+              "gpt": [
+                37,
+                37,
+                37
+              ],
+              "gpt_fusion": [
+                131,
+                52,
+                87
+              ]
+            }
+          },
+          {
+            "identity": "H6913",
+            "uid": "iuouekyjwj",
+            "ranks": {
+              "visual": [
+                8,
+                47,
+                47
+              ],
+              "stats": [
+                49,
+                49,
+                49
+              ],
+              "stats_fusion": [
+                2,
+                22,
+                22
+              ],
+              "gpt": [
+                59,
+                59,
+                59
+              ],
+              "gpt_fusion": [
+                2,
+                18,
+                24
+              ]
+            }
+          },
+          {
+            "identity": "H32534",
+            "uid": "g8k12dfmg6",
+            "ranks": {
+              "visual": [
+                172,
+                119,
+                226
+              ],
+              "stats": [
+                372,
+                372,
+                372
+              ],
+              "stats_fusion": [
+                336,
+                296,
+                351
+              ],
+              "gpt": [
+                358,
+                358,
+                358
+              ],
+              "gpt_fusion": [
+                293,
+                232,
+                325
+              ]
+            }
+          },
+          {
+            "identity": "H32611",
+            "uid": "nllrzldww6",
+            "ranks": {
+              "visual": [
+                128,
+                292,
+                322
+              ],
+              "stats": [
+                32,
+                32,
+                32
+              ],
+              "stats_fusion": [
+                78,
+                222,
+                272
+              ],
+              "gpt": [
+                194,
+                194,
+                194
+              ],
+              "gpt_fusion": [
+                130,
+                281,
+                313
+              ]
+            }
+          },
+          {
+            "identity": "H33059",
+            "uid": "k0pxsd02si",
+            "ranks": {
+              "visual": [
+                132,
+                359,
+                111
+              ],
+              "stats": [
+                196,
+                196,
+                196
+              ],
+              "stats_fusion": [
+                137,
+                349,
+                113
+              ],
+              "gpt": [
+                115,
+                115,
+                115
+              ],
+              "gpt_fusion": [
+                108,
+                344,
+                86
+              ]
+            }
+          },
+          {
+            "identity": "H740",
+            "uid": "cvzszyp6bm",
+            "ranks": {
+              "visual": [
+                78,
+                47,
+                173
+              ],
+              "stats": [
+                105,
+                105,
+                105
+              ],
+              "stats_fusion": [
+                45,
+                28,
+                125
+              ],
+              "gpt": [
+                81,
+                81,
+                81
+              ],
+              "gpt_fusion": [
+                45,
+                31,
+                128
+              ]
+            }
+          },
+          {
+            "identity": "H2943",
+            "uid": "ajjda965yb",
+            "ranks": {
+              "visual": [
+                181,
+                50,
+                145
+              ],
+              "stats": [
+                2,
+                2,
+                2
+              ],
+              "stats_fusion": [
+                21,
+                1,
+                15
+              ],
+              "gpt": [
+                1,
+                1,
+                1
+              ],
+              "gpt_fusion": [
+                32,
+                4,
+                21
+              ]
+            }
+          },
+          {
+            "identity": "H9078",
+            "uid": "6k62imdisa",
+            "ranks": {
+              "visual": [
+                62,
+                88,
+                153
+              ],
+              "stats": [
+                345,
+                345,
+                345
+              ],
+              "stats_fusion": [
+                162,
+                182,
+                261
+              ],
+              "gpt": [
+                351,
+                351,
+                351
+              ],
+              "gpt_fusion": [
+                187,
+                183,
+                272
+              ]
+            }
+          }
+        ]
+      },
+      "external": {
+        "summary": {
+          "visual": {
+            "n": 6,
+            "wrong_frame_top5": 1,
+            "top1": 2,
+            "gained_top1": 0,
+            "lost_top1": 0,
+            "top5": 3,
+            "gained_top5": 0,
+            "lost_top5": 0,
+            "delta_top5_pp95": [
+              0.0,
+              0.0
+            ]
+          },
+          "stats": {
+            "n": 6,
+            "wrong_frame_top5": 0,
+            "top1": 0,
+            "gained_top1": 0,
+            "lost_top1": 2,
+            "top5": 0,
+            "gained_top5": 0,
+            "lost_top5": 3,
+            "delta_top5_pp95": [
+              -83.33333333333334,
+              -16.666666666666664
+            ]
+          },
+          "stats_fusion": {
+            "n": 6,
+            "wrong_frame_top5": 0,
+            "top1": 2,
+            "gained_top1": 0,
+            "lost_top1": 0,
+            "top5": 3,
+            "gained_top5": 0,
+            "lost_top5": 0,
+            "delta_top5_pp95": [
+              0.0,
+              0.0
+            ]
+          },
+          "gpt": {
+            "n": 6,
+            "wrong_frame_top5": 0,
+            "top1": 0,
+            "gained_top1": 0,
+            "lost_top1": 2,
+            "top5": 0,
+            "gained_top5": 0,
+            "lost_top5": 3,
+            "delta_top5_pp95": [
+              -83.33333333333334,
+              -16.666666666666664
+            ]
+          },
+          "gpt_fusion": {
+            "n": 6,
+            "wrong_frame_top5": 0,
+            "top1": 2,
+            "gained_top1": 0,
+            "lost_top1": 0,
+            "top5": 3,
+            "gained_top5": 0,
+            "lost_top5": 0,
+            "delta_top5_pp95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "rows": [
+          {
+            "identity": 19907,
+            "uid": "4eiujvozyl",
+            "ranks": {
+              "visual": [
+                337,
+                93,
+                260
+              ],
+              "stats": [
+                115,
+                115,
+                115
+              ],
+              "stats_fusion": [
+                317,
+                67,
+                227
+              ],
+              "gpt": [
+                131,
+                131,
+                131
+              ],
+              "gpt_fusion": [
+                310,
+                69,
+                224
+              ]
+            }
+          },
+          {
+            "identity": 28000,
+            "uid": "bnzum9xkvt",
+            "ranks": {
+              "visual": [
+                250,
+                52,
+                229
+              ],
+              "stats": [
+                111,
+                111,
+                111
+              ],
+              "stats_fusion": [
+                205,
+                44,
+                185
+              ],
+              "gpt": [
+                33,
+                33,
+                33
+              ],
+              "gpt_fusion": [
+                172,
+                27,
+                133
+              ]
+            }
+          },
+          {
+            "identity": 20975,
+            "uid": "fd2xhqwsjk",
+            "ranks": {
+              "visual": [
+                278,
+                216,
+                223
+              ],
+              "stats": [
+                207,
+                207,
+                207
+              ],
+              "stats_fusion": [
+                280,
+                212,
+                220
+              ],
+              "gpt": [
+                168,
+                168,
+                168
+              ],
+              "gpt_fusion": [
+                271,
+                191,
+                207
+              ]
+            }
+          },
+          {
+            "identity": 8425,
+            "uid": "s9y9vbblxa",
+            "ranks": {
+              "visual": [
+                35,
+                1,
+                161
+              ],
+              "stats": [
+                137,
+                137,
+                137
+              ],
+              "stats_fusion": [
+                30,
+                1,
+                133
+              ],
+              "gpt": [
+                132,
+                132,
+                132
+              ],
+              "gpt_fusion": [
+                26,
+                1,
+                133
+              ]
+            }
+          },
+          {
+            "identity": 19773,
+            "uid": "l7cyvm7kbt",
+            "ranks": {
+              "visual": [
+                375,
+                3,
+                341
+              ],
+              "stats": [
+                166,
+                166,
+                166
+              ],
+              "stats_fusion": [
+                373,
+                3,
+                323
+              ],
+              "gpt": [
+                13,
+                13,
+                13
+              ],
+              "gpt_fusion": [
+                373,
+                2,
+                277
+              ]
+            }
+          },
+          {
+            "identity": 22274,
+            "uid": "l7cyvm7kbt",
+            "ranks": {
+              "visual": [
+                375,
+                1,
+                5
+              ],
+              "stats": [
+                141,
+                141,
+                141
+              ],
+              "stats_fusion": [
+                367,
+                1,
+                6
+              ],
+              "gpt": [
+                126,
+                126,
+                126
+              ],
+              "gpt_fusion": [
+                371,
+                1,
+                6
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "facsimile": {
+      "added": {
+        "summary": {
+          "visual": {
+            "n": 80,
+            "wrong_frame_top5": 0,
+            "top1": 10,
+            "gained_top1": 0,
+            "lost_top1": 0,
+            "top5": 19,
+            "gained_top5": 0,
+            "lost_top5": 0,
+            "delta_top5_pp95": [
+              0.0,
+              0.0
+            ]
+          },
+          "stats": {
+            "n": 80,
+            "wrong_frame_top5": 9,
+            "top1": 2,
+            "gained_top1": 1,
+            "lost_top1": 9,
+            "top5": 9,
+            "gained_top5": 6,
+            "lost_top5": 16,
+            "delta_top5_pp95": [
+              -23.75,
+              -1.25
+            ]
+          },
+          "stats_fusion": {
+            "n": 80,
+            "wrong_frame_top5": 5,
+            "top1": 6,
+            "gained_top1": 1,
+            "lost_top1": 5,
+            "top5": 18,
+            "gained_top5": 4,
+            "lost_top5": 5,
+            "delta_top5_pp95": [
+              -8.75,
+              6.25
+            ]
+          },
+          "gpt": {
+            "n": 80,
+            "wrong_frame_top5": 5,
+            "top1": 3,
+            "gained_top1": 2,
+            "lost_top1": 9,
+            "top5": 5,
+            "gained_top5": 4,
+            "lost_top5": 18,
+            "delta_top5_pp95": [
+              -28.749999999999996,
+              -6.25
+            ]
+          },
+          "gpt_fusion": {
+            "n": 80,
+            "wrong_frame_top5": 5,
+            "top1": 8,
+            "gained_top1": 2,
+            "lost_top1": 4,
+            "top5": 17,
+            "gained_top5": 4,
+            "lost_top5": 6,
+            "delta_top5_pp95": [
+              -10.0,
+              5.0
+            ]
+          }
+        },
+        "rows": [
+          {
+            "identity": "H22562",
+            "uid": "5ntior2ch1",
+            "ranks": {
+              "visual": [
+                319,
+                305,
+                143
+              ],
+              "stats": [
+                2,
+                2,
+                2
+              ],
+              "stats_fusion": [
+                35,
+                36,
+                1
+              ],
+              "gpt": [
+                2,
+                2,
+                2
+              ],
+              "gpt_fusion": [
+                25,
+                21,
+                1
+              ]
+            }
+          },
+          {
+            "identity": "H32317",
+            "uid": "c40r3zyq5t",
+            "ranks": {
+              "visual": [
+                306,
+                52,
+                321
+              ],
+              "stats": [
+                241,
+                241,
+                241
+              ],
+              "stats_fusion": [
+                305,
+                83,
+                317
+              ],
+              "gpt": [
+                284,
+                284,
+                284
+              ],
+              "gpt_fusion": [
+                323,
+                120,
+                331
+              ]
+            }
+          },
+          {
+            "identity": "H4301",
+            "uid": "1s5t2e9cdw",
+            "ranks": {
+              "visual": [
+                308,
+                15,
+                339
+              ],
+              "stats": [
+                48,
+                48,
+                48
+              ],
+              "stats_fusion": [
+                249,
+                9,
+                307
+              ],
+              "gpt": [
+                79,
+                79,
+                79
+              ],
+              "gpt_fusion": [
+                256,
+                9,
+                310
+              ]
+            }
+          },
+          {
+            "identity": "H32723",
+            "uid": "h0gzv3styy",
+            "ranks": {
+              "visual": [
+                295,
+                360,
+                302
+              ],
+              "stats": [
+                5,
+                5,
+                5
+              ],
+              "stats_fusion": [
+                109,
+                268,
+                136
+              ],
+              "gpt": [
+                8,
+                8,
+                8
+              ],
+              "gpt_fusion": [
+                119,
+                273,
+                133
+              ]
+            }
+          },
+          {
+            "identity": "H12542",
+            "uid": "p77d58vew4",
+            "ranks": {
+              "visual": [
+                6,
+                6,
+                370
+              ],
+              "stats": [
+                23,
+                23,
+                23
+              ],
+              "stats_fusion": [
+                3,
+                2,
+                366
+              ],
+              "gpt": [
+                109,
+                109,
+                109
+              ],
+              "gpt_fusion": [
+                11,
+                7,
+                368
+              ]
+            }
+          },
+          {
+            "identity": "H15738",
+            "uid": "5k1l85d8n2",
+            "ranks": {
+              "visual": [
+                42,
+                45,
+                9
+              ],
+              "stats": [
+                27,
+                27,
+                27
+              ],
+              "stats_fusion": [
+                17,
+                9,
+                2
+              ],
+              "gpt": [
+                53,
+                53,
+                53
+              ],
+              "gpt_fusion": [
+                23,
+                21,
+                4
+              ]
+            }
+          },
+          {
+            "identity": "H1616",
+            "uid": "66iowpdbuc",
+            "ranks": {
+              "visual": [
+                278,
+                54,
+                294
+              ],
+              "stats": [
+                2,
+                2,
+                2
+              ],
+              "stats_fusion": [
+                71,
+                3,
+                62
+              ],
+              "gpt": [
+                22,
+                22,
+                22
+              ],
+              "gpt_fusion": [
+                167,
+                15,
+                169
+              ]
+            }
+          },
+          {
+            "identity": "H2554",
+            "uid": "6ewkk2w7r1",
+            "ranks": {
+              "visual": [
+                336,
+                102,
+                354
+              ],
+              "stats": [
+                321,
+                321,
+                321
+              ],
+              "stats_fusion": [
+                353,
+                205,
+                363
+              ],
+              "gpt": [
+                256,
+                256,
+                256
+              ],
+              "gpt_fusion": [
+                338,
+                143,
+                349
+              ]
+            }
+          },
+          {
+            "identity": "H29780",
+            "uid": "hftl4m18q0",
+            "ranks": {
+              "visual": [
+                42,
+                1,
+                92
+              ],
+              "stats": [
+                339,
+                339,
+                339
+              ],
+              "stats_fusion": [
+                115,
+                6,
+                187
+              ],
+              "gpt": [
+                237,
+                237,
+                237
+              ],
+              "gpt_fusion": [
+                63,
+                2,
+                123
+              ]
+            }
+          },
+          {
+            "identity": "H8357",
+            "uid": "d91rup9lkj",
+            "ranks": {
+              "visual": [
+                6,
+                346,
+                316
+              ],
+              "stats": [
+                111,
+                111,
+                111
+              ],
+              "stats_fusion": [
+                7,
+                286,
+                278
+              ],
+              "gpt": [
+                127,
+                127,
+                127
+              ],
+              "gpt_fusion": [
+                6,
+                297,
+                288
+              ]
+            }
+          },
+          {
+            "identity": "H9126",
+            "uid": "5n30uigzj6",
+            "ranks": {
+              "visual": [
+                267,
+                195,
+                374
+              ],
+              "stats": [
+                237,
+                237,
+                237
+              ],
+              "stats_fusion": [
+                273,
+                222,
+                369
+              ],
+              "gpt": [
+                73,
+                73,
+                73
+              ],
+              "gpt_fusion": [
+                188,
+                123,
+                353
+              ]
+            }
+          },
+          {
+            "identity": "H12778",
+            "uid": "akwyl4gzy2",
+            "ranks": {
+              "visual": [
+                177,
+                152,
+                334
+              ],
+              "stats": [
+                14,
+                14,
+                14
+              ],
+              "stats_fusion": [
+                84,
+                67,
+                266
+              ],
+              "gpt": [
+                116,
+                116,
+                116
+              ],
+              "gpt_fusion": [
+                132,
+                104,
+                300
+              ]
+            }
+          },
+          {
+            "identity": "H21308",
+            "uid": "hftl4m18q0",
+            "ranks": {
+              "visual": [
+                216,
+                2,
+                222
+              ],
+              "stats": [
+                289,
+                289,
+                289
+              ],
+              "stats_fusion": [
+                262,
+                10,
+                263
+              ],
+              "gpt": [
+                111,
+                111,
+                111
+              ],
+              "gpt_fusion": [
+                165,
+                3,
+                170
+              ]
+            }
+          },
+          {
+            "identity": "H12910",
+            "uid": "p77d58vew4",
+            "ranks": {
+              "visual": [
+                10,
+                43,
+                133
+              ],
+              "stats": [
+                23,
+                23,
+                23
+              ],
+              "stats_fusion": [
+                2,
+                19,
+                79
+              ],
+              "gpt": [
+                109,
+                109,
+                109
+              ],
+              "gpt_fusion": [
+                11,
+                36,
+                118
+              ]
+            }
+          },
+          {
+            "identity": "H33309",
+            "uid": "a1lmo1xxj5",
+            "ranks": {
+              "visual": [
+                300,
+                295,
+                235
+              ],
+              "stats": [
+                4,
+                4,
+                4
+              ],
+              "stats_fusion": [
+                31,
+                89,
+                13
+              ],
+              "gpt": [
+                25,
+                25,
+                25
+              ],
+              "gpt_fusion": [
+                202,
+                213,
+                122
+              ]
+            }
+          },
+          {
+            "identity": "H1490",
+            "uid": "u7v6rlhp81",
+            "ranks": {
+              "visual": [
+                150,
+                38,
+                131
+              ],
+              "stats": [
+                360,
+                360,
+                360
+              ],
+              "stats_fusion": [
+                303,
+                226,
+                274
+              ],
+              "gpt": [
+                378,
+                378,
+                378
+              ],
+              "gpt_fusion": [
+                348,
+                309,
+                338
+              ]
+            }
+          },
+          {
+            "identity": "H11748",
+            "uid": "y0f5gu3q0a",
+            "ranks": {
+              "visual": [
+                261,
+                36,
+                225
+              ],
+              "stats": [
+                136,
+                136,
+                136
+              ],
+              "stats_fusion": [
+                241,
+                33,
+                201
+              ],
+              "gpt": [
+                212,
+                212,
+                212
+              ],
+              "gpt_fusion": [
+                265,
+                61,
+                230
+              ]
+            }
+          },
+          {
+            "identity": "H10636",
+            "uid": "r79attbhro",
+            "ranks": {
+              "visual": [
+                87,
+                100,
+                254
+              ],
+              "stats": [
+                13,
+                13,
+                13
+              ],
+              "stats_fusion": [
+                42,
+                50,
+                125
+              ],
+              "gpt": [
+                11,
+                11,
+                11
+              ],
+              "gpt_fusion": [
+                22,
+                29,
+                65
+              ]
+            }
+          },
+          {
+            "identity": "H25370",
+            "uid": "q71z8tnnc6",
+            "ranks": {
+              "visual": [
+                366,
+                15,
+                59
+              ],
+              "stats": [
+                79,
+                79,
+                79
+              ],
+              "stats_fusion": [
+                331,
+                14,
+                40
+              ],
+              "gpt": [
+                24,
+                24,
+                24
+              ],
+              "gpt_fusion": [
+                296,
+                5,
+                18
+              ]
+            }
+          },
+          {
+            "identity": "H11764",
+            "uid": "dhewuxyotl",
+            "ranks": {
+              "visual": [
+                28,
+                21,
+                110
+              ],
+              "stats": [
+                267,
+                267,
+                267
+              ],
+              "stats_fusion": [
+                65,
+                53,
+                161
+              ],
+              "gpt": [
+                198,
+                198,
+                198
+              ],
+              "gpt_fusion": [
+                49,
+                36,
+                126
+              ]
+            }
+          },
+          {
+            "identity": "H1415",
+            "uid": "0uhj5zj3ce",
+            "ranks": {
+              "visual": [
+                250,
+                15,
+                341
+              ],
+              "stats": [
+                69,
+                69,
+                69
+              ],
+              "stats_fusion": [
+                193,
+                11,
+                309
+              ],
+              "gpt": [
+                135,
+                135,
+                135
+              ],
+              "gpt_fusion": [
+                218,
+                14,
+                316
+              ]
+            }
+          },
+          {
+            "identity": "H14071",
+            "uid": "55qv0winah",
+            "ranks": {
+              "visual": [
+                347,
+                339,
+                368
+              ],
+              "stats": [
+                331,
+                331,
+                331
+              ],
+              "stats_fusion": [
+                355,
+                356,
+                369
+              ],
+              "gpt": [
+                123,
+                123,
+                123
+              ],
+              "gpt_fusion": [
+                319,
+                313,
+                340
+              ]
+            }
+          },
+          {
+            "identity": "H1648",
+            "uid": "htn7736sjm",
+            "ranks": {
+              "visual": [
+                111,
+                26,
+                41
+              ],
+              "stats": [
+                201,
+                201,
+                201
+              ],
+              "stats_fusion": [
+                125,
+                30,
+                57
+              ],
+              "gpt": [
+                105,
+                105,
+                105
+              ],
+              "gpt_fusion": [
+                79,
+                17,
+                33
+              ]
+            }
+          },
+          {
+            "identity": "H7818",
+            "uid": "h2mhpxskhk",
+            "ranks": {
+              "visual": [
+                267,
+                6,
+                312
+              ],
+              "stats": [
+                101,
+                101,
+                101
+              ],
+              "stats_fusion": [
+                235,
+                8,
+                261
+              ],
+              "gpt": [
+                120,
+                120,
+                120
+              ],
+              "gpt_fusion": [
+                231,
+                7,
+                257
+              ]
+            }
+          },
+          {
+            "identity": "H30422",
+            "uid": "7grlc2aopw",
+            "ranks": {
+              "visual": [
+                59,
+                197,
+                221
+              ],
+              "stats": [
+                9,
+                9,
+                9
+              ],
+              "stats_fusion": [
+                11,
+                118,
+                144
+              ],
+              "gpt": [
+                52,
+                52,
+                52
+              ],
+              "gpt_fusion": [
+                24,
+                136,
+                165
+              ]
+            }
+          },
+          {
+            "identity": "H31136",
+            "uid": "4n6v7cj6m9",
+            "ranks": {
+              "visual": [
+                184,
+                10,
+                286
+              ],
+              "stats": [
+                235,
+                235,
+                235
+              ],
+              "stats_fusion": [
+                205,
+                32,
+                285
+              ],
+              "gpt": [
+                104,
+                104,
+                104
+              ],
+              "gpt_fusion": [
+                123,
+                6,
+                223
+              ]
+            }
+          },
+          {
+            "identity": "H12480",
+            "uid": "nak4ioxpg1",
+            "ranks": {
+              "visual": [
+                278,
+                309,
+                301
+              ],
+              "stats": [
+                371,
+                371,
+                371
+              ],
+              "stats_fusion": [
+                356,
+                369,
+                369
+              ],
+              "gpt": [
+                354,
+                354,
+                354
+              ],
+              "gpt_fusion": [
+                335,
+                350,
+                354
+              ]
+            }
+          },
+          {
+            "identity": "H1856",
+            "uid": "l7cyvm7kbt",
+            "ranks": {
+              "visual": [
+                373,
+                7,
+                377
+              ],
+              "stats": [
+                3,
+                3,
+                3
+              ],
+              "stats_fusion": [
+                362,
+                2,
+                366
+              ],
+              "gpt": [
+                1,
+                1,
+                1
+              ],
+              "gpt_fusion": [
+                343,
+                2,
+                363
+              ]
+            }
+          },
+          {
+            "identity": "H32635",
+            "uid": "hftl4m18q0",
+            "ranks": {
+              "visual": [
+                42,
+                8,
+                242
+              ],
+              "stats": [
+                343,
+                343,
+                343
+              ],
+              "stats_fusion": [
+                153,
+                94,
+                312
+              ],
+              "gpt": [
+                167,
+                167,
+                167
+              ],
+              "gpt_fusion": [
+                53,
+                17,
+                210
+              ]
+            }
+          },
+          {
+            "identity": "H7032",
+            "uid": "1rzrhj2j4j",
+            "ranks": {
+              "visual": [
+                282,
+                308,
+                23
+              ],
+              "stats": [
+                15,
+                15,
+                15
+              ],
+              "stats_fusion": [
+                154,
+                202,
+                6
+              ],
+              "gpt": [
+                12,
+                12,
+                12
+              ],
+              "gpt_fusion": [
+                155,
+                210,
+                8
+              ]
+            }
+          },
+          {
+            "identity": "H23578",
+            "uid": "4r0g6bx5rc",
+            "ranks": {
+              "visual": [
+                10,
+                16,
+                282
+              ],
+              "stats": [
+                155,
+                155,
+                155
+              ],
+              "stats_fusion": [
+                17,
+                23,
+                253
+              ],
+              "gpt": [
+                26,
+                26,
+                26
+              ],
+              "gpt_fusion": [
+                3,
+                6,
+                189
+              ]
+            }
+          },
+          {
+            "identity": "H30817",
+            "uid": "q4rk3syf2x",
+            "ranks": {
+              "visual": [
+                256,
+                46,
+                303
+              ],
+              "stats": [
+                179,
+                179,
+                179
+              ],
+              "stats_fusion": [
+                220,
+                55,
+                289
+              ],
+              "gpt": [
+                66,
+                66,
+                66
+              ],
+              "gpt_fusion": [
+                166,
+                31,
+                254
+              ]
+            }
+          },
+          {
+            "identity": "H13427",
+            "uid": "p77d58vew4",
+            "ranks": {
+              "visual": [
+                295,
+                81,
+                366
+              ],
+              "stats": [
+                193,
+                193,
+                193
+              ],
+              "stats_fusion": [
+                281,
+                90,
+                363
+              ],
+              "gpt": [
+                228,
+                228,
+                228
+              ],
+              "gpt_fusion": [
+                299,
+                98,
+                366
+              ]
+            }
+          },
+          {
+            "identity": "H469",
+            "uid": "d7mczw6osp",
+            "ranks": {
+              "visual": [
+                331,
+                111,
+                323
+              ],
+              "stats": [
+                13,
+                13,
+                13
+              ],
+              "stats_fusion": [
+                229,
+                47,
+                240
+              ],
+              "gpt": [
+                9,
+                9,
+                9
+              ],
+              "gpt_fusion": [
+                199,
+                29,
+                194
+              ]
+            }
+          },
+          {
+            "identity": "H813",
+            "uid": "a1lmo1xxj5",
+            "ranks": {
+              "visual": [
+                216,
+                191,
+                255
+              ],
+              "stats": [
+                35,
+                35,
+                35
+              ],
+              "stats_fusion": [
+                112,
+                116,
+                177
+              ],
+              "gpt": [
+                256,
+                256,
+                256
+              ],
+              "gpt_fusion": [
+                238,
+                224,
+                271
+              ]
+            }
+          },
+          {
+            "identity": "H24385",
+            "uid": "4n6v7cj6m9",
+            "ranks": {
+              "visual": [
+                343,
+                94,
+                315
+              ],
+              "stats": [
+                143,
+                143,
+                143
+              ],
+              "stats_fusion": [
+                310,
+                78,
+                287
+              ],
+              "gpt": [
+                67,
+                67,
+                67
+              ],
+              "gpt_fusion": [
+                288,
+                61,
+                246
+              ]
+            }
+          },
+          {
+            "identity": "H11550",
+            "uid": "jrzjjh3g1r",
+            "ranks": {
+              "visual": [
+                376,
+                1,
+                378
+              ],
+              "stats": [
+                11,
+                11,
+                11
+              ],
+              "stats_fusion": [
+                346,
+                1,
+                377
+              ],
+              "gpt": [
+                20,
+                20,
+                20
+              ],
+              "gpt_fusion": [
+                351,
+                1,
+                377
+              ]
+            }
+          },
+          {
+            "identity": "H4183",
+            "uid": "7grlc2aopw",
+            "ranks": {
+              "visual": [
+                230,
+                13,
+                229
+              ],
+              "stats": [
+                273,
+                273,
+                273
+              ],
+              "stats_fusion": [
+                263,
+                60,
+                256
+              ],
+              "gpt": [
+                259,
+                259,
+                259
+              ],
+              "gpt_fusion": [
+                256,
+                61,
+                250
+              ]
+            }
+          },
+          {
+            "identity": "H32448",
+            "uid": "0wfbo7ml5k",
+            "ranks": {
+              "visual": [
+                159,
+                275,
+                184
+              ],
+              "stats": [
+                317,
+                317,
+                317
+              ],
+              "stats_fusion": [
+                252,
+                322,
+                261
+              ],
+              "gpt": [
+                349,
+                349,
+                349
+              ],
+              "gpt_fusion": [
+                269,
+                332,
+                282
+              ]
+            }
+          },
+          {
+            "identity": "H17183",
+            "uid": "0uhj5zj3ce",
+            "ranks": {
+              "visual": [
+                176,
+                9,
+                45
+              ],
+              "stats": [
+                274,
+                274,
+                274
+              ],
+              "stats_fusion": [
+                202,
+                11,
+                73
+              ],
+              "gpt": [
+                234,
+                234,
+                234
+              ],
+              "gpt_fusion": [
+                196,
+                11,
+                62
+              ]
+            }
+          },
+          {
+            "identity": "H18157",
+            "uid": "7grlc2aopw",
+            "ranks": {
+              "visual": [
+                9,
+                1,
+                224
+              ],
+              "stats": [
+                216,
+                216,
+                216
+              ],
+              "stats_fusion": [
+                29,
+                1,
+                232
+              ],
+              "gpt": [
+                162,
+                162,
+                162
+              ],
+              "gpt_fusion": [
+                12,
+                1,
+                213
+              ]
+            }
+          },
+          {
+            "identity": "H6547",
+            "uid": "6ewkk2w7r1",
+            "ranks": {
+              "visual": [
+                246,
+                20,
+                208
+              ],
+              "stats": [
+                22,
+                22,
+                22
+              ],
+              "stats_fusion": [
+                148,
+                4,
+                101
+              ],
+              "gpt": [
+                21,
+                21,
+                21
+              ],
+              "gpt_fusion": [
+                149,
+                3,
+                102
+              ]
+            }
+          },
+          {
+            "identity": "H1439",
+            "uid": "dhewuxyotl",
+            "ranks": {
+              "visual": [
+                61,
+                2,
+                267
+              ],
+              "stats": [
+                185,
+                185,
+                185
+              ],
+              "stats_fusion": [
+                70,
+                2,
+                239
+              ],
+              "gpt": [
+                9,
+                9,
+                9
+              ],
+              "gpt_fusion": [
+                22,
+                1,
+                107
+              ]
+            }
+          },
+          {
+            "identity": "H1959",
+            "uid": "s2e076ohb1",
+            "ranks": {
+              "visual": [
+                114,
+                198,
+                302
+              ],
+              "stats": [
+                42,
+                42,
+                42
+              ],
+              "stats_fusion": [
+                63,
+                137,
+                220
+              ],
+              "gpt": [
+                54,
+                54,
+                54
+              ],
+              "gpt_fusion": [
+                63,
+                123,
+                217
+              ]
+            }
+          },
+          {
+            "identity": "H11828",
+            "uid": "q71z8tnnc6",
+            "ranks": {
+              "visual": [
+                260,
+                126,
+                186
+              ],
+              "stats": [
+                14,
+                14,
+                14
+              ],
+              "stats_fusion": [
+                120,
+                30,
+                54
+              ],
+              "gpt": [
+                26,
+                26,
+                26
+              ],
+              "gpt_fusion": [
+                152,
+                47,
+                81
+              ]
+            }
+          },
+          {
+            "identity": "H21334",
+            "uid": "h0gzv3styy",
+            "ranks": {
+              "visual": [
+                362,
+                352,
+                281
+              ],
+              "stats": [
+                201,
+                201,
+                201
+              ],
+              "stats_fusion": [
+                356,
+                341,
+                268
+              ],
+              "gpt": [
+                200,
+                200,
+                200
+              ],
+              "gpt_fusion": [
+                356,
+                349,
+                273
+              ]
+            }
+          },
+          {
+            "identity": "H9882",
+            "uid": "6p9s6p6wyb",
+            "ranks": {
+              "visual": [
+                181,
+                49,
+                261
+              ],
+              "stats": [
+                79,
+                79,
+                79
+              ],
+              "stats_fusion": [
+                127,
+                32,
+                203
+              ],
+              "gpt": [
+                13,
+                13,
+                13
+              ],
+              "gpt_fusion": [
+                75,
+                14,
+                145
+              ]
+            }
+          },
+          {
+            "identity": "H12882",
+            "uid": "ftj0qy2f7b",
+            "ranks": {
+              "visual": [
+                350,
+                179,
+                313
+              ],
+              "stats": [
+                83,
+                83,
+                83
+              ],
+              "stats_fusion": [
+                328,
+                127,
+                255
+              ],
+              "gpt": [
+                291,
+                291,
+                291
+              ],
+              "gpt_fusion": [
+                355,
+                233,
+                332
+              ]
+            }
+          },
+          {
+            "identity": "H4489",
+            "uid": "ji97td3npi",
+            "ranks": {
+              "visual": [
+                280,
+                170,
+                212
+              ],
+              "stats": [
+                32,
+                32,
+                32
+              ],
+              "stats_fusion": [
+                183,
+                84,
+                107
+              ],
+              "gpt": [
+                40,
+                40,
+                40
+              ],
+              "gpt_fusion": [
+                190,
+                95,
+                116
+              ]
+            }
+          },
+          {
+            "identity": "H23233",
+            "uid": "dhewuxyotl",
+            "ranks": {
+              "visual": [
+                80,
+                67,
+                173
+              ],
+              "stats": [
+                112,
+                112,
+                112
+              ],
+              "stats_fusion": [
+                54,
+                49,
+                122
+              ],
+              "gpt": [
+                202,
+                202,
+                202
+              ],
+              "gpt_fusion": [
+                86,
+                68,
+                166
+              ]
+            }
+          },
+          {
+            "identity": "H15646",
+            "uid": "s9y9vbblxa",
+            "ranks": {
+              "visual": [
+                324,
+                124,
+                250
+              ],
+              "stats": [
+                22,
+                22,
+                22
+              ],
+              "stats_fusion": [
+                203,
+                39,
+                123
+              ],
+              "gpt": [
+                12,
+                12,
+                12
+              ],
+              "gpt_fusion": [
+                191,
+                33,
+                110
+              ]
+            }
+          },
+          {
+            "identity": "H22327",
+            "uid": "a8n7ywfrd3",
+            "ranks": {
+              "visual": [
+                283,
+                1,
+                305
+              ],
+              "stats": [
+                325,
+                325,
+                325
+              ],
+              "stats_fusion": [
+                327,
+                3,
+                339
+              ],
+              "gpt": [
+                304,
+                304,
+                304
+              ],
+              "gpt_fusion": [
+                312,
+                2,
+                330
+              ]
+            }
+          },
+          {
+            "identity": "H5813",
+            "uid": "dhewuxyotl",
+            "ranks": {
+              "visual": [
+                118,
+                3,
+                297
+              ],
+              "stats": [
+                66,
+                66,
+                66
+              ],
+              "stats_fusion": [
+                69,
+                2,
+                239
+              ],
+              "gpt": [
+                299,
+                299,
+                299
+              ],
+              "gpt_fusion": [
+                185,
+                10,
+                311
+              ]
+            }
+          },
+          {
+            "identity": "H1998",
+            "uid": "7grlc2aopw",
+            "ranks": {
+              "visual": [
+                59,
+                3,
+                141
+              ],
+              "stats": [
+                206,
+                206,
+                206
+              ],
+              "stats_fusion": [
+                71,
+                10,
+                149
+              ],
+              "gpt": [
+                230,
+                230,
+                230
+              ],
+              "gpt_fusion": [
+                86,
+                12,
+                164
+              ]
+            }
+          },
+          {
+            "identity": "H4493",
+            "uid": "7grlc2aopw",
+            "ranks": {
+              "visual": [
+                106,
+                4,
+                180
+              ],
+              "stats": [
+                243,
+                243,
+                243
+              ],
+              "stats_fusion": [
+                131,
+                8,
+                195
+              ],
+              "gpt": [
+                263,
+                263,
+                263
+              ],
+              "gpt_fusion": [
+                159,
+                11,
+                213
+              ]
+            }
+          },
+          {
+            "identity": "H21031",
+            "uid": "qmvfvw99v9",
+            "ranks": {
+              "visual": [
+                170,
+                1,
+                367
+              ],
+              "stats": [
+                319,
+                319,
+                319
+              ],
+              "stats_fusion": [
+                257,
+                15,
+                370
+              ],
+              "gpt": [
+                314,
+                314,
+                314
+              ],
+              "gpt_fusion": [
+                236,
+                11,
+                371
+              ]
+            }
+          },
+          {
+            "identity": "H32248",
+            "uid": "h2mhpxskhk",
+            "ranks": {
+              "visual": [
+                302,
+                127,
+                146
+              ],
+              "stats": [
+                254,
+                254,
+                254
+              ],
+              "stats_fusion": [
+                309,
+                150,
+                180
+              ],
+              "gpt": [
+                228,
+                228,
+                228
+              ],
+              "gpt_fusion": [
+                283,
+                135,
+                151
+              ]
+            }
+          },
+          {
+            "identity": "H15538",
+            "uid": "h0gzv3styy",
+            "ranks": {
+              "visual": [
+                179,
+                1,
+                333
+              ],
+              "stats": [
+                1,
+                1,
+                1
+              ],
+              "stats_fusion": [
+                11,
+                1,
+                156
+              ],
+              "gpt": [
+                31,
+                31,
+                31
+              ],
+              "gpt_fusion": [
+                77,
+                1,
+                268
+              ]
+            }
+          },
+          {
+            "identity": "H24204",
+            "uid": "rlx0knkq0v",
+            "ranks": {
+              "visual": [
+                128,
+                175,
+                107
+              ],
+              "stats": [
+                56,
+                56,
+                56
+              ],
+              "stats_fusion": [
+                85,
+                112,
+                73
+              ],
+              "gpt": [
+                33,
+                33,
+                33
+              ],
+              "gpt_fusion": [
+                66,
+                89,
+                62
+              ]
+            }
+          },
+          {
+            "identity": "H5612",
+            "uid": "dhewuxyotl",
+            "ranks": {
+              "visual": [
+                9,
+                4,
+                301
+              ],
+              "stats": [
+                77,
+                77,
+                77
+              ],
+              "stats_fusion": [
+                7,
+                5,
+                241
+              ],
+              "gpt": [
+                300,
+                300,
+                300
+              ],
+              "gpt_fusion": [
+                56,
+                16,
+                324
+              ]
+            }
+          },
+          {
+            "identity": "H32411",
+            "uid": "dhewuxyotl",
+            "ranks": {
+              "visual": [
+                315,
+                1,
+                236
+              ],
+              "stats": [
+                162,
+                162,
+                162
+              ],
+              "stats_fusion": [
+                299,
+                3,
+                215
+              ],
+              "gpt": [
+                201,
+                201,
+                201
+              ],
+              "gpt_fusion": [
+                320,
+                6,
+                253
+              ]
+            }
+          },
+          {
+            "identity": "H19900",
+            "uid": "i3lktxnh52",
+            "ranks": {
+              "visual": [
+                332,
+                229,
+                38
+              ],
+              "stats": [
+                2,
+                2,
+                2
+              ],
+              "stats_fusion": [
+                211,
+                74,
+                4
+              ],
+              "gpt": [
+                2,
+                2,
+                2
+              ],
+              "gpt_fusion": [
+                141,
+                27,
+                3
+              ]
+            }
+          },
+          {
+            "identity": "H8221",
+            "uid": "jjm889wxay",
+            "ranks": {
+              "visual": [
+                246,
+                1,
+                334
+              ],
+              "stats": [
+                127,
+                127,
+                127
+              ],
+              "stats_fusion": [
+                200,
+                1,
+                293
+              ],
+              "gpt": [
+                160,
+                160,
+                160
+              ],
+              "gpt_fusion": [
+                218,
+                1,
+                302
+              ]
+            }
+          },
+          {
+            "identity": "H208",
+            "uid": "6p9s6p6wyb",
+            "ranks": {
+              "visual": [
+                12,
+                91,
+                141
+              ],
+              "stats": [
+                61,
+                61,
+                61
+              ],
+              "stats_fusion": [
+                11,
+                55,
+                87
+              ],
+              "gpt": [
+                81,
+                81,
+                81
+              ],
+              "gpt_fusion": [
+                13,
+                61,
+                93
+              ]
+            }
+          },
+          {
+            "identity": "H30552",
+            "uid": "353gxm6hd4",
+            "ranks": {
+              "visual": [
+                31,
+                43,
+                57
+              ],
+              "stats": [
+                219,
+                219,
+                219
+              ],
+              "stats_fusion": [
+                49,
+                55,
+                76
+              ],
+              "gpt": [
+                85,
+                85,
+                85
+              ],
+              "gpt_fusion": [
+                19,
+                29,
+                40
+              ]
+            }
+          },
+          {
+            "identity": "H14892",
+            "uid": "0uhj5zj3ce",
+            "ranks": {
+              "visual": [
+                342,
+                18,
+                250
+              ],
+              "stats": [
+                338,
+                338,
+                338
+              ],
+              "stats_fusion": [
+                356,
+                91,
+                315
+              ],
+              "gpt": [
+                316,
+                316,
+                316
+              ],
+              "gpt_fusion": [
+                352,
+                74,
+                299
+              ]
+            }
+          },
+          {
+            "identity": "H3068",
+            "uid": "jjm889wxay",
+            "ranks": {
+              "visual": [
+                165,
+                37,
+                322
+              ],
+              "stats": [
+                6,
+                6,
+                6
+              ],
+              "stats_fusion": [
+                50,
+                13,
+                216
+              ],
+              "gpt": [
+                1,
+                1,
+                1
+              ],
+              "gpt_fusion": [
+                3,
+                2,
+                90
+              ]
+            }
+          },
+          {
+            "identity": "H29872",
+            "uid": "mdwfmpr3c8",
+            "ranks": {
+              "visual": [
+                368,
+                3,
+                374
+              ],
+              "stats": [
+                1,
+                1,
+                1
+              ],
+              "stats_fusion": [
+                220,
+                1,
+                350
+              ],
+              "gpt": [
+                6,
+                6,
+                6
+              ],
+              "gpt_fusion": [
+                340,
+                2,
+                367
+              ]
+            }
+          },
+          {
+            "identity": "H20932",
+            "uid": "l7cyvm7kbt",
+            "ranks": {
+              "visual": [
+                375,
+                2,
+                299
+              ],
+              "stats": [
+                134,
+                134,
+                134
+              ],
+              "stats_fusion": [
+                372,
+                2,
+                258
+              ],
+              "gpt": [
+                40,
+                40,
+                40
+              ],
+              "gpt_fusion": [
+                372,
+                1,
+                210
+              ]
+            }
+          },
+          {
+            "identity": "H30431",
+            "uid": "jrzjjh3g1r",
+            "ranks": {
+              "visual": [
+                378,
+                135,
+                378
+              ],
+              "stats": [
+                52,
+                52,
+                52
+              ],
+              "stats_fusion": [
+                377,
+                87,
+                378
+              ],
+              "gpt": [
+                47,
+                47,
+                47
+              ],
+              "gpt_fusion": [
+                377,
+                83,
+                377
+              ]
+            }
+          },
+          {
+            "identity": "H22637",
+            "uid": "dhewuxyotl",
+            "ranks": {
+              "visual": [
+                40,
+                7,
+                27
+              ],
+              "stats": [
+                186,
+                186,
+                186
+              ],
+              "stats_fusion": [
+                45,
+                13,
+                44
+              ],
+              "gpt": [
+                250,
+                250,
+                250
+              ],
+              "gpt_fusion": [
+                62,
+                20,
+                65
+              ]
+            }
+          },
+          {
+            "identity": "H3230",
+            "uid": "dhewuxyotl",
+            "ranks": {
+              "visual": [
+                303,
+                1,
+                10
+              ],
+              "stats": [
+                278,
+                278,
+                278
+              ],
+              "stats_fusion": [
+                311,
+                3,
+                58
+              ],
+              "gpt": [
+                220,
+                220,
+                220
+              ],
+              "gpt_fusion": [
+                298,
+                1,
+                41
+              ]
+            }
+          },
+          {
+            "identity": "H32479",
+            "uid": "5ntior2ch1",
+            "ranks": {
+              "visual": [
+                377,
+                1,
+                372
+              ],
+              "stats": [
+                4,
+                4,
+                4
+              ],
+              "stats_fusion": [
+                280,
+                1,
+                281
+              ],
+              "gpt": [
+                1,
+                1,
+                1
+              ],
+              "gpt_fusion": [
+                261,
+                1,
+                258
+              ]
+            }
+          },
+          {
+            "identity": "H30695",
+            "uid": "353gxm6hd4",
+            "ranks": {
+              "visual": [
+                174,
+                23,
+                16
+              ],
+              "stats": [
+                153,
+                153,
+                153
+              ],
+              "stats_fusion": [
+                147,
+                22,
+                13
+              ],
+              "gpt": [
+                58,
+                58,
+                58
+              ],
+              "gpt_fusion": [
+                110,
+                12,
+                9
+              ]
+            }
+          },
+          {
+            "identity": "H427",
+            "uid": "jjm889wxay",
+            "ranks": {
+              "visual": [
+                254,
+                94,
+                190
+              ],
+              "stats": [
+                15,
+                15,
+                15
+              ],
+              "stats_fusion": [
+                130,
+                32,
+                88
+              ],
+              "gpt": [
+                18,
+                18,
+                18
+              ],
+              "gpt_fusion": [
+                97,
+                31,
+                78
+              ]
+            }
+          },
+          {
+            "identity": "H30480",
+            "uid": "c40r3zyq5t",
+            "ranks": {
+              "visual": [
+                151,
+                305,
+                338
+              ],
+              "stats": [
+                91,
+                91,
+                91
+              ],
+              "stats_fusion": [
+                94,
+                261,
+                288
+              ],
+              "gpt": [
+                145,
+                145,
+                145
+              ],
+              "gpt_fusion": [
+                109,
+                265,
+                303
+              ]
+            }
+          },
+          {
+            "identity": "H30031",
+            "uid": "c40r3zyq5t",
+            "ranks": {
+              "visual": [
+                205,
+                33,
+                271
+              ],
+              "stats": [
+                200,
+                200,
+                200
+              ],
+              "stats_fusion": [
+                188,
+                50,
+                261
+              ],
+              "gpt": [
+                216,
+                216,
+                216
+              ],
+              "gpt_fusion": [
+                196,
+                55,
+                252
+              ]
+            }
+          },
+          {
+            "identity": "H404",
+            "uid": "p77d58vew4",
+            "ranks": {
+              "visual": [
+                374,
+                129,
+                364
+              ],
+              "stats": [
+                185,
+                185,
+                185
+              ],
+              "stats_fusion": [
+                371,
+                132,
+                362
+              ],
+              "gpt": [
+                291,
+                291,
+                291
+              ],
+              "gpt_fusion": [
+                374,
+                176,
+                364
+              ]
+            }
+          },
+          {
+            "identity": "H22718",
+            "uid": "ghln7uplih",
+            "ranks": {
+              "visual": [
+                62,
+                4,
+                253
+              ],
+              "stats": [
+                122,
+                122,
+                122
+              ],
+              "stats_fusion": [
+                50,
+                2,
+                199
+              ],
+              "gpt": [
+                132,
+                132,
+                132
+              ],
+              "gpt_fusion": [
+                49,
+                4,
+                194
+              ]
+            }
+          },
+          {
+            "identity": "H24427",
+            "uid": "52a130pcmy",
+            "ranks": {
+              "visual": [
+                256,
+                158,
+                17
+              ],
+              "stats": [
+                275,
+                275,
+                275
+              ],
+              "stats_fusion": [
+                275,
+                203,
+                60
+              ],
+              "gpt": [
+                267,
+                267,
+                267
+              ],
+              "gpt_fusion": [
+                262,
+                195,
+                49
+              ]
+            }
+          }
+        ]
+      },
+      "old_replay": {
+        "summary": {
+          "visual": {
+            "n": 30,
+            "wrong_frame_top5": 0,
+            "top1": 1,
+            "gained_top1": 0,
+            "lost_top1": 0,
+            "top5": 2,
+            "gained_top5": 0,
+            "lost_top5": 0,
+            "delta_top5_pp95": [
+              0.0,
+              0.0
+            ]
+          },
+          "stats": {
+            "n": 30,
+            "wrong_frame_top5": 6,
+            "top1": 2,
+            "gained_top1": 2,
+            "lost_top1": 1,
+            "top5": 6,
+            "gained_top5": 6,
+            "lost_top5": 2,
+            "delta_top5_pp95": [
+              -3.3333333333333335,
+              30.0
+            ]
+          },
+          "stats_fusion": {
+            "n": 30,
+            "wrong_frame_top5": 2,
+            "top1": 5,
+            "gained_top1": 4,
+            "lost_top1": 0,
+            "top5": 6,
+            "gained_top5": 4,
+            "lost_top5": 0,
+            "delta_top5_pp95": [
+              3.3333333333333335,
+              26.666666666666668
+            ]
+          },
+          "gpt": {
+            "n": 30,
+            "wrong_frame_top5": 6,
+            "top1": 3,
+            "gained_top1": 3,
+            "lost_top1": 1,
+            "top5": 6,
+            "gained_top5": 6,
+            "lost_top5": 2,
+            "delta_top5_pp95": [
+              -3.3333333333333335,
+              30.0
+            ]
+          },
+          "gpt_fusion": {
+            "n": 30,
+            "wrong_frame_top5": 2,
+            "top1": 4,
+            "gained_top1": 3,
+            "lost_top1": 0,
+            "top5": 6,
+            "gained_top5": 4,
+            "lost_top5": 0,
+            "delta_top5_pp95": [
+              3.3333333333333335,
+              26.666666666666668
+            ]
+          }
+        },
+        "rows": [
+          {
+            "identity": "H14422",
+            "uid": "ch3eogm319",
+            "ranks": {
+              "visual": [
+                318,
+                233,
+                78
+              ],
+              "stats": [
+                52,
+                52,
+                52
+              ],
+              "stats_fusion": [
+                258,
+                160,
+                35
+              ],
+              "gpt": [
+                32,
+                32,
+                32
+              ],
+              "gpt_fusion": [
+                231,
+                138,
+                23
+              ]
+            }
+          },
+          {
+            "identity": "H19847",
+            "uid": "lv9rlaeib9",
+            "ranks": {
+              "visual": [
+                124,
+                40,
+                18
+              ],
+              "stats": [
+                164,
+                164,
+                164
+              ],
+              "stats_fusion": [
+                111,
+                36,
+                29
+              ],
+              "gpt": [
+                194,
+                194,
+                194
+              ],
+              "gpt_fusion": [
+                118,
+                49,
+                36
+              ]
+            }
+          },
+          {
+            "identity": "HD426",
+            "uid": "u7j8pvl5zq",
+            "ranks": {
+              "visual": [
+                340,
+                334,
+                286
+              ],
+              "stats": [
+                62,
+                62,
+                62
+              ],
+              "stats_fusion": [
+                288,
+                285,
+                226
+              ],
+              "gpt": [
+                237,
+                237,
+                237
+              ],
+              "gpt_fusion": [
+                328,
+                323,
+                283
+              ]
+            }
+          },
+          {
+            "identity": "H4139",
+            "uid": "upv9mf4trj",
+            "ranks": {
+              "visual": [
+                145,
+                264,
+                104
+              ],
+              "stats": [
+                31,
+                31,
+                31
+              ],
+              "stats_fusion": [
+                66,
+                189,
+                33
+              ],
+              "gpt": [
+                49,
+                49,
+                49
+              ],
+              "gpt_fusion": [
+                88,
+                214,
+                44
+              ]
+            }
+          },
+          {
+            "identity": "H21051",
+            "uid": "79c9fojxw0",
+            "ranks": {
+              "visual": [
+                98,
+                120,
+                21
+              ],
+              "stats": [
+                101,
+                101,
+                101
+              ],
+              "stats_fusion": [
+                79,
+                97,
+                21
+              ],
+              "gpt": [
+                191,
+                191,
+                191
+              ],
+              "gpt_fusion": [
+                96,
+                112,
+                41
+              ]
+            }
+          },
+          {
+            "identity": "H2883",
+            "uid": "bh3e3oql61",
+            "ranks": {
+              "visual": [
+                264,
+                44,
+                308
+              ],
+              "stats": [
+                2,
+                2,
+                2
+              ],
+              "stats_fusion": [
+                8,
+                1,
+                54
+              ],
+              "gpt": [
+                2,
+                2,
+                2
+              ],
+              "gpt_fusion": [
+                8,
+                1,
+                55
+              ]
+            }
+          },
+          {
+            "identity": "H15675",
+            "uid": "fd2xhqwsjk",
+            "ranks": {
+              "visual": [
+                181,
+                177,
+                74
+              ],
+              "stats": [
+                3,
+                3,
+                3
+              ],
+              "stats_fusion": [
+                38,
+                9,
+                4
+              ],
+              "gpt": [
+                1,
+                1,
+                1
+              ],
+              "gpt_fusion": [
+                34,
+                7,
+                3
+              ]
+            }
+          },
+          {
+            "identity": "HD412",
+            "uid": "xbypbgiy9z",
+            "ranks": {
+              "visual": [
+                147,
+                64,
+                340
+              ],
+              "stats": [
+                197,
+                197,
+                197
+              ],
+              "stats_fusion": [
+                156,
+                68,
+                326
+              ],
+              "gpt": [
+                282,
+                282,
+                282
+              ],
+              "gpt_fusion": [
+                221,
+                123,
+                339
+              ]
+            }
+          },
+          {
+            "identity": "H839",
+            "uid": "2sdz63p9g6",
+            "ranks": {
+              "visual": [
+                120,
+                139,
+                215
+              ],
+              "stats": [
+                247,
+                247,
+                247
+              ],
+              "stats_fusion": [
+                152,
+                171,
+                230
+              ],
+              "gpt": [
+                120,
+                120,
+                120
+              ],
+              "gpt_fusion": [
+                101,
+                97,
+                173
+              ]
+            }
+          },
+          {
+            "identity": "H7896",
+            "uid": "86d04i30jc",
+            "ranks": {
+              "visual": [
+                49,
+                32,
+                40
+              ],
+              "stats": [
+                151,
+                151,
+                151
+              ],
+              "stats_fusion": [
+                46,
+                32,
+                37
+              ],
+              "gpt": [
+                66,
+                66,
+                66
+              ],
+              "gpt_fusion": [
+                28,
+                17,
+                27
+              ]
+            }
+          },
+          {
+            "identity": "H32509",
+            "uid": "mepmffeebh",
+            "ranks": {
+              "visual": [
+                103,
+                141,
+                80
+              ],
+              "stats": [
+                343,
+                343,
+                343
+              ],
+              "stats_fusion": [
+                226,
+                270,
+                214
+              ],
+              "gpt": [
+                227,
+                227,
+                227
+              ],
+              "gpt_fusion": [
+                109,
+                159,
+                96
+              ]
+            }
+          },
+          {
+            "identity": "H32882",
+            "uid": "fmv0hxp7i5",
+            "ranks": {
+              "visual": [
+                144,
+                159,
+                216
+              ],
+              "stats": [
+                22,
+                22,
+                22
+              ],
+              "stats_fusion": [
+                62,
+                92,
+                109
+              ],
+              "gpt": [
+                9,
+                9,
+                9
+              ],
+              "gpt_fusion": [
+                33,
+                64,
+                65
+              ]
+            }
+          },
+          {
+            "identity": "H5710",
+            "uid": "lv9rlaeib9",
+            "ranks": {
+              "visual": [
+                290,
+                15,
+                91
+              ],
+              "stats": [
+                281,
+                281,
+                281
+              ],
+              "stats_fusion": [
+                302,
+                43,
+                140
+              ],
+              "gpt": [
+                256,
+                256,
+                256
+              ],
+              "gpt_fusion": [
+                293,
+                38,
+                125
+              ]
+            }
+          },
+          {
+            "identity": "H30183",
+            "uid": "bwcuiuwtaz",
+            "ranks": {
+              "visual": [
+                52,
+                10,
+                15
+              ],
+              "stats": [
+                1,
+                1,
+                1
+              ],
+              "stats_fusion": [
+                3,
+                1,
+                1
+              ],
+              "gpt": [
+                2,
+                2,
+                2
+              ],
+              "gpt_fusion": [
+                1,
+                1,
+                1
+              ]
+            }
+          },
+          {
+            "identity": "H35832",
+            "uid": "oe6xmwn3s6",
+            "ranks": {
+              "visual": [
+                348,
+                8,
+                345
+              ],
+              "stats": [
+                22,
+                22,
+                22
+              ],
+              "stats_fusion": [
+                257,
+                1,
+                253
+              ],
+              "gpt": [
+                22,
+                22,
+                22
+              ],
+              "gpt_fusion": [
+                269,
+                2,
+                268
+              ]
+            }
+          },
+          {
+            "identity": "H30524",
+            "uid": "fkhhsjy5jk",
+            "ranks": {
+              "visual": [
+                36,
+                70,
+                185
+              ],
+              "stats": [
+                292,
+                292,
+                292
+              ],
+              "stats_fusion": [
+                89,
+                123,
+                248
+              ],
+              "gpt": [
+                285,
+                285,
+                285
+              ],
+              "gpt_fusion": [
+                72,
+                102,
+                224
+              ]
+            }
+          },
+          {
+            "identity": "H3854",
+            "uid": "huoz3b61jz",
+            "ranks": {
+              "visual": [
+                274,
+                179,
+                333
+              ],
+              "stats": [
+                181,
+                181,
+                181
+              ],
+              "stats_fusion": [
+                255,
+                169,
+                319
+              ],
+              "gpt": [
+                184,
+                184,
+                184
+              ],
+              "gpt_fusion": [
+                255,
+                175,
+                311
+              ]
+            }
+          },
+          {
+            "identity": "H32175",
+            "uid": "cvzszyp6bm",
+            "ranks": {
+              "visual": [
+                134,
+                215,
+                20
+              ],
+              "stats": [
+                189,
+                189,
+                189
+              ],
+              "stats_fusion": [
+                110,
+                203,
+                29
+              ],
+              "gpt": [
+                270,
+                270,
+                270
+              ],
+              "gpt_fusion": [
+                175,
+                247,
+                67
+              ]
+            }
+          },
+          {
+            "identity": "H20689",
+            "uid": "jn8qw1nhns",
+            "ranks": {
+              "visual": [
+                79,
+                1,
+                188
+              ],
+              "stats": [
+                28,
+                28,
+                28
+              ],
+              "stats_fusion": [
+                34,
+                1,
+                95
+              ],
+              "gpt": [
+                41,
+                41,
+                41
+              ],
+              "gpt_fusion": [
+                31,
+                1,
+                107
+              ]
+            }
+          },
+          {
+            "identity": "H32047",
+            "uid": "jfc5ld8k0t",
+            "ranks": {
+              "visual": [
+                289,
+                116,
+                312
+              ],
+              "stats": [
+                5,
+                5,
+                5
+              ],
+              "stats_fusion": [
+                110,
+                8,
+                133
+              ],
+              "gpt": [
+                3,
+                3,
+                3
+              ],
+              "gpt_fusion": [
+                122,
+                13,
+                152
+              ]
+            }
+          },
+          {
+            "identity": "H20031",
+            "uid": "6vdibqvqd8",
+            "ranks": {
+              "visual": [
+                153,
+                201,
+                247
+              ],
+              "stats": [
+                1,
+                1,
+                1
+              ],
+              "stats_fusion": [
+                12,
+                33,
+                53
+              ],
+              "gpt": [
+                1,
+                1,
+                1
+              ],
+              "gpt_fusion": [
+                18,
+                54,
+                78
+              ]
+            }
+          },
+          {
+            "identity": "H3294",
+            "uid": "e8qibnliym",
+            "ranks": {
+              "visual": [
+                14,
+                118,
+                85
+              ],
+              "stats": [
+                53,
+                53,
+                53
+              ],
+              "stats_fusion": [
+                7,
+                75,
+                46
+              ],
+              "gpt": [
+                120,
+                120,
+                120
+              ],
+              "gpt_fusion": [
+                9,
+                94,
+                63
+              ]
+            }
+          },
+          {
+            "identity": "H31983",
+            "uid": "2rptsk0t7g",
+            "ranks": {
+              "visual": [
+                318,
+                346,
+                337
+              ],
+              "stats": [
+                18,
+                18,
+                18
+              ],
+              "stats_fusion": [
+                225,
+                278,
+                259
+              ],
+              "gpt": [
+                37,
+                37,
+                37
+              ],
+              "gpt_fusion": [
+                253,
+                296,
+                276
+              ]
+            }
+          },
+          {
+            "identity": "H6913",
+            "uid": "iuouekyjwj",
+            "ranks": {
+              "visual": [
+                44,
+                35,
+                108
+              ],
+              "stats": [
+                49,
+                49,
+                49
+              ],
+              "stats_fusion": [
+                22,
+                9,
+                53
+              ],
+              "gpt": [
+                59,
+                59,
+                59
+              ],
+              "gpt_fusion": [
+                20,
+                10,
+                60
+              ]
+            }
+          },
+          {
+            "identity": "H32534",
+            "uid": "g8k12dfmg6",
+            "ranks": {
+              "visual": [
+                119,
+                39,
+                188
+              ],
+              "stats": [
+                372,
+                372,
+                372
+              ],
+              "stats_fusion": [
+                314,
+                239,
+                334
+              ],
+              "gpt": [
+                358,
+                358,
+                358
+              ],
+              "gpt_fusion": [
+                251,
+                159,
+                292
+              ]
+            }
+          },
+          {
+            "identity": "H32611",
+            "uid": "nllrzldww6",
+            "ranks": {
+              "visual": [
+                191,
+                180,
+                209
+              ],
+              "stats": [
+                32,
+                32,
+                32
+              ],
+              "stats_fusion": [
+                139,
+                107,
+                121
+              ],
+              "gpt": [
+                194,
+                194,
+                194
+              ],
+              "gpt_fusion": [
+                202,
+                171,
+                200
+              ]
+            }
+          },
+          {
+            "identity": "H33059",
+            "uid": "k0pxsd02si",
+            "ranks": {
+              "visual": [
+                101,
+                351,
+                146
+              ],
+              "stats": [
+                196,
+                196,
+                196
+              ],
+              "stats_fusion": [
+                118,
+                340,
+                143
+              ],
+              "gpt": [
+                115,
+                115,
+                115
+              ],
+              "gpt_fusion": [
+                99,
+                327,
+                123
+              ]
+            }
+          },
+          {
+            "identity": "H740",
+            "uid": "cvzszyp6bm",
+            "ranks": {
+              "visual": [
+                255,
+                2,
+                87
+              ],
+              "stats": [
+                105,
+                105,
+                105
+              ],
+              "stats_fusion": [
+                214,
+                2,
+                66
+              ],
+              "gpt": [
+                81,
+                81,
+                81
+              ],
+              "gpt_fusion": [
+                222,
+                3,
+                56
+              ]
+            }
+          },
+          {
+            "identity": "H2943",
+            "uid": "ajjda965yb",
+            "ranks": {
+              "visual": [
+                196,
+                13,
+                237
+              ],
+              "stats": [
+                2,
+                2,
+                2
+              ],
+              "stats_fusion": [
+                36,
+                1,
+                50
+              ],
+              "gpt": [
+                1,
+                1,
+                1
+              ],
+              "gpt_fusion": [
+                45,
+                1,
+                64
+              ]
+            }
+          },
+          {
+            "identity": "H9078",
+            "uid": "6k62imdisa",
+            "ranks": {
+              "visual": [
+                310,
+                237,
+                320
+              ],
+              "stats": [
+                345,
+                345,
+                345
+              ],
+              "stats_fusion": [
+                344,
+                308,
+                349
+              ],
+              "gpt": [
+                351,
+                351,
+                351
+              ],
+              "gpt_fusion": [
+                349,
+                316,
+                352
+              ]
+            }
+          }
+        ]
+      },
+      "external": {
+        "summary": {
+          "visual": {
+            "n": 6,
+            "wrong_frame_top5": 1,
+            "top1": 1,
+            "gained_top1": 0,
+            "lost_top1": 0,
+            "top5": 4,
+            "gained_top5": 0,
+            "lost_top5": 0,
+            "delta_top5_pp95": [
+              0.0,
+              0.0
+            ]
+          },
+          "stats": {
+            "n": 6,
+            "wrong_frame_top5": 0,
+            "top1": 0,
+            "gained_top1": 0,
+            "lost_top1": 1,
+            "top5": 0,
+            "gained_top5": 0,
+            "lost_top5": 4,
+            "delta_top5_pp95": [
+              -100.0,
+              -33.33333333333333
+            ]
+          },
+          "stats_fusion": {
+            "n": 6,
+            "wrong_frame_top5": 1,
+            "top1": 1,
+            "gained_top1": 0,
+            "lost_top1": 0,
+            "top5": 3,
+            "gained_top5": 0,
+            "lost_top5": 1,
+            "delta_top5_pp95": [
+              -50.0,
+              0.0
+            ]
+          },
+          "gpt": {
+            "n": 6,
+            "wrong_frame_top5": 0,
+            "top1": 0,
+            "gained_top1": 0,
+            "lost_top1": 1,
+            "top5": 0,
+            "gained_top5": 0,
+            "lost_top5": 4,
+            "delta_top5_pp95": [
+              -100.0,
+              -33.33333333333333
+            ]
+          },
+          "gpt_fusion": {
+            "n": 6,
+            "wrong_frame_top5": 1,
+            "top1": 2,
+            "gained_top1": 1,
+            "lost_top1": 0,
+            "top5": 4,
+            "gained_top5": 1,
+            "lost_top5": 1,
+            "delta_top5_pp95": [
+              -50.0,
+              50.0
+            ]
+          }
+        },
+        "rows": [
+          {
+            "identity": 19907,
+            "uid": "4eiujvozyl",
+            "ranks": {
+              "visual": [
+                318,
+                45,
+                166
+              ],
+              "stats": [
+                115,
+                115,
+                115
+              ],
+              "stats_fusion": [
+                275,
+                31,
+                135
+              ],
+              "gpt": [
+                131,
+                131,
+                131
+              ],
+              "gpt_fusion": [
+                280,
+                34,
+                142
+              ]
+            }
+          },
+          {
+            "identity": 28000,
+            "uid": "bnzum9xkvt",
+            "ranks": {
+              "visual": [
+                256,
+                10,
+                215
+              ],
+              "stats": [
+                111,
+                111,
+                111
+              ],
+              "stats_fusion": [
+                215,
+                10,
+                169
+              ],
+              "gpt": [
+                33,
+                33,
+                33
+              ],
+              "gpt_fusion": [
+                171,
+                5,
+                124
+              ]
+            }
+          },
+          {
+            "identity": 20975,
+            "uid": "fd2xhqwsjk",
+            "ranks": {
+              "visual": [
+                270,
+                5,
+                249
+              ],
+              "stats": [
+                207,
+                207,
+                207
+              ],
+              "stats_fusion": [
+                268,
+                9,
+                238
+              ],
+              "gpt": [
+                168,
+                168,
+                168
+              ],
+              "gpt_fusion": [
+                244,
+                7,
+                225
+              ]
+            }
+          },
+          {
+            "identity": 8425,
+            "uid": "s9y9vbblxa",
+            "ranks": {
+              "visual": [
+                162,
+                1,
+                223
+              ],
+              "stats": [
+                137,
+                137,
+                137
+              ],
+              "stats_fusion": [
+                127,
+                1,
+                183
+              ],
+              "gpt": [
+                132,
+                132,
+                132
+              ],
+              "gpt_fusion": [
+                124,
+                1,
+                181
+              ]
+            }
+          },
+          {
+            "identity": 19773,
+            "uid": "l7cyvm7kbt",
+            "ranks": {
+              "visual": [
+                373,
+                4,
+                295
+              ],
+              "stats": [
+                166,
+                166,
+                166
+              ],
+              "stats_fusion": [
+                371,
+                3,
+                260
+              ],
+              "gpt": [
+                13,
+                13,
+                13
+              ],
+              "gpt_fusion": [
+                369,
+                1,
+                193
+              ]
+            }
+          },
+          {
+            "identity": 22274,
+            "uid": "l7cyvm7kbt",
+            "ranks": {
+              "visual": [
+                377,
+                4,
+                2
+              ],
+              "stats": [
+                141,
+                141,
+                141
+              ],
+              "stats_fusion": [
+                373,
+                3,
+                2
+              ],
+              "gpt": [
+                126,
+                126,
+                126
+              ],
+              "gpt_fusion": [
+                373,
+                3,
+                3
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

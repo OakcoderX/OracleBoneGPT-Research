@@ -1,0 +1,155 @@
+{
+  "inputs": {
+    "少见字外部候选.json": "0e30c9e208ebcd7dcfccea291994907c10790bd85bb5bb5c358b66d6f712c580",
+    "少见字首批盲测方案.md": "17227559af3d763cef1ca00c648dc8be2e7f13545a7f12b1bae393d24b1a7c8e",
+    "常见字扩库封存.json": "2f9a2ad01bf99e113f04cf77fffdb265a32b31b032a7d8f274d7454281bbca3a"
+  },
+  "cases": [
+    {
+      "bone": 371,
+      "record": "08158",
+      "image": "5878a4b97fd2c75a.jpg",
+      "sha256": "e391dfd810e52836e5f66fed26c11f41d95cf72582fc9bf2458db3f01675c6fc",
+      "plate": "https://eoracle.asia/plate_pages/vol04/v04_p0085.jpg",
+      "text": "https://eoracle.asia/text_pages/vol30/v30_p0030.jpg",
+      "uid": "nq3neh9i5i",
+      "reading": "龍",
+      "boxes": [
+        [
+          1719,
+          1404,
+          47,
+          63
+        ],
+        [
+          1701,
+          1599,
+          64,
+          100
+        ],
+        [
+          1545,
+          1597,
+          44,
+          70
+        ]
+      ],
+      "publication_boxes": [
+        [
+          611,
+          556,
+          16,
+          22
+        ],
+        [
+          608,
+          615,
+          17,
+          28
+        ],
+        [
+          562,
+          615,
+          15,
+          25
+        ]
+      ],
+      "inputs": {
+        "experiments/chronicles-audit/images/5878a4b97fd2c75a.jpg": "e391dfd810e52836e5f66fed26c11f41d95cf72582fc9bf2458db3f01675c6fc",
+        "experiments/rubbing-first/08158-plate.jpg": "adee01d1e7f2c69a9c923bf5f3fbfb5541d0a2b1fccb7dc4758fcaf47228bdf2",
+        "experiments/rubbing-first/08158-text.jpg": "1b87247f14bfde95fbc858e6046734e397a9c1ae624174b1bf95cbd5fcf1c843"
+      },
+      "note": "正面第十四辞支持龍，中央裂缝右侧近横断的龙形在原拓和摹本对应。同、且仅作异框。",
+      "training_frequency": 10
+    },
+    {
+      "bone": 4464,
+      "record": "11844",
+      "image": "de235eb46b65abab.jpg",
+      "sha256": "5042908c419830b4e9c2f3d5969e1855b9d88bdbd7cb3395fdcfd562ebcaead1",
+      "plate": "https://eoracle.asia/plate_pages/vol06/v06_p0163.jpg",
+      "text": "https://eoracle.asia/text_pages/vol30/v30_p0340.jpg",
+      "uid": "doqvaj2vzu",
+      "reading": "克",
+      "boxes": [
+        [
+          92,
+          558,
+          77,
+          131
+        ],
+        [
+          102,
+          706,
+          40,
+          128
+        ],
+        [
+          173,
+          718,
+          56,
+          69
+        ]
+      ],
+      "publication_boxes": [
+        [
+          126,
+          297,
+          26,
+          43
+        ],
+        [
+          126,
+          343,
+          18,
+          40
+        ],
+        [
+          149,
+          344,
+          23,
+          27
+        ]
+      ],
+      "inputs": {
+        "experiments/chronicles-audit/images/de235eb46b65abab.jpg": "5042908c419830b4e9c2f3d5969e1855b9d88bdbd7cb3395fdcfd562ebcaead1",
+        "experiments/rubbing-first/11844-plate.jpg": "53856fc8bd6a69084b09a8bd5d13b36495532ee4948dde64a2b8ea2b35e87a5b",
+        "experiments/rubbing-first/11844-text.jpg": "a90c708fe5bbf294362131b52df6082273892b39bb57fad859b4b80b5186ce2a"
+      },
+      "note": "左缘同簇下段克形与旁列鼎形及上框对应。出版正面前三辞均含克，不把此框推定到具体一辞。",
+      "training_frequency": 9
+    }
+  ],
+  "review": [
+    {
+      "bone": 150,
+      "record": "06265",
+      "inputs": {
+        "experiments/chronicles-audit/images/3d6635554bdc4695.jpg": "701b58f4aa885f4809f3de466cbead550ef49a6418ab8f933cd104381870dba7",
+        "experiments/rubbing-first/06265-plate.jpg": "5b12cb563acdc16abe0afeddb9fc2c499d9dcec8bb5fe4ee68096c23cac180ed",
+        "experiments/rubbing-first/06265-text.jpg": "ec2be714c76ac00bd00a468b9b6edf72a11bf606e1185990beb040902ec746c2"
+      },
+      "reason": "原图印号150反，已取得图版仅6265正，未评分。"
+    },
+    {
+      "bone": 371,
+      "record": "08158",
+      "admitted": true
+    },
+    {
+      "bone": 3521,
+      "record": "10392",
+      "inputs": {
+        "experiments/chronicles-audit/images/6e0a3fbe75a108f5.jpg": "86de89cf1ee1c331367f0000c1375ade2c7acf409aad7d18258c763009435024",
+        "experiments/rubbing-first/10392-plate.jpg": "50fcac2e2592c333b4a6022a793c1429f1e571f15bec84c03b098f94122e993d",
+        "experiments/rubbing-first/10392-text.jpg": "cf3b57f1c25157768815a080e984cabf4be22b5674cf24f3acafb7f94c2dca1a"
+      },
+      "reason": "释文未能确认所提名的唐，字框还跨断裂，未评分。"
+    },
+    {
+      "bone": 4464,
+      "record": "11844",
+      "admitted": true
+    }
+  ]
+}

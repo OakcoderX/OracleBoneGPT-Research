@@ -1,0 +1,6836 @@
+{
+  "split_seed": 20261113,
+  "training": {
+    "forward": {
+      "seed": 20261113,
+      "parameters": 174592,
+      "context": 80,
+      "width": 64,
+      "layers": 2,
+      "heads": 4,
+      "max_batch": 64,
+      "steps": 2000,
+      "lr": 0.002,
+      "optimizer": "AdamW",
+      "dtype": "float32",
+      "training_and_validation_seconds": 4.8399574579671025,
+      "selected_step": 2000,
+      "validation_nll": 3.6872828569264895,
+      "checkpoints": [
+        {
+          "step": 250,
+          "batch_nll": 4.0132365226745605,
+          "validation_nll": 4.1345786470442105,
+          "elapsed_seconds": 0.6588483329396695
+        },
+        {
+          "step": 500,
+          "batch_nll": 3.8466920852661133,
+          "validation_nll": 3.8840374143402205,
+          "elapsed_seconds": 1.2642230410128832
+        },
+        {
+          "step": 750,
+          "batch_nll": 3.9273855686187744,
+          "validation_nll": 3.7816329276309624,
+          "elapsed_seconds": 1.8578524158801883
+        },
+        {
+          "step": 1000,
+          "batch_nll": 3.502152442932129,
+          "validation_nll": 3.712887329266349,
+          "elapsed_seconds": 2.4508229999337345
+        },
+        {
+          "step": 1250,
+          "batch_nll": 3.4787449836730957,
+          "validation_nll": 3.7056671824611893,
+          "elapsed_seconds": 3.0520636660512537
+        },
+        {
+          "step": 1500,
+          "batch_nll": 3.2611308097839355,
+          "validation_nll": 3.7194093756005557,
+          "elapsed_seconds": 3.6491196248680353
+        },
+        {
+          "step": 1750,
+          "batch_nll": 3.270536184310913,
+          "validation_nll": 3.696832373347153,
+          "elapsed_seconds": 4.240405540913343
+        },
+        {
+          "step": 2000,
+          "batch_nll": 3.248554229736328,
+          "validation_nll": 3.6872828569264895,
+          "elapsed_seconds": 4.838729666080326
+        }
+      ],
+      "device": "Device(gpu, 0)",
+      "hardware": "Apple M5 Pro",
+      "mlx": "0.32.2",
+      "numpy": "2.5.3",
+      "python": "3.12.13",
+      "macos": "27.0.1",
+      "gpu": "Apple M5 Pro",
+      "sha256": "0957db7eb4f80cbc6f8ce9ea210218aef2ccc9b7a4df5b2383eec3d4658fc139"
+    },
+    "reverse": {
+      "seed": 20262013,
+      "parameters": 174592,
+      "context": 80,
+      "width": 64,
+      "layers": 2,
+      "heads": 4,
+      "max_batch": 64,
+      "steps": 2000,
+      "lr": 0.002,
+      "optimizer": "AdamW",
+      "dtype": "float32",
+      "training_and_validation_seconds": 4.734918208094314,
+      "selected_step": 2000,
+      "validation_nll": 3.4493546810690505,
+      "checkpoints": [
+        {
+          "step": 250,
+          "batch_nll": 3.456866502761841,
+          "validation_nll": 3.8368579020623774,
+          "elapsed_seconds": 0.6102714999578893
+        },
+        {
+          "step": 500,
+          "batch_nll": 3.5653672218322754,
+          "validation_nll": 3.6224378938772652,
+          "elapsed_seconds": 1.1930629999842495
+        },
+        {
+          "step": 750,
+          "batch_nll": 3.6125431060791016,
+          "validation_nll": 3.5268388579163372,
+          "elapsed_seconds": 1.7766313750762492
+        },
+        {
+          "step": 1000,
+          "batch_nll": 3.486281394958496,
+          "validation_nll": 3.482961911045693,
+          "elapsed_seconds": 2.371988916071132
+        },
+        {
+          "step": 1250,
+          "batch_nll": 2.8545355796813965,
+          "validation_nll": 3.4623782920722435,
+          "elapsed_seconds": 2.9665658329613507
+        },
+        {
+          "step": 1500,
+          "batch_nll": 2.6955814361572266,
+          "validation_nll": 3.4573356715795,
+          "elapsed_seconds": 3.5553302909247577
+        },
+        {
+          "step": 1750,
+          "batch_nll": 2.6988704204559326,
+          "validation_nll": 3.4691455512250884,
+          "elapsed_seconds": 4.14509179093875
+        },
+        {
+          "step": 2000,
+          "batch_nll": 3.0803146362304688,
+          "validation_nll": 3.4493546810690505,
+          "elapsed_seconds": 4.733720541000366
+        }
+      ],
+      "device": "Device(gpu, 0)",
+      "hardware": "Apple M5 Pro",
+      "mlx": "0.32.2",
+      "numpy": "2.5.3",
+      "python": "3.12.13",
+      "macos": "27.0.1",
+      "gpu": "Apple M5 Pro",
+      "sha256": "404a4991d8bda66b1d3a4db73fb22fbe3e83c772ee8cb27083089b7f918faa5f"
+    }
+  },
+  "results": {
+    "17": {
+      "summaries": {
+        "all": {
+          "observed": 45,
+          "five": 24,
+          "counts": {
+            "1": {
+              "gpt": [
+                8,
+                15
+              ],
+              "gpt_prior_once": [
+                8,
+                15
+              ],
+              "trigram": [
+                5,
+                14
+              ],
+              "trigram_prior_once": [
+                5,
+                14
+              ]
+            },
+            "5": {
+              "gpt": [
+                7,
+                21
+              ],
+              "gpt_prior_once": [
+                14,
+                21
+              ],
+              "trigram": [
+                7,
+                18
+              ],
+              "trigram_prior_once": [
+                12,
+                19
+              ]
+            }
+          },
+          "intervals": {
+            "gpt": [
+              5,
+              18,
+              [
+                -5.357142857142857,
+                27.27272727272727
+              ]
+            ],
+            "trigram_prior_once": [
+              5,
+              18,
+              [
+                0.0,
+                27.27272727272727
+              ]
+            ]
+          }
+        },
+        "no_seen_immediate_pair": {
+          "observed": 16,
+          "five": 4,
+          "counts": {
+            "1": {
+              "gpt": [
+                2,
+                3
+              ],
+              "gpt_prior_once": [
+                2,
+                3
+              ],
+              "trigram": [
+                0,
+                2
+              ],
+              "trigram_prior_once": [
+                0,
+                2
+              ]
+            },
+            "5": {
+              "gpt": [
+                1,
+                3
+              ],
+              "gpt_prior_once": [
+                1,
+                2
+              ],
+              "trigram": [
+                0,
+                3
+              ],
+              "trigram_prior_once": [
+                1,
+                1
+              ]
+            }
+          },
+          "intervals": {
+            "gpt": [
+              3,
+              2,
+              [
+                -100.0,
+                0.0
+              ]
+            ],
+            "trigram_prior_once": [
+              3,
+              2,
+              [
+                0.0,
+                50.0
+              ]
+            ]
+          }
+        },
+        "common": {
+          "observed": 24,
+          "five": 24,
+          "counts": {
+            "1": {
+              "gpt": [
+                8,
+                15
+              ],
+              "gpt_prior_once": [
+                8,
+                15
+              ],
+              "trigram": [
+                5,
+                14
+              ],
+              "trigram_prior_once": [
+                5,
+                14
+              ]
+            },
+            "5": {
+              "gpt": [
+                7,
+                21
+              ],
+              "gpt_prior_once": [
+                14,
+                21
+              ],
+              "trigram": [
+                7,
+                18
+              ],
+              "trigram_prior_once": [
+                12,
+                19
+              ]
+            }
+          },
+          "intervals": {
+            "gpt": [
+              5,
+              18,
+              [
+                -5.357142857142857,
+                27.27272727272727
+              ]
+            ],
+            "trigram_prior_once": [
+              5,
+              18,
+              [
+                0.0,
+                27.27272727272727
+              ]
+            ]
+          }
+        },
+        "mid": {
+          "observed": 19,
+          "five": 0,
+          "counts": {
+            "1": {
+              "gpt": [
+                0,
+                0
+              ],
+              "gpt_prior_once": [
+                0,
+                0
+              ],
+              "trigram": [
+                0,
+                0
+              ],
+              "trigram_prior_once": [
+                0,
+                0
+              ]
+            },
+            "5": {
+              "gpt": [
+                0,
+                0
+              ],
+              "gpt_prior_once": [
+                0,
+                0
+              ],
+              "trigram": [
+                0,
+                0
+              ],
+              "trigram_prior_once": [
+                0,
+                0
+              ]
+            }
+          },
+          "intervals": {}
+        },
+        "rare": {
+          "observed": 2,
+          "five": 0,
+          "counts": {
+            "1": {
+              "gpt": [
+                0,
+                0
+              ],
+              "gpt_prior_once": [
+                0,
+                0
+              ],
+              "trigram": [
+                0,
+                0
+              ],
+              "trigram_prior_once": [
+                0,
+                0
+              ]
+            },
+            "5": {
+              "gpt": [
+                0,
+                0
+              ],
+              "gpt_prior_once": [
+                0,
+                0
+              ],
+              "trigram": [
+                0,
+                0
+              ],
+              "trigram_prior_once": [
+                0,
+                0
+              ]
+            }
+          },
+          "intervals": {}
+        }
+      },
+      "rows": [
+        {
+          "uid": "1k9ogi7w79",
+          "bin": "common",
+          "frequency": 157,
+          "observations": [
+            {
+              "bone": "H3887",
+              "component": "H3887",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H5691",
+              "component": "H5691",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H14269",
+              "component": "H14269",
+              "index": 0,
+              "position": 7
+            },
+            {
+              "bone": "H21154",
+              "component": "H21154",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H26089",
+              "component": "H26089",
+              "index": 0,
+              "position": 5
+            }
+          ],
+          "both_sides": 2,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 26,
+              "gpt_prior_once": 26,
+              "trigram": 21,
+              "trigram_prior_once": 21
+            },
+            "5": {
+              "gpt": 6,
+              "gpt_prior_once": 11,
+              "trigram": 13,
+              "trigram_prior_once": 15
+            }
+          }
+        },
+        {
+          "uid": "2r051ups8k",
+          "bin": "mid",
+          "frequency": 30,
+          "observations": [
+            {
+              "bone": "H18282",
+              "component": "H18282",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H20741",
+              "component": "H20741",
+              "index": 1,
+              "position": 11
+            },
+            {
+              "bone": "H35893",
+              "component": "H35893",
+              "index": 1,
+              "position": 5
+            }
+          ],
+          "both_sides": 3,
+          "seen_pairs": 2,
+          "ranks": {
+            "1": {
+              "gpt": 2,
+              "gpt_prior_once": 2,
+              "trigram": 5,
+              "trigram_prior_once": 5
+            },
+            "3": {
+              "gpt": 2,
+              "gpt_prior_once": 2,
+              "trigram": 2,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "34ks61j1m8",
+          "bin": "mid",
+          "frequency": 10,
+          "observations": [
+            {
+              "bone": "H15857",
+              "component": "H15857",
+              "index": 0,
+              "position": 6
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 56,
+              "gpt_prior_once": 56,
+              "trigram": 52,
+              "trigram_prior_once": 52
+            }
+          }
+        },
+        {
+          "uid": "3lxxctblxe",
+          "bin": "rare",
+          "frequency": 6,
+          "observations": [
+            {
+              "bone": "H21957",
+              "component": "H21957",
+              "index": 0,
+              "position": 0
+            }
+          ],
+          "both_sides": 0,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 47,
+              "gpt_prior_once": 47,
+              "trigram": 47,
+              "trigram_prior_once": 47
+            }
+          }
+        },
+        {
+          "uid": "4lgdy5a4ta",
+          "bin": "common",
+          "frequency": 409,
+          "observations": [
+            {
+              "bone": "H79",
+              "component": "H79",
+              "index": 1,
+              "position": 1
+            },
+            {
+              "bone": "H483",
+              "component": "H483",
+              "index": 1,
+              "position": 1
+            },
+            {
+              "bone": "H1451",
+              "component": "H1451",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H3072",
+              "component": "H3072",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H3191",
+              "component": "H3191",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 4,
+          "ranks": {
+            "1": {
+              "gpt": 7,
+              "gpt_prior_once": 7,
+              "trigram": 6,
+              "trigram_prior_once": 6
+            },
+            "5": {
+              "gpt": 4,
+              "gpt_prior_once": 4,
+              "trigram": 4,
+              "trigram_prior_once": 3
+            }
+          }
+        },
+        {
+          "uid": "4r0g6bx5rc",
+          "bin": "common",
+          "frequency": 539,
+          "observations": [
+            {
+              "bone": "H971",
+              "component": "H971",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H1981",
+              "component": "H1981",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H4111",
+              "component": "H4111",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H5682",
+              "component": "H5682",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H6819",
+              "component": "H6819",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 4,
+          "seen_pairs": 4,
+          "ranks": {
+            "1": {
+              "gpt": 11,
+              "gpt_prior_once": 11,
+              "trigram": 6,
+              "trigram_prior_once": 6
+            },
+            "5": {
+              "gpt": 4,
+              "gpt_prior_once": 1,
+              "trigram": 5,
+              "trigram_prior_once": 3
+            }
+          }
+        },
+        {
+          "uid": "7gvythc7mi",
+          "bin": "common",
+          "frequency": 409,
+          "observations": [
+            {
+              "bone": "H79",
+              "component": "H79",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H747",
+              "component": "H747",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H1615",
+              "component": "H1615",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H1981",
+              "component": "H1981",
+              "index": 1,
+              "position": 1
+            },
+            {
+              "bone": "H4143",
+              "component": "H4143",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 5,
+          "ranks": {
+            "1": {
+              "gpt": 2,
+              "gpt_prior_once": 2,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            },
+            "5": {
+              "gpt": 3,
+              "gpt_prior_once": 2,
+              "trigram": 2,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "82z4h91v4r",
+          "bin": "mid",
+          "frequency": 8,
+          "observations": [
+            {
+              "bone": "H35366",
+              "component": "H35366",
+              "index": 3,
+              "position": 1
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 42,
+              "gpt_prior_once": 42,
+              "trigram": 47,
+              "trigram_prior_once": 47
+            }
+          }
+        },
+        {
+          "uid": "8gxzzbv7w8",
+          "bin": "common",
+          "frequency": 212,
+          "observations": [
+            {
+              "bone": "H6997",
+              "component": "H6997",
+              "index": 0,
+              "position": 7
+            },
+            {
+              "bone": "H14660",
+              "component": "H14660",
+              "index": 0,
+              "position": 7
+            },
+            {
+              "bone": "H15638",
+              "component": "H15638",
+              "index": 1,
+              "position": 4
+            },
+            {
+              "bone": "H15826",
+              "component": "H15826",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H25365",
+              "component": "H25365",
+              "index": 0,
+              "position": 4
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 4,
+              "trigram_prior_once": 4
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "9mg6ifqmny",
+          "bin": "rare",
+          "frequency": 8,
+          "observations": [
+            {
+              "bone": "H9547",
+              "component": "H9547",
+              "index": 0,
+              "position": 9
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 41,
+              "gpt_prior_once": 41,
+              "trigram": 51,
+              "trigram_prior_once": 51
+            }
+          }
+        },
+        {
+          "uid": "a73fq76370",
+          "bin": "mid",
+          "frequency": 14,
+          "observations": [
+            {
+              "bone": "H2722",
+              "component": "H2722",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H2724",
+              "component": "H2724",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H17062",
+              "component": "H17062",
+              "index": 0,
+              "position": 2
+            }
+          ],
+          "both_sides": 3,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 6,
+              "gpt_prior_once": 6,
+              "trigram": 11,
+              "trigram_prior_once": 11
+            },
+            "3": {
+              "gpt": 8,
+              "gpt_prior_once": 1,
+              "trigram": 16,
+              "trigram_prior_once": 4
+            }
+          }
+        },
+        {
+          "uid": "b3fudy3nhc",
+          "bin": "mid",
+          "frequency": 35,
+          "observations": [
+            {
+              "bone": "H35972",
+              "component": "H35972",
+              "index": 0,
+              "position": 3
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 37,
+              "gpt_prior_once": 37,
+              "trigram": 6,
+              "trigram_prior_once": 6
+            }
+          }
+        },
+        {
+          "uid": "csyhzui9uc",
+          "bin": "mid",
+          "frequency": 10,
+          "observations": [
+            {
+              "bone": "H661",
+              "component": "H661",
+              "index": 0,
+              "position": 8
+            },
+            {
+              "bone": "H32165",
+              "component": "H32165",
+              "index": 1,
+              "position": 5
+            },
+            {
+              "bone": "HD409",
+              "component": "HD409",
+              "index": 7,
+              "position": 6
+            }
+          ],
+          "both_sides": 2,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 48,
+              "gpt_prior_once": 48,
+              "trigram": 56,
+              "trigram_prior_once": 56
+            },
+            "3": {
+              "gpt": 41,
+              "gpt_prior_once": 33,
+              "trigram": 38,
+              "trigram_prior_once": 29
+            }
+          }
+        },
+        {
+          "uid": "dp8imn8ze4",
+          "bin": "mid",
+          "frequency": 88,
+          "observations": [
+            {
+              "bone": "H15600",
+              "component": "H15600",
+              "index": 1,
+              "position": 5
+            },
+            {
+              "bone": "H3262",
+              "component": "H3262",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H30782",
+              "component": "H30782",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "HD354",
+              "component": "HD354",
+              "index": 0,
+              "position": 4
+            }
+          ],
+          "both_sides": 4,
+          "seen_pairs": 2,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            },
+            "4": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 2,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "ev5rkbdabc",
+          "bin": "mid",
+          "frequency": 22,
+          "observations": [
+            {
+              "bone": "H169",
+              "component": "H169",
+              "index": 2,
+              "position": 1
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 6,
+              "gpt_prior_once": 6,
+              "trigram": 2,
+              "trigram_prior_once": 2
+            }
+          }
+        },
+        {
+          "uid": "ex96ntmoie",
+          "bin": "common",
+          "frequency": 107,
+          "observations": [
+            {
+              "bone": "H16",
+              "component": "H16",
+              "index": 1,
+              "position": 7
+            },
+            {
+              "bone": "H69",
+              "component": "H69",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H547",
+              "component": "H547",
+              "index": 1,
+              "position": 3
+            },
+            {
+              "bone": "H2922",
+              "component": "H2922",
+              "index": 1,
+              "position": 6
+            },
+            {
+              "bone": "H3242",
+              "component": "H3242",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 35,
+              "gpt_prior_once": 35,
+              "trigram": 20,
+              "trigram_prior_once": 20
+            },
+            "5": {
+              "gpt": 5,
+              "gpt_prior_once": 1,
+              "trigram": 3,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "ffv6ygenkg",
+          "bin": "mid",
+          "frequency": 12,
+          "observations": [
+            {
+              "bone": "H16796",
+              "component": "H16796",
+              "index": 2,
+              "position": 2
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 37,
+              "gpt_prior_once": 37,
+              "trigram": 41,
+              "trigram_prior_once": 41
+            }
+          }
+        },
+        {
+          "uid": "fmdym8mxmv",
+          "bin": "common",
+          "frequency": 198,
+          "observations": [
+            {
+              "bone": "H3242",
+              "component": "H3242",
+              "index": 2,
+              "position": 3
+            },
+            {
+              "bone": "H6819",
+              "component": "H6819",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H19462",
+              "component": "H19462",
+              "index": 1,
+              "position": 1
+            },
+            {
+              "bone": "H23066",
+              "component": "H23066",
+              "index": 0,
+              "position": 7
+            },
+            {
+              "bone": "H21641",
+              "component": "H21641",
+              "index": 0,
+              "position": 4
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 3,
+          "ranks": {
+            "1": {
+              "gpt": 6,
+              "gpt_prior_once": 6,
+              "trigram": 16,
+              "trigram_prior_once": 16
+            },
+            "5": {
+              "gpt": 4,
+              "gpt_prior_once": 1,
+              "trigram": 12,
+              "trigram_prior_once": 5
+            }
+          }
+        },
+        {
+          "uid": "fmv0hxp7i5",
+          "bin": "mid",
+          "frequency": 36,
+          "observations": [
+            {
+              "bone": "H10409",
+              "component": "H10409",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H33208",
+              "component": "H33208",
+              "index": 6,
+              "position": 0
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 6,
+              "gpt_prior_once": 6,
+              "trigram": 9,
+              "trigram_prior_once": 9
+            },
+            "2": {
+              "gpt": 9,
+              "gpt_prior_once": 3,
+              "trigram": 15,
+              "trigram_prior_once": 2
+            }
+          }
+        },
+        {
+          "uid": "fom5bv844r",
+          "bin": "common",
+          "frequency": 119,
+          "observations": [
+            {
+              "bone": "H5671",
+              "component": "H5671",
+              "index": 0,
+              "position": 12
+            },
+            {
+              "bone": "H14269",
+              "component": "H14269",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H14836",
+              "component": "H14836",
+              "index": 0,
+              "position": 8
+            },
+            {
+              "bone": "H15358",
+              "component": "H15358",
+              "index": 0,
+              "position": 8
+            },
+            {
+              "bone": "H20741",
+              "component": "H20741",
+              "index": 1,
+              "position": 8
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 2,
+          "ranks": {
+            "1": {
+              "gpt": 10,
+              "gpt_prior_once": 10,
+              "trigram": 19,
+              "trigram_prior_once": 19
+            },
+            "5": {
+              "gpt": 13,
+              "gpt_prior_once": 11,
+              "trigram": 16,
+              "trigram_prior_once": 6
+            }
+          }
+        },
+        {
+          "uid": "ftj0qy2f7b",
+          "bin": "common",
+          "frequency": 1083,
+          "observations": [
+            {
+              "bone": "H2612",
+              "component": "H2612",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H10372",
+              "component": "H10372",
+              "index": 0,
+              "position": 12
+            },
+            {
+              "bone": "H11775",
+              "component": "H11775",
+              "index": 0,
+              "position": 8
+            },
+            {
+              "bone": "H11810",
+              "component": "H11810",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H11850",
+              "component": "H11850",
+              "index": 0,
+              "position": 6
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 4,
+              "trigram_prior_once": 4
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 13,
+              "trigram": 3,
+              "trigram_prior_once": 13
+            }
+          }
+        },
+        {
+          "uid": "g7a146vwlb",
+          "bin": "mid",
+          "frequency": 15,
+          "observations": [
+            {
+              "bone": "H3022",
+              "component": "H3022",
+              "index": 0,
+              "position": 2
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 9,
+              "gpt_prior_once": 9,
+              "trigram": 9,
+              "trigram_prior_once": 9
+            }
+          }
+        },
+        {
+          "uid": "gaf7rmekoj",
+          "bin": "mid",
+          "frequency": 27,
+          "observations": [
+            {
+              "bone": "H14660",
+              "component": "H14660",
+              "index": 0,
+              "position": 5
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 7,
+              "trigram_prior_once": 7
+            }
+          }
+        },
+        {
+          "uid": "ghln7uplih",
+          "bin": "common",
+          "frequency": 442,
+          "observations": [
+            {
+              "bone": "H22993",
+              "component": "H22993",
+              "index": 0,
+              "position": 7
+            },
+            {
+              "bone": "H23097",
+              "component": "H23097",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H23099",
+              "component": "H23099",
+              "index": 1,
+              "position": 7
+            },
+            {
+              "bone": "H23366",
+              "component": "H23366",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H23425",
+              "component": "H23425",
+              "index": 1,
+              "position": 2
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 2,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 2,
+              "trigram_prior_once": 2
+            },
+            "5": {
+              "gpt": 2,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "h0gzv3styy",
+          "bin": "common",
+          "frequency": 4124,
+          "observations": [
+            {
+              "bone": "H16",
+              "component": "H16",
+              "index": 1,
+              "position": 2
+            },
+            {
+              "bone": "H17",
+              "component": "H17",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H128",
+              "component": "H128",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H515",
+              "component": "H515",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H747",
+              "component": "H747",
+              "index": 0,
+              "position": 2
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 4,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "hftl4m18q0",
+          "bin": "common",
+          "frequency": 2121,
+          "observations": [
+            {
+              "bone": "H747",
+              "component": "H747",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H1358",
+              "component": "H1358",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H1746",
+              "component": "H1746",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H5087",
+              "component": "H5087",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H5182",
+              "component": "H5182",
+              "index": 1,
+              "position": 4
+            }
+          ],
+          "both_sides": 4,
+          "seen_pairs": 4,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 2,
+              "trigram_prior_once": 2
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "jbgbxt897u",
+          "bin": "common",
+          "frequency": 890,
+          "observations": [
+            {
+              "bone": "H1265",
+              "component": "H1265",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H1563",
+              "component": "H1563",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H1615",
+              "component": "H1615",
+              "index": 0,
+              "position": 8
+            },
+            {
+              "bone": "H1637",
+              "component": "H1637",
+              "index": 1,
+              "position": 1
+            },
+            {
+              "bone": "H1672",
+              "component": "H1672",
+              "index": 0,
+              "position": 10
+            }
+          ],
+          "both_sides": 4,
+          "seen_pairs": 3,
+          "ranks": {
+            "1": {
+              "gpt": 2,
+              "gpt_prior_once": 2,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "lp8x647qo2",
+          "bin": "common",
+          "frequency": 499,
+          "observations": [
+            {
+              "bone": "H483",
+              "component": "H483",
+              "index": 1,
+              "position": 0
+            },
+            {
+              "bone": "H1867",
+              "component": "H1867",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H2848",
+              "component": "H2848",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H3813",
+              "component": "H3813",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H4072",
+              "component": "H4072",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 3,
+          "seen_pairs": 2,
+          "ranks": {
+            "1": {
+              "gpt": 11,
+              "gpt_prior_once": 11,
+              "trigram": 8,
+              "trigram_prior_once": 8
+            },
+            "5": {
+              "gpt": 2,
+              "gpt_prior_once": 1,
+              "trigram": 4,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "lzfy8o1b7b",
+          "bin": "mid",
+          "frequency": 17,
+          "observations": [
+            {
+              "bone": "H10480",
+              "component": "H10480",
+              "index": 0,
+              "position": 5
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 18,
+              "gpt_prior_once": 18,
+              "trigram": 33,
+              "trigram_prior_once": 33
+            }
+          }
+        },
+        {
+          "uid": "m2w1k92a5a",
+          "bin": "common",
+          "frequency": 603,
+          "observations": [
+            {
+              "bone": "H7",
+              "component": "H7",
+              "index": 1,
+              "position": 0
+            },
+            {
+              "bone": "H16",
+              "component": "H16",
+              "index": 1,
+              "position": 0
+            },
+            {
+              "bone": "H17",
+              "component": "H17",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H214",
+              "component": "H214",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H971",
+              "component": "H971",
+              "index": 0,
+              "position": 0
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 2,
+              "trigram_prior_once": 2
+            },
+            "5": {
+              "gpt": 2,
+              "gpt_prior_once": 2,
+              "trigram": 3,
+              "trigram_prior_once": 8
+            }
+          }
+        },
+        {
+          "uid": "nllrzldww6",
+          "bin": "mid",
+          "frequency": 55,
+          "observations": [
+            {
+              "bone": "H23441",
+              "component": "H23441",
+              "index": 0,
+              "position": 9
+            },
+            {
+              "bone": "HD237",
+              "component": "HD237",
+              "index": 11,
+              "position": 4
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 25,
+              "gpt_prior_once": 25,
+              "trigram": 40,
+              "trigram_prior_once": 40
+            },
+            "2": {
+              "gpt": 5,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "p6uj3n0aze",
+          "bin": "common",
+          "frequency": 138,
+          "observations": [
+            {
+              "bone": "H66",
+              "component": "H66",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H3069",
+              "component": "H3069",
+              "index": 1,
+              "position": 4
+            },
+            {
+              "bone": "H5199",
+              "component": "H5199",
+              "index": 0,
+              "position": 9
+            },
+            {
+              "bone": "H5827",
+              "component": "H5827",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H6414",
+              "component": "H6414",
+              "index": 0,
+              "position": 3
+            }
+          ],
+          "both_sides": 4,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 2,
+              "gpt_prior_once": 2,
+              "trigram": 4,
+              "trigram_prior_once": 4
+            },
+            "5": {
+              "gpt": 2,
+              "gpt_prior_once": 1,
+              "trigram": 9,
+              "trigram_prior_once": 2
+            }
+          }
+        },
+        {
+          "uid": "pzvzykmf5e",
+          "bin": "common",
+          "frequency": 104,
+          "observations": [
+            {
+              "bone": "H10561",
+              "component": "H10561",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H20741",
+              "component": "H20741",
+              "index": 2,
+              "position": 5
+            },
+            {
+              "bone": "H10564",
+              "component": "H10564",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H30122",
+              "component": "H30122",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H31969",
+              "component": "H31969",
+              "index": 0,
+              "position": 6
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 2,
+          "ranks": {
+            "1": {
+              "gpt": 6,
+              "gpt_prior_once": 6,
+              "trigram": 6,
+              "trigram_prior_once": 6
+            },
+            "5": {
+              "gpt": 8,
+              "gpt_prior_once": 5,
+              "trigram": 17,
+              "trigram_prior_once": 7
+            }
+          }
+        },
+        {
+          "uid": "q71z8tnnc6",
+          "bin": "common",
+          "frequency": 632,
+          "observations": [
+            {
+              "bone": "H17",
+              "component": "H17",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H4004",
+              "component": "H4004",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H4159",
+              "component": "H4159",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H5336",
+              "component": "H5336",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H6954",
+              "component": "H6954",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 4,
+          "ranks": {
+            "1": {
+              "gpt": 12,
+              "gpt_prior_once": 12,
+              "trigram": 4,
+              "trigram_prior_once": 4
+            },
+            "5": {
+              "gpt": 3,
+              "gpt_prior_once": 2,
+              "trigram": 4,
+              "trigram_prior_once": 2
+            }
+          }
+        },
+        {
+          "uid": "qmvfvw99v9",
+          "bin": "common",
+          "frequency": 1876,
+          "observations": [
+            {
+              "bone": "H16",
+              "component": "H16",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H107",
+              "component": "H107",
+              "index": 1,
+              "position": 2
+            },
+            {
+              "bone": "H169",
+              "component": "H169",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H335",
+              "component": "H335",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H529",
+              "component": "H529",
+              "index": 0,
+              "position": 4
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 2,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "r79attbhro",
+          "bin": "common",
+          "frequency": 388,
+          "observations": [
+            {
+              "bone": "H859",
+              "component": "H859",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H4072",
+              "component": "H4072",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H6799",
+              "component": "H6799",
+              "index": 1,
+              "position": 1
+            },
+            {
+              "bone": "H9339",
+              "component": "H9339",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H10409",
+              "component": "H10409",
+              "index": 1,
+              "position": 1
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 4,
+          "ranks": {
+            "1": {
+              "gpt": 5,
+              "gpt_prior_once": 5,
+              "trigram": 4,
+              "trigram_prior_once": 4
+            },
+            "5": {
+              "gpt": 4,
+              "gpt_prior_once": 4,
+              "trigram": 7,
+              "trigram_prior_once": 3
+            }
+          }
+        },
+        {
+          "uid": "rc6s5fhd2k",
+          "bin": "common",
+          "frequency": 183,
+          "observations": [
+            {
+              "bone": "H214",
+              "component": "H214",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H3242",
+              "component": "H3242",
+              "index": 0,
+              "position": 7
+            },
+            {
+              "bone": "H6662",
+              "component": "H6662",
+              "index": 0,
+              "position": 9
+            },
+            {
+              "bone": "H8328",
+              "component": "H8328",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H10030",
+              "component": "H10030",
+              "index": 0,
+              "position": 8
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 2,
+              "gpt_prior_once": 2,
+              "trigram": 5,
+              "trigram_prior_once": 5
+            },
+            "5": {
+              "gpt": 3,
+              "gpt_prior_once": 1,
+              "trigram": 4,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "rzfokwkc7a",
+          "bin": "common",
+          "frequency": 397,
+          "observations": [
+            {
+              "bone": "H169",
+              "component": "H169",
+              "index": 4,
+              "position": 4
+            },
+            {
+              "bone": "H1404",
+              "component": "H1404",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H4331",
+              "component": "H4331",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H11810",
+              "component": "H11810",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H12829",
+              "component": "H12829",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 4,
+          "ranks": {
+            "1": {
+              "gpt": 5,
+              "gpt_prior_once": 5,
+              "trigram": 7,
+              "trigram_prior_once": 7
+            },
+            "5": {
+              "gpt": 2,
+              "gpt_prior_once": 1,
+              "trigram": 5,
+              "trigram_prior_once": 4
+            }
+          }
+        },
+        {
+          "uid": "s9y9vbblxa",
+          "bin": "common",
+          "frequency": 462,
+          "observations": [
+            {
+              "bone": "H1265",
+              "component": "H1265",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H1404",
+              "component": "H1404",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H1451",
+              "component": "H1451",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H1615",
+              "component": "H1615",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H1672",
+              "component": "H1672",
+              "index": 0,
+              "position": 3
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 2,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 2,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "sbjf4foazl",
+          "bin": "mid",
+          "frequency": 33,
+          "observations": [
+            {
+              "bone": "H19472",
+              "component": "H19472",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H19984",
+              "component": "H19984",
+              "index": 0,
+              "position": 5
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 25,
+              "gpt_prior_once": 25,
+              "trigram": 8,
+              "trigram_prior_once": 8
+            },
+            "2": {
+              "gpt": 24,
+              "gpt_prior_once": 8,
+              "trigram": 12,
+              "trigram_prior_once": 2
+            }
+          }
+        },
+        {
+          "uid": "shksxlt8ok",
+          "bin": "mid",
+          "frequency": 7,
+          "observations": [
+            {
+              "bone": "H8315",
+              "component": "H8315",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H8317",
+              "component": "H8317",
+              "index": 1,
+              "position": 1
+            }
+          ],
+          "both_sides": 2,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 54,
+              "gpt_prior_once": 54,
+              "trigram": 39,
+              "trigram_prior_once": 39
+            },
+            "2": {
+              "gpt": 47,
+              "gpt_prior_once": 44,
+              "trigram": 39,
+              "trigram_prior_once": 36
+            }
+          }
+        },
+        {
+          "uid": "vgdnx3zrkn",
+          "bin": "mid",
+          "frequency": 21,
+          "observations": [
+            {
+              "bone": "H30216",
+              "component": "H30216",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 0,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 46,
+              "gpt_prior_once": 46,
+              "trigram": 54,
+              "trigram_prior_once": 54
+            }
+          }
+        },
+        {
+          "uid": "xlscyddubk",
+          "bin": "common",
+          "frequency": 158,
+          "observations": [
+            {
+              "bone": "H16",
+              "component": "H16",
+              "index": 1,
+              "position": 9
+            },
+            {
+              "bone": "H214",
+              "component": "H214",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H10361",
+              "component": "H10361",
+              "index": 1,
+              "position": 4
+            },
+            {
+              "bone": "H26074",
+              "component": "H26074",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H26085",
+              "component": "H26085",
+              "index": 0,
+              "position": 4
+            }
+          ],
+          "both_sides": 4,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 5,
+              "gpt_prior_once": 5,
+              "trigram": 15,
+              "trigram_prior_once": 15
+            },
+            "5": {
+              "gpt": 4,
+              "gpt_prior_once": 1,
+              "trigram": 5,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "xnaggs7qe3",
+          "bin": "mid",
+          "frequency": 13,
+          "observations": [
+            {
+              "bone": "H14376",
+              "component": "H14376",
+              "index": 0,
+              "position": 2
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 46,
+              "gpt_prior_once": 46,
+              "trigram": 40,
+              "trigram_prior_once": 40
+            }
+          }
+        },
+        {
+          "uid": "yunhitgxgx",
+          "bin": "mid",
+          "frequency": 10,
+          "observations": [
+            {
+              "bone": "H33208",
+              "component": "H33208",
+              "index": 0,
+              "position": 6
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 25,
+              "gpt_prior_once": 25,
+              "trigram": 42,
+              "trigram_prior_once": 42
+            }
+          }
+        }
+      ],
+      "training_oov_candidates": []
+    },
+    "29": {
+      "summaries": {
+        "all": {
+          "observed": 44,
+          "five": 29,
+          "counts": {
+            "1": {
+              "gpt": [
+                9,
+                20
+              ],
+              "gpt_prior_once": [
+                9,
+                20
+              ],
+              "trigram": [
+                7,
+                17
+              ],
+              "trigram_prior_once": [
+                7,
+                17
+              ]
+            },
+            "5": {
+              "gpt": [
+                13,
+                25
+              ],
+              "gpt_prior_once": [
+                19,
+                27
+              ],
+              "trigram": [
+                6,
+                22
+              ],
+              "trigram_prior_once": [
+                16,
+                25
+              ]
+            }
+          },
+          "intervals": {
+            "gpt": [
+              5,
+              25,
+              [
+                0.0,
+                7.792207792207792
+              ]
+            ],
+            "trigram_prior_once": [
+              5,
+              25,
+              [
+                -40.0,
+                40.0
+              ]
+            ]
+          }
+        },
+        "no_seen_immediate_pair": {
+          "observed": 10,
+          "five": 2,
+          "counts": {
+            "1": {
+              "gpt": [
+                1,
+                2
+              ],
+              "gpt_prior_once": [
+                1,
+                2
+              ],
+              "trigram": [
+                1,
+                1
+              ],
+              "trigram_prior_once": [
+                1,
+                1
+              ]
+            },
+            "5": {
+              "gpt": [
+                2,
+                2
+              ],
+              "gpt_prior_once": [
+                2,
+                2
+              ],
+              "trigram": [
+                0,
+                2
+              ],
+              "trigram_prior_once": [
+                1,
+                2
+              ]
+            }
+          },
+          "intervals": {
+            "gpt": [
+              2,
+              1,
+              [
+                0.0,
+                0.0
+              ]
+            ],
+            "trigram_prior_once": [
+              2,
+              1,
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        "common": {
+          "observed": 24,
+          "five": 24,
+          "counts": {
+            "1": {
+              "gpt": [
+                9,
+                19
+              ],
+              "gpt_prior_once": [
+                9,
+                19
+              ],
+              "trigram": [
+                7,
+                16
+              ],
+              "trigram_prior_once": [
+                7,
+                16
+              ]
+            },
+            "5": {
+              "gpt": [
+                12,
+                23
+              ],
+              "gpt_prior_once": [
+                16,
+                24
+              ],
+              "trigram": [
+                6,
+                20
+              ],
+              "trigram_prior_once": [
+                13,
+                21
+              ]
+            }
+          },
+          "intervals": {
+            "gpt": [
+              3,
+              22,
+              [
+                0.0,
+                4.545454545454546
+              ]
+            ],
+            "trigram_prior_once": [
+              3,
+              22,
+              [
+                0.0,
+                100.0
+              ]
+            ]
+          }
+        },
+        "mid": {
+          "observed": 20,
+          "five": 5,
+          "counts": {
+            "1": {
+              "gpt": [
+                0,
+                1
+              ],
+              "gpt_prior_once": [
+                0,
+                1
+              ],
+              "trigram": [
+                0,
+                1
+              ],
+              "trigram_prior_once": [
+                0,
+                1
+              ]
+            },
+            "5": {
+              "gpt": [
+                1,
+                2
+              ],
+              "gpt_prior_once": [
+                3,
+                3
+              ],
+              "trigram": [
+                0,
+                2
+              ],
+              "trigram_prior_once": [
+                3,
+                4
+              ]
+            }
+          },
+          "intervals": {
+            "gpt": [
+              4,
+              2,
+              [
+                0.0,
+                42.857142857142854
+              ]
+            ],
+            "trigram_prior_once": [
+              4,
+              2,
+              [
+                -75.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        "rare": {
+          "observed": 0,
+          "five": 0,
+          "counts": {
+            "1": {
+              "gpt": [
+                0,
+                0
+              ],
+              "gpt_prior_once": [
+                0,
+                0
+              ],
+              "trigram": [
+                0,
+                0
+              ],
+              "trigram_prior_once": [
+                0,
+                0
+              ]
+            },
+            "5": {
+              "gpt": [
+                0,
+                0
+              ],
+              "gpt_prior_once": [
+                0,
+                0
+              ],
+              "trigram": [
+                0,
+                0
+              ],
+              "trigram_prior_once": [
+                0,
+                0
+              ]
+            }
+          },
+          "intervals": {}
+        }
+      },
+      "rows": [
+        {
+          "uid": "4jn67lbqhb",
+          "bin": "common",
+          "frequency": 223,
+          "observations": [
+            {
+              "bone": "H107",
+              "component": "H107",
+              "index": 1,
+              "position": 1
+            },
+            {
+              "bone": "H5834",
+              "component": "H5834",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H6662",
+              "component": "H6662",
+              "index": 0,
+              "position": 11
+            },
+            {
+              "bone": "H6755",
+              "component": "H6755",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H6956",
+              "component": "H6956",
+              "index": 1,
+              "position": 1
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 3,
+          "ranks": {
+            "1": {
+              "gpt": 2,
+              "gpt_prior_once": 2,
+              "trigram": 2,
+              "trigram_prior_once": 2
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 2,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "4lgdy5a4ta",
+          "bin": "common",
+          "frequency": 409,
+          "observations": [
+            {
+              "bone": "H79",
+              "component": "H79",
+              "index": 1,
+              "position": 1
+            },
+            {
+              "bone": "H483",
+              "component": "H483",
+              "index": 1,
+              "position": 1
+            },
+            {
+              "bone": "H1451",
+              "component": "H1451",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H3072",
+              "component": "H3072",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H3191",
+              "component": "H3191",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 4,
+          "ranks": {
+            "1": {
+              "gpt": 7,
+              "gpt_prior_once": 7,
+              "trigram": 6,
+              "trigram_prior_once": 6
+            },
+            "5": {
+              "gpt": 4,
+              "gpt_prior_once": 2,
+              "trigram": 6,
+              "trigram_prior_once": 5
+            }
+          }
+        },
+        {
+          "uid": "4r0g6bx5rc",
+          "bin": "common",
+          "frequency": 539,
+          "observations": [
+            {
+              "bone": "H971",
+              "component": "H971",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H1981",
+              "component": "H1981",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H4111",
+              "component": "H4111",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H5682",
+              "component": "H5682",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H6819",
+              "component": "H6819",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 4,
+          "seen_pairs": 4,
+          "ranks": {
+            "1": {
+              "gpt": 3,
+              "gpt_prior_once": 3,
+              "trigram": 5,
+              "trigram_prior_once": 5
+            },
+            "5": {
+              "gpt": 3,
+              "gpt_prior_once": 1,
+              "trigram": 5,
+              "trigram_prior_once": 3
+            }
+          }
+        },
+        {
+          "uid": "66iowpdbuc",
+          "bin": "common",
+          "frequency": 404,
+          "observations": [
+            {
+              "bone": "H1615",
+              "component": "H1615",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H2946",
+              "component": "H2946",
+              "index": 0,
+              "position": 10
+            },
+            {
+              "bone": "H14660",
+              "component": "H14660",
+              "index": 0,
+              "position": 8
+            },
+            {
+              "bone": "H15612",
+              "component": "H15612",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H15638",
+              "component": "H15638",
+              "index": 1,
+              "position": 3
+            }
+          ],
+          "both_sides": 2,
+          "seen_pairs": 2,
+          "ranks": {
+            "1": {
+              "gpt": 2,
+              "gpt_prior_once": 2,
+              "trigram": 5,
+              "trigram_prior_once": 5
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "7es6m890l4",
+          "bin": "mid",
+          "frequency": 101,
+          "observations": [
+            {
+              "bone": "H23097",
+              "component": "H23097",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "HD401",
+              "component": "HD401",
+              "index": 11,
+              "position": 15
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 4,
+              "gpt_prior_once": 4,
+              "trigram": 5,
+              "trigram_prior_once": 5
+            },
+            "2": {
+              "gpt": 13,
+              "gpt_prior_once": 7,
+              "trigram": 8,
+              "trigram_prior_once": 3
+            }
+          }
+        },
+        {
+          "uid": "81cqeht6m8",
+          "bin": "mid",
+          "frequency": 25,
+          "observations": [
+            {
+              "bone": "H2824",
+              "component": "H2824",
+              "index": 2,
+              "position": 4
+            },
+            {
+              "bone": "H7393",
+              "component": "H7393",
+              "index": 0,
+              "position": 4
+            }
+          ],
+          "both_sides": 2,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 47,
+              "gpt_prior_once": 47,
+              "trigram": 13,
+              "trigram_prior_once": 13
+            },
+            "2": {
+              "gpt": 20,
+              "gpt_prior_once": 12,
+              "trigram": 2,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "a1lmo1xxj5",
+          "bin": "common",
+          "frequency": 796,
+          "observations": [
+            {
+              "bone": "H515",
+              "component": "H515",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H733",
+              "component": "H733",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H1451",
+              "component": "H1451",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H1615",
+              "component": "H1615",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H1803",
+              "component": "H1803",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 3,
+          "seen_pairs": 2,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "akl0kdke8r",
+          "bin": "mid",
+          "frequency": 11,
+          "observations": [
+            {
+              "bone": "H3191",
+              "component": "H3191",
+              "index": 0,
+              "position": 4
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 32,
+              "gpt_prior_once": 32,
+              "trigram": 51,
+              "trigram_prior_once": 51
+            }
+          }
+        },
+        {
+          "uid": "ay8mkydpb2",
+          "bin": "common",
+          "frequency": 736,
+          "observations": [
+            {
+              "bone": "H7",
+              "component": "H7",
+              "index": 1,
+              "position": 1
+            },
+            {
+              "bone": "H1938",
+              "component": "H1938",
+              "index": 1,
+              "position": 1
+            },
+            {
+              "bone": "H5199",
+              "component": "H5199",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H5834",
+              "component": "H5834",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H6934",
+              "component": "H6934",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 4,
+          "ranks": {
+            "1": {
+              "gpt": 2,
+              "gpt_prior_once": 2,
+              "trigram": 6,
+              "trigram_prior_once": 6
+            },
+            "5": {
+              "gpt": 2,
+              "gpt_prior_once": 2,
+              "trigram": 1,
+              "trigram_prior_once": 3
+            }
+          }
+        },
+        {
+          "uid": "ctejf56of8",
+          "bin": "mid",
+          "frequency": 56,
+          "observations": [
+            {
+              "bone": "H1803",
+              "component": "H1803",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H6799",
+              "component": "H6799",
+              "index": 1,
+              "position": 2
+            },
+            {
+              "bone": "H20326",
+              "component": "H20326",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H20333",
+              "component": "H20333",
+              "index": 0,
+              "position": 4
+            }
+          ],
+          "both_sides": 3,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 6,
+              "gpt_prior_once": 6,
+              "trigram": 2,
+              "trigram_prior_once": 2
+            },
+            "4": {
+              "gpt": 4,
+              "gpt_prior_once": 1,
+              "trigram": 5,
+              "trigram_prior_once": 2
+            }
+          }
+        },
+        {
+          "uid": "d9r8vouxue",
+          "bin": "mid",
+          "frequency": 78,
+          "observations": [
+            {
+              "bone": "H5087",
+              "component": "H5087",
+              "index": 0,
+              "position": 7
+            },
+            {
+              "bone": "H10372",
+              "component": "H10372",
+              "index": 0,
+              "position": 8
+            },
+            {
+              "bone": "H11461",
+              "component": "H11461",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H13473",
+              "component": "H13473",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H13477",
+              "component": "H13477",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 4,
+          "seen_pairs": 2,
+          "ranks": {
+            "1": {
+              "gpt": 8,
+              "gpt_prior_once": 8,
+              "trigram": 22,
+              "trigram_prior_once": 22
+            },
+            "5": {
+              "gpt": 8,
+              "gpt_prior_once": 1,
+              "trigram": 17,
+              "trigram_prior_once": 4
+            }
+          }
+        },
+        {
+          "uid": "em9wf77jqc",
+          "bin": "mid",
+          "frequency": 21,
+          "observations": [
+            {
+              "bone": "H128",
+              "component": "H128",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H4484",
+              "component": "H4484",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H19439",
+              "component": "H19439",
+              "index": 1,
+              "position": 2
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 3,
+              "gpt_prior_once": 3,
+              "trigram": 12,
+              "trigram_prior_once": 12
+            },
+            "3": {
+              "gpt": 3,
+              "gpt_prior_once": 1,
+              "trigram": 2,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "ev5rkbdabc",
+          "bin": "mid",
+          "frequency": 22,
+          "observations": [
+            {
+              "bone": "H169",
+              "component": "H169",
+              "index": 2,
+              "position": 1
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 6,
+              "gpt_prior_once": 6,
+              "trigram": 2,
+              "trigram_prior_once": 2
+            }
+          }
+        },
+        {
+          "uid": "ex96ntmoie",
+          "bin": "common",
+          "frequency": 107,
+          "observations": [
+            {
+              "bone": "H16",
+              "component": "H16",
+              "index": 1,
+              "position": 7
+            },
+            {
+              "bone": "H69",
+              "component": "H69",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H547",
+              "component": "H547",
+              "index": 1,
+              "position": 3
+            },
+            {
+              "bone": "H2922",
+              "component": "H2922",
+              "index": 1,
+              "position": 6
+            },
+            {
+              "bone": "H3242",
+              "component": "H3242",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 38,
+              "gpt_prior_once": 38,
+              "trigram": 23,
+              "trigram_prior_once": 23
+            },
+            "5": {
+              "gpt": 3,
+              "gpt_prior_once": 2,
+              "trigram": 2,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "fd2xhqwsjk",
+          "bin": "mid",
+          "frequency": 49,
+          "observations": [
+            {
+              "bone": "H169",
+              "component": "H169",
+              "index": 2,
+              "position": 3
+            },
+            {
+              "bone": "H5087",
+              "component": "H5087",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H12829",
+              "component": "H12829",
+              "index": 0,
+              "position": 7
+            },
+            {
+              "bone": "H19332",
+              "component": "H19332",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H33208",
+              "component": "H33208",
+              "index": 0,
+              "position": 4
+            }
+          ],
+          "both_sides": 4,
+          "seen_pairs": 2,
+          "ranks": {
+            "1": {
+              "gpt": 4,
+              "gpt_prior_once": 4,
+              "trigram": 3,
+              "trigram_prior_once": 3
+            },
+            "5": {
+              "gpt": 2,
+              "gpt_prior_once": 1,
+              "trigram": 2,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "ffv6ygenkg",
+          "bin": "mid",
+          "frequency": 12,
+          "observations": [
+            {
+              "bone": "H16796",
+              "component": "H16796",
+              "index": 2,
+              "position": 2
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 39,
+              "gpt_prior_once": 39,
+              "trigram": 47,
+              "trigram_prior_once": 47
+            }
+          }
+        },
+        {
+          "uid": "fmdym8mxmv",
+          "bin": "common",
+          "frequency": 198,
+          "observations": [
+            {
+              "bone": "H3242",
+              "component": "H3242",
+              "index": 2,
+              "position": 3
+            },
+            {
+              "bone": "H6819",
+              "component": "H6819",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H19462",
+              "component": "H19462",
+              "index": 1,
+              "position": 1
+            },
+            {
+              "bone": "H23066",
+              "component": "H23066",
+              "index": 0,
+              "position": 7
+            },
+            {
+              "bone": "H21641",
+              "component": "H21641",
+              "index": 0,
+              "position": 4
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 3,
+          "ranks": {
+            "1": {
+              "gpt": 6,
+              "gpt_prior_once": 6,
+              "trigram": 16,
+              "trigram_prior_once": 16
+            },
+            "5": {
+              "gpt": 3,
+              "gpt_prior_once": 2,
+              "trigram": 12,
+              "trigram_prior_once": 6
+            }
+          }
+        },
+        {
+          "uid": "g8k12dfmg6",
+          "bin": "mid",
+          "frequency": 50,
+          "observations": [
+            {
+              "bone": "H547",
+              "component": "H547",
+              "index": 3,
+              "position": 2
+            },
+            {
+              "bone": "H9547",
+              "component": "H9547",
+              "index": 0,
+              "position": 10
+            },
+            {
+              "bone": "H10030",
+              "component": "H10030",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H10059",
+              "component": "H10059",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H18156",
+              "component": "H18156",
+              "index": 0,
+              "position": 6
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 2,
+          "ranks": {
+            "1": {
+              "gpt": 9,
+              "gpt_prior_once": 9,
+              "trigram": 20,
+              "trigram_prior_once": 20
+            },
+            "5": {
+              "gpt": 18,
+              "gpt_prior_once": 9,
+              "trigram": 25,
+              "trigram_prior_once": 13
+            }
+          }
+        },
+        {
+          "uid": "h0gzv3styy",
+          "bin": "common",
+          "frequency": 4124,
+          "observations": [
+            {
+              "bone": "H16",
+              "component": "H16",
+              "index": 1,
+              "position": 2
+            },
+            {
+              "bone": "H17",
+              "component": "H17",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H128",
+              "component": "H128",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H515",
+              "component": "H515",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H747",
+              "component": "H747",
+              "index": 0,
+              "position": 2
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 4,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "h32m5ulkit",
+          "bin": "common",
+          "frequency": 986,
+          "observations": [
+            {
+              "bone": "H2497",
+              "component": "H2497",
+              "index": 2,
+              "position": 5
+            },
+            {
+              "bone": "H3270",
+              "component": "H3270",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H3833",
+              "component": "H3833",
+              "index": 1,
+              "position": 0
+            },
+            {
+              "bone": "H5336",
+              "component": "H5336",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H6997",
+              "component": "H6997",
+              "index": 0,
+              "position": 0
+            }
+          ],
+          "both_sides": 0,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "ihsuhqgmdc",
+          "bin": "common",
+          "frequency": 577,
+          "observations": [
+            {
+              "bone": "H733",
+              "component": "H733",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H6725",
+              "component": "H6725",
+              "index": 1,
+              "position": 0
+            },
+            {
+              "bone": "H6954",
+              "component": "H6954",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H7130",
+              "component": "H7130",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H12050",
+              "component": "H12050",
+              "index": 1,
+              "position": 5
+            }
+          ],
+          "both_sides": 4,
+          "seen_pairs": 2,
+          "ranks": {
+            "1": {
+              "gpt": 10,
+              "gpt_prior_once": 10,
+              "trigram": 5,
+              "trigram_prior_once": 5
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 2,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "jfc5ld8k0t",
+          "bin": "mid",
+          "frequency": 55,
+          "observations": [
+            {
+              "bone": "H1454",
+              "component": "H1454",
+              "index": 1,
+              "position": 1
+            },
+            {
+              "bone": "H30365",
+              "component": "H30365",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H30688",
+              "component": "H30688",
+              "index": 3,
+              "position": 0
+            },
+            {
+              "bone": "H32054",
+              "component": "H32054",
+              "index": 0,
+              "position": 8
+            }
+          ],
+          "both_sides": 3,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 7,
+              "gpt_prior_once": 7,
+              "trigram": 6,
+              "trigram_prior_once": 6
+            },
+            "4": {
+              "gpt": 8,
+              "gpt_prior_once": 1,
+              "trigram": 14,
+              "trigram_prior_once": 2
+            }
+          }
+        },
+        {
+          "uid": "jrzjjh3g1r",
+          "bin": "common",
+          "frequency": 354,
+          "observations": [
+            {
+              "bone": "H14503",
+              "component": "H14503",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H19504",
+              "component": "H19504",
+              "index": 1,
+              "position": 1
+            },
+            {
+              "bone": "H23366",
+              "component": "H23366",
+              "index": 0,
+              "position": 7
+            },
+            {
+              "bone": "H24517",
+              "component": "H24517",
+              "index": 1,
+              "position": 3
+            },
+            {
+              "bone": "H25227",
+              "component": "H25227",
+              "index": 0,
+              "position": 8
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 4,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 2,
+              "trigram_prior_once": 2
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 2,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "l4lq5esn5g",
+          "bin": "mid",
+          "frequency": 74,
+          "observations": [
+            {
+              "bone": "H1563",
+              "component": "H1563",
+              "index": 0,
+              "position": 8
+            },
+            {
+              "bone": "H15767",
+              "component": "H15767",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H17109",
+              "component": "H17109",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H15791",
+              "component": "H15791",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "HD157",
+              "component": "HD157",
+              "index": 2,
+              "position": 4
+            }
+          ],
+          "both_sides": 3,
+          "seen_pairs": 2,
+          "ranks": {
+            "1": {
+              "gpt": 11,
+              "gpt_prior_once": 11,
+              "trigram": 6,
+              "trigram_prior_once": 6
+            },
+            "5": {
+              "gpt": 18,
+              "gpt_prior_once": 16,
+              "trigram": 16,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "lv9rlaeib9",
+          "bin": "mid",
+          "frequency": 41,
+          "observations": [
+            {
+              "bone": "H5726",
+              "component": "H5726",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H5730",
+              "component": "H5730",
+              "index": 0,
+              "position": 3
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 35,
+              "gpt_prior_once": 35,
+              "trigram": 35,
+              "trigram_prior_once": 35
+            },
+            "2": {
+              "gpt": 23,
+              "gpt_prior_once": 16,
+              "trigram": 37,
+              "trigram_prior_once": 39
+            }
+          }
+        },
+        {
+          "uid": "oaaqvh5dtf",
+          "bin": "mid",
+          "frequency": 60,
+          "observations": [
+            {
+              "bone": "H2719",
+              "component": "H2719",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H7291",
+              "component": "H7291",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H7293",
+              "component": "H7293",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H17380",
+              "component": "H17380",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H17391",
+              "component": "H17391",
+              "index": 1,
+              "position": 2
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 3,
+          "ranks": {
+            "1": {
+              "gpt": 33,
+              "gpt_prior_once": 33,
+              "trigram": 33,
+              "trigram_prior_once": 33
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 5,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "oesivb520y",
+          "bin": "common",
+          "frequency": 410,
+          "observations": [
+            {
+              "bone": "H859",
+              "component": "H859",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H3072",
+              "component": "H3072",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H3191",
+              "component": "H3191",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H3827",
+              "component": "H3827",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H4331",
+              "component": "H4331",
+              "index": 0,
+              "position": 0
+            }
+          ],
+          "both_sides": 0,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 2,
+              "gpt_prior_once": 2,
+              "trigram": 2,
+              "trigram_prior_once": 2
+            },
+            "5": {
+              "gpt": 8,
+              "gpt_prior_once": 4,
+              "trigram": 3,
+              "trigram_prior_once": 31
+            }
+          }
+        },
+        {
+          "uid": "p6uj3n0aze",
+          "bin": "common",
+          "frequency": 138,
+          "observations": [
+            {
+              "bone": "H66",
+              "component": "H66",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H3069",
+              "component": "H3069",
+              "index": 1,
+              "position": 4
+            },
+            {
+              "bone": "H5199",
+              "component": "H5199",
+              "index": 0,
+              "position": 9
+            },
+            {
+              "bone": "H5827",
+              "component": "H5827",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H6414",
+              "component": "H6414",
+              "index": 0,
+              "position": 3
+            }
+          ],
+          "both_sides": 4,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 2,
+              "trigram_prior_once": 2
+            },
+            "5": {
+              "gpt": 2,
+              "gpt_prior_once": 1,
+              "trigram": 10,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "p8w7ujqanz",
+          "bin": "common",
+          "frequency": 594,
+          "observations": [
+            {
+              "bone": "H3069",
+              "component": "H3069",
+              "index": 1,
+              "position": 1
+            },
+            {
+              "bone": "H5087",
+              "component": "H5087",
+              "index": 0,
+              "position": 8
+            },
+            {
+              "bone": "H8176",
+              "component": "H8176",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H10372",
+              "component": "H10372",
+              "index": 0,
+              "position": 9
+            },
+            {
+              "bone": "H11775",
+              "component": "H11775",
+              "index": 0,
+              "position": 6
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 2,
+          "ranks": {
+            "1": {
+              "gpt": 9,
+              "gpt_prior_once": 9,
+              "trigram": 7,
+              "trigram_prior_once": 7
+            },
+            "5": {
+              "gpt": 2,
+              "gpt_prior_once": 1,
+              "trigram": 3,
+              "trigram_prior_once": 3
+            }
+          }
+        },
+        {
+          "uid": "pa13rewdd9",
+          "bin": "common",
+          "frequency": 532,
+          "observations": [
+            {
+              "bone": "H2722",
+              "component": "H2722",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H2922",
+              "component": "H2922",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H3272",
+              "component": "H3272",
+              "index": 1,
+              "position": 1
+            },
+            {
+              "bone": "H3987",
+              "component": "H3987",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H7659",
+              "component": "H7659",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 5,
+          "ranks": {
+            "1": {
+              "gpt": 5,
+              "gpt_prior_once": 5,
+              "trigram": 3,
+              "trigram_prior_once": 3
+            },
+            "5": {
+              "gpt": 4,
+              "gpt_prior_once": 2,
+              "trigram": 4,
+              "trigram_prior_once": 3
+            }
+          }
+        },
+        {
+          "uid": "pzvzykmf5e",
+          "bin": "common",
+          "frequency": 104,
+          "observations": [
+            {
+              "bone": "H10561",
+              "component": "H10561",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H20741",
+              "component": "H20741",
+              "index": 2,
+              "position": 5
+            },
+            {
+              "bone": "H10564",
+              "component": "H10564",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H30122",
+              "component": "H30122",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H31969",
+              "component": "H31969",
+              "index": 0,
+              "position": 6
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 2,
+          "ranks": {
+            "1": {
+              "gpt": 5,
+              "gpt_prior_once": 5,
+              "trigram": 7,
+              "trigram_prior_once": 7
+            },
+            "5": {
+              "gpt": 3,
+              "gpt_prior_once": 2,
+              "trigram": 17,
+              "trigram_prior_once": 7
+            }
+          }
+        },
+        {
+          "uid": "q71z8tnnc6",
+          "bin": "common",
+          "frequency": 632,
+          "observations": [
+            {
+              "bone": "H17",
+              "component": "H17",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H4004",
+              "component": "H4004",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H4159",
+              "component": "H4159",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H5336",
+              "component": "H5336",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H6954",
+              "component": "H6954",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 4,
+          "ranks": {
+            "1": {
+              "gpt": 4,
+              "gpt_prior_once": 4,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            },
+            "5": {
+              "gpt": 4,
+              "gpt_prior_once": 3,
+              "trigram": 5,
+              "trigram_prior_once": 3
+            }
+          }
+        },
+        {
+          "uid": "rc6s5fhd2k",
+          "bin": "common",
+          "frequency": 183,
+          "observations": [
+            {
+              "bone": "H214",
+              "component": "H214",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H3242",
+              "component": "H3242",
+              "index": 0,
+              "position": 7
+            },
+            {
+              "bone": "H6662",
+              "component": "H6662",
+              "index": 0,
+              "position": 9
+            },
+            {
+              "bone": "H8328",
+              "component": "H8328",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H10030",
+              "component": "H10030",
+              "index": 0,
+              "position": 8
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 2,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 8,
+              "trigram_prior_once": 8
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 2,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "rzfokwkc7a",
+          "bin": "common",
+          "frequency": 397,
+          "observations": [
+            {
+              "bone": "H169",
+              "component": "H169",
+              "index": 4,
+              "position": 4
+            },
+            {
+              "bone": "H1404",
+              "component": "H1404",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H4331",
+              "component": "H4331",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H11810",
+              "component": "H11810",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H12829",
+              "component": "H12829",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 4,
+          "ranks": {
+            "1": {
+              "gpt": 2,
+              "gpt_prior_once": 2,
+              "trigram": 4,
+              "trigram_prior_once": 4
+            },
+            "5": {
+              "gpt": 2,
+              "gpt_prior_once": 1,
+              "trigram": 3,
+              "trigram_prior_once": 2
+            }
+          }
+        },
+        {
+          "uid": "s9y9vbblxa",
+          "bin": "common",
+          "frequency": 462,
+          "observations": [
+            {
+              "bone": "H1265",
+              "component": "H1265",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H1404",
+              "component": "H1404",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H1451",
+              "component": "H1451",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H1615",
+              "component": "H1615",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H1672",
+              "component": "H1672",
+              "index": 0,
+              "position": 3
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 3,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 2,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "sxj3j42ygo",
+          "bin": "mid",
+          "frequency": 17,
+          "observations": [
+            {
+              "bone": "H26040",
+              "component": "H26040",
+              "index": 0,
+              "position": 9
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 52,
+              "gpt_prior_once": 52,
+              "trigram": 42,
+              "trigram_prior_once": 42
+            }
+          }
+        },
+        {
+          "uid": "tx3m8otqgw",
+          "bin": "mid",
+          "frequency": 65,
+          "observations": [
+            {
+              "bone": "H3191",
+              "component": "H3191",
+              "index": 0,
+              "position": 9
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 2,
+              "gpt_prior_once": 2,
+              "trigram": 10,
+              "trigram_prior_once": 10
+            }
+          }
+        },
+        {
+          "uid": "vgtvawlq60",
+          "bin": "mid",
+          "frequency": 27,
+          "observations": [
+            {
+              "bone": "H8328",
+              "component": "H8328",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 31,
+              "gpt_prior_once": 31,
+              "trigram": 29,
+              "trigram_prior_once": 29
+            }
+          }
+        },
+        {
+          "uid": "vpcd7inkf9",
+          "bin": "mid",
+          "frequency": 14,
+          "observations": [
+            {
+              "bone": "H31987",
+              "component": "H31987",
+              "index": 2,
+              "position": 5
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 5,
+              "gpt_prior_once": 5,
+              "trigram": 26,
+              "trigram_prior_once": 26
+            }
+          }
+        },
+        {
+          "uid": "x4t1t00zpg",
+          "bin": "mid",
+          "frequency": 40,
+          "observations": [
+            {
+              "bone": "H3280",
+              "component": "H3280",
+              "index": 2,
+              "position": 2
+            },
+            {
+              "bone": "H7868",
+              "component": "H7868",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H20275",
+              "component": "H20275",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H20590",
+              "component": "H20590",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 4,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 44,
+              "gpt_prior_once": 44,
+              "trigram": 13,
+              "trigram_prior_once": 13
+            },
+            "4": {
+              "gpt": 44,
+              "gpt_prior_once": 44,
+              "trigram": 32,
+              "trigram_prior_once": 22
+            }
+          }
+        },
+        {
+          "uid": "xkubtjk815",
+          "bin": "common",
+          "frequency": 131,
+          "observations": [
+            {
+              "bone": "H8266",
+              "component": "H8266",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H9768",
+              "component": "H9768",
+              "index": 3,
+              "position": 3
+            },
+            {
+              "bone": "H9901",
+              "component": "H9901",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H10030",
+              "component": "H10030",
+              "index": 0,
+              "position": 7
+            },
+            {
+              "bone": "H9797",
+              "component": "H9797",
+              "index": 0,
+              "position": 4
+            }
+          ],
+          "both_sides": 2,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 2,
+              "trigram_prior_once": 2
+            }
+          }
+        },
+        {
+          "uid": "xlscyddubk",
+          "bin": "common",
+          "frequency": 158,
+          "observations": [
+            {
+              "bone": "H16",
+              "component": "H16",
+              "index": 1,
+              "position": 9
+            },
+            {
+              "bone": "H214",
+              "component": "H214",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H10361",
+              "component": "H10361",
+              "index": 1,
+              "position": 4
+            },
+            {
+              "bone": "H26074",
+              "component": "H26074",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H26085",
+              "component": "H26085",
+              "index": 0,
+              "position": 4
+            }
+          ],
+          "both_sides": 4,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 4,
+              "gpt_prior_once": 4,
+              "trigram": 13,
+              "trigram_prior_once": 13
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 2,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "y1fizk7ybg",
+          "bin": "mid",
+          "frequency": 11,
+          "observations": [
+            {
+              "bone": "H66",
+              "component": "H66",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H15828",
+              "component": "H15828",
+              "index": 2,
+              "position": 7
+            },
+            {
+              "bone": "HD409",
+              "component": "HD409",
+              "index": 27,
+              "position": 4
+            }
+          ],
+          "both_sides": 2,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 13,
+              "trigram_prior_once": 13
+            },
+            "3": {
+              "gpt": 15,
+              "gpt_prior_once": 1,
+              "trigram": 26,
+              "trigram_prior_once": 2
+            }
+          }
+        },
+        {
+          "uid": "zr3h63w2fy",
+          "bin": "common",
+          "frequency": 286,
+          "observations": [
+            {
+              "bone": "H547",
+              "component": "H547",
+              "index": 2,
+              "position": 2
+            },
+            {
+              "bone": "H925",
+              "component": "H925",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H971",
+              "component": "H971",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H6414",
+              "component": "H6414",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H6467",
+              "component": "H6467",
+              "index": 0,
+              "position": 4
+            }
+          ],
+          "both_sides": 4,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            }
+          }
+        }
+      ],
+      "training_oov_candidates": []
+    },
+    "43": {
+      "summaries": {
+        "all": {
+          "observed": 43,
+          "five": 27,
+          "counts": {
+            "1": {
+              "gpt": [
+                7,
+                18
+              ],
+              "gpt_prior_once": [
+                7,
+                18
+              ],
+              "trigram": [
+                4,
+                17
+              ],
+              "trigram_prior_once": [
+                4,
+                17
+              ]
+            },
+            "5": {
+              "gpt": [
+                10,
+                22
+              ],
+              "gpt_prior_once": [
+                12,
+                21
+              ],
+              "trigram": [
+                9,
+                19
+              ],
+              "trigram_prior_once": [
+                15,
+                22
+              ]
+            }
+          },
+          "intervals": {
+            "gpt": [
+              3,
+              25,
+              [
+                -100.0,
+                0.0
+              ]
+            ],
+            "trigram_prior_once": [
+              3,
+              25,
+              [
+                -100.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        "no_seen_immediate_pair": {
+          "observed": 13,
+          "five": 2,
+          "counts": {
+            "1": {
+              "gpt": [
+                1,
+                1
+              ],
+              "gpt_prior_once": [
+                1,
+                1
+              ],
+              "trigram": [
+                0,
+                1
+              ],
+              "trigram_prior_once": [
+                0,
+                1
+              ]
+            },
+            "5": {
+              "gpt": [
+                0,
+                2
+              ],
+              "gpt_prior_once": [
+                0,
+                1
+              ],
+              "trigram": [
+                0,
+                0
+              ],
+              "trigram_prior_once": [
+                0,
+                1
+              ]
+            }
+          },
+          "intervals": {
+            "gpt": [
+              2,
+              1,
+              [
+                -100.0,
+                0.0
+              ]
+            ],
+            "trigram_prior_once": [
+              2,
+              1,
+              [
+                -100.0,
+                100.0
+              ]
+            ]
+          }
+        },
+        "common": {
+          "observed": 24,
+          "five": 24,
+          "counts": {
+            "1": {
+              "gpt": [
+                7,
+                16
+              ],
+              "gpt_prior_once": [
+                7,
+                16
+              ],
+              "trigram": [
+                3,
+                16
+              ],
+              "trigram_prior_once": [
+                3,
+                16
+              ]
+            },
+            "5": {
+              "gpt": [
+                10,
+                21
+              ],
+              "gpt_prior_once": [
+                11,
+                19
+              ],
+              "trigram": [
+                9,
+                18
+              ],
+              "trigram_prior_once": [
+                13,
+                19
+              ]
+            }
+          },
+          "intervals": {
+            "gpt": [
+              4,
+              21,
+              [
+                -75.0,
+                0.0
+              ]
+            ],
+            "trigram_prior_once": [
+              4,
+              21,
+              [
+                -75.0,
+                4.6875
+              ]
+            ]
+          }
+        },
+        "mid": {
+          "observed": 17,
+          "five": 3,
+          "counts": {
+            "1": {
+              "gpt": [
+                0,
+                2
+              ],
+              "gpt_prior_once": [
+                0,
+                2
+              ],
+              "trigram": [
+                1,
+                1
+              ],
+              "trigram_prior_once": [
+                1,
+                1
+              ]
+            },
+            "5": {
+              "gpt": [
+                0,
+                1
+              ],
+              "gpt_prior_once": [
+                1,
+                2
+              ],
+              "trigram": [
+                0,
+                1
+              ],
+              "trigram_prior_once": [
+                2,
+                3
+              ]
+            }
+          },
+          "intervals": {
+            "gpt": [
+              3,
+              1,
+              [
+                0.0,
+                100.0
+              ]
+            ],
+            "trigram_prior_once": [
+              3,
+              1,
+              [
+                -100.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        "rare": {
+          "observed": 2,
+          "five": 0,
+          "counts": {
+            "1": {
+              "gpt": [
+                0,
+                0
+              ],
+              "gpt_prior_once": [
+                0,
+                0
+              ],
+              "trigram": [
+                0,
+                0
+              ],
+              "trigram_prior_once": [
+                0,
+                0
+              ]
+            },
+            "5": {
+              "gpt": [
+                0,
+                0
+              ],
+              "gpt_prior_once": [
+                0,
+                0
+              ],
+              "trigram": [
+                0,
+                0
+              ],
+              "trigram_prior_once": [
+                0,
+                0
+              ]
+            }
+          },
+          "intervals": {}
+        }
+      },
+      "rows": [
+        {
+          "uid": "0cwxw7rveh",
+          "bin": "common",
+          "frequency": 240,
+          "observations": [
+            {
+              "bone": "H5671",
+              "component": "H5671",
+              "index": 0,
+              "position": 10
+            },
+            {
+              "bone": "H6954",
+              "component": "H6954",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H7130",
+              "component": "H7130",
+              "index": 0,
+              "position": 7
+            },
+            {
+              "bone": "H9401",
+              "component": "H9401",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H15828",
+              "component": "H15828",
+              "index": 2,
+              "position": 5
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 4,
+          "ranks": {
+            "1": {
+              "gpt": 8,
+              "gpt_prior_once": 8,
+              "trigram": 8,
+              "trigram_prior_once": 8
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 3,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "0kcfgksim7",
+          "bin": "mid",
+          "frequency": 14,
+          "observations": [
+            {
+              "bone": "H6870",
+              "component": "H6870",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H6873",
+              "component": "H6873",
+              "index": 0,
+              "position": 3
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 11,
+              "gpt_prior_once": 11,
+              "trigram": 39,
+              "trigram_prior_once": 39
+            },
+            "2": {
+              "gpt": 10,
+              "gpt_prior_once": 3,
+              "trigram": 24,
+              "trigram_prior_once": 4
+            }
+          }
+        },
+        {
+          "uid": "0kg5dhdk4s",
+          "bin": "mid",
+          "frequency": 39,
+          "observations": [
+            {
+              "bone": "H10409",
+              "component": "H10409",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H15600",
+              "component": "H15600",
+              "index": 1,
+              "position": 3
+            },
+            {
+              "bone": "H33208",
+              "component": "H33208",
+              "index": 0,
+              "position": 5
+            }
+          ],
+          "both_sides": 3,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 4,
+              "gpt_prior_once": 4,
+              "trigram": 3,
+              "trigram_prior_once": 3
+            },
+            "3": {
+              "gpt": 10,
+              "gpt_prior_once": 1,
+              "trigram": 9,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "1k9ogi7w79",
+          "bin": "common",
+          "frequency": 157,
+          "observations": [
+            {
+              "bone": "H3887",
+              "component": "H3887",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H5691",
+              "component": "H5691",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H14269",
+              "component": "H14269",
+              "index": 0,
+              "position": 7
+            },
+            {
+              "bone": "H21154",
+              "component": "H21154",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H26089",
+              "component": "H26089",
+              "index": 0,
+              "position": 5
+            }
+          ],
+          "both_sides": 2,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 17,
+              "gpt_prior_once": 17,
+              "trigram": 19,
+              "trigram_prior_once": 19
+            },
+            "5": {
+              "gpt": 5,
+              "gpt_prior_once": 11,
+              "trigram": 15,
+              "trigram_prior_once": 5
+            }
+          }
+        },
+        {
+          "uid": "27jl2n6uoo",
+          "bin": "mid",
+          "frequency": 30,
+          "observations": [
+            {
+              "bone": "H107",
+              "component": "H107",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H128",
+              "component": "H128",
+              "index": 0,
+              "position": 7
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 19,
+              "gpt_prior_once": 19,
+              "trigram": 32,
+              "trigram_prior_once": 32
+            },
+            "2": {
+              "gpt": 21,
+              "gpt_prior_once": 12,
+              "trigram": 33,
+              "trigram_prior_once": 35
+            }
+          }
+        },
+        {
+          "uid": "353gxm6hd4",
+          "bin": "common",
+          "frequency": 592,
+          "observations": [
+            {
+              "bone": "H1615",
+              "component": "H1615",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H1930",
+              "component": "H1930",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H5671",
+              "component": "H5671",
+              "index": 0,
+              "position": 8
+            },
+            {
+              "bone": "H21275",
+              "component": "H21275",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H30353",
+              "component": "H30353",
+              "index": 0,
+              "position": 2
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 3,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 4,
+              "trigram_prior_once": 4
+            },
+            "5": {
+              "gpt": 2,
+              "gpt_prior_once": 3,
+              "trigram": 5,
+              "trigram_prior_once": 3
+            }
+          }
+        },
+        {
+          "uid": "4lgdy5a4ta",
+          "bin": "common",
+          "frequency": 409,
+          "observations": [
+            {
+              "bone": "H79",
+              "component": "H79",
+              "index": 1,
+              "position": 1
+            },
+            {
+              "bone": "H483",
+              "component": "H483",
+              "index": 1,
+              "position": 1
+            },
+            {
+              "bone": "H1451",
+              "component": "H1451",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H3072",
+              "component": "H3072",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H3191",
+              "component": "H3191",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 4,
+          "ranks": {
+            "1": {
+              "gpt": 5,
+              "gpt_prior_once": 5,
+              "trigram": 5,
+              "trigram_prior_once": 5
+            },
+            "5": {
+              "gpt": 3,
+              "gpt_prior_once": 2,
+              "trigram": 5,
+              "trigram_prior_once": 5
+            }
+          }
+        },
+        {
+          "uid": "4r0g6bx5rc",
+          "bin": "common",
+          "frequency": 539,
+          "observations": [
+            {
+              "bone": "H971",
+              "component": "H971",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H1981",
+              "component": "H1981",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H4111",
+              "component": "H4111",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H5682",
+              "component": "H5682",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H6819",
+              "component": "H6819",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 4,
+          "seen_pairs": 4,
+          "ranks": {
+            "1": {
+              "gpt": 11,
+              "gpt_prior_once": 11,
+              "trigram": 8,
+              "trigram_prior_once": 8
+            },
+            "5": {
+              "gpt": 5,
+              "gpt_prior_once": 12,
+              "trigram": 8,
+              "trigram_prior_once": 18
+            }
+          }
+        },
+        {
+          "uid": "50oggjbzcs",
+          "bin": "common",
+          "frequency": 197,
+          "observations": [
+            {
+              "bone": "H16",
+              "component": "H16",
+              "index": 1,
+              "position": 3
+            },
+            {
+              "bone": "H79",
+              "component": "H79",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H1404",
+              "component": "H1404",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H3730",
+              "component": "H3730",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H5199",
+              "component": "H5199",
+              "index": 0,
+              "position": 3
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 4,
+          "ranks": {
+            "1": {
+              "gpt": 2,
+              "gpt_prior_once": 2,
+              "trigram": 2,
+              "trigram_prior_once": 2
+            },
+            "5": {
+              "gpt": 3,
+              "gpt_prior_once": 4,
+              "trigram": 3,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "7sys4laq6v",
+          "bin": "common",
+          "frequency": 713,
+          "observations": [
+            {
+              "bone": "H169",
+              "component": "H169",
+              "index": 4,
+              "position": 3
+            },
+            {
+              "bone": "H1404",
+              "component": "H1404",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H1981",
+              "component": "H1981",
+              "index": 1,
+              "position": 0
+            },
+            {
+              "bone": "H2479",
+              "component": "H2479",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H2724",
+              "component": "H2724",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 3,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 2,
+              "gpt_prior_once": 2,
+              "trigram": 2,
+              "trigram_prior_once": 2
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "7z5dh17d4b",
+          "bin": "rare",
+          "frequency": 1,
+          "observations": [
+            {
+              "bone": "H18159",
+              "component": "H18159",
+              "index": 0,
+              "position": 3
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 63,
+              "gpt_prior_once": 63,
+              "trigram": 61,
+              "trigram_prior_once": 61
+            }
+          }
+        },
+        {
+          "uid": "89m3dkhxyy",
+          "bin": "common",
+          "frequency": 320,
+          "observations": [
+            {
+              "bone": "H515",
+              "component": "H515",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H3998",
+              "component": "H3998",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H5749",
+              "component": "H5749",
+              "index": 2,
+              "position": 1
+            },
+            {
+              "bone": "H10059",
+              "component": "H10059",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H15537",
+              "component": "H15537",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 5,
+          "ranks": {
+            "1": {
+              "gpt": 9,
+              "gpt_prior_once": 9,
+              "trigram": 15,
+              "trigram_prior_once": 15
+            },
+            "5": {
+              "gpt": 8,
+              "gpt_prior_once": 2,
+              "trigram": 11,
+              "trigram_prior_once": 6
+            }
+          }
+        },
+        {
+          "uid": "8amt82vs7o",
+          "bin": "mid",
+          "frequency": 9,
+          "observations": [
+            {
+              "bone": "H733",
+              "component": "H733",
+              "index": 0,
+              "position": 5
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 48,
+              "gpt_prior_once": 48,
+              "trigram": 48,
+              "trigram_prior_once": 48
+            }
+          }
+        },
+        {
+          "uid": "8gxzzbv7w8",
+          "bin": "common",
+          "frequency": 212,
+          "observations": [
+            {
+              "bone": "H6997",
+              "component": "H6997",
+              "index": 0,
+              "position": 7
+            },
+            {
+              "bone": "H14660",
+              "component": "H14660",
+              "index": 0,
+              "position": 7
+            },
+            {
+              "bone": "H15638",
+              "component": "H15638",
+              "index": 1,
+              "position": 4
+            },
+            {
+              "bone": "H15826",
+              "component": "H15826",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H25365",
+              "component": "H25365",
+              "index": 0,
+              "position": 4
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 5,
+              "trigram_prior_once": 5
+            },
+            "5": {
+              "gpt": 2,
+              "gpt_prior_once": 2,
+              "trigram": 2,
+              "trigram_prior_once": 2
+            }
+          }
+        },
+        {
+          "uid": "8lxqk97zyh",
+          "bin": "mid",
+          "frequency": 14,
+          "observations": [
+            {
+              "bone": "H29956",
+              "component": "H29956",
+              "index": 0,
+              "position": 3
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 35,
+              "gpt_prior_once": 35,
+              "trigram": 41,
+              "trigram_prior_once": 41
+            }
+          }
+        },
+        {
+          "uid": "a1lmo1xxj5",
+          "bin": "common",
+          "frequency": 796,
+          "observations": [
+            {
+              "bone": "H515",
+              "component": "H515",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H733",
+              "component": "H733",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H1451",
+              "component": "H1451",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H1615",
+              "component": "H1615",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H1803",
+              "component": "H1803",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 3,
+          "seen_pairs": 2,
+          "ranks": {
+            "1": {
+              "gpt": 4,
+              "gpt_prior_once": 4,
+              "trigram": 7,
+              "trigram_prior_once": 7
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "aetgi1oyaa",
+          "bin": "mid",
+          "frequency": 57,
+          "observations": [
+            {
+              "bone": "H7",
+              "component": "H7",
+              "index": 1,
+              "position": 3
+            },
+            {
+              "bone": "H16",
+              "component": "H16",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H17",
+              "component": "H17",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H66",
+              "component": "H66",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H69",
+              "component": "H69",
+              "index": 0,
+              "position": 5
+            }
+          ],
+          "both_sides": 4,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 2,
+              "gpt_prior_once": 2,
+              "trigram": 7,
+              "trigram_prior_once": 7
+            },
+            "5": {
+              "gpt": 8,
+              "gpt_prior_once": 2,
+              "trigram": 18,
+              "trigram_prior_once": 2
+            }
+          }
+        },
+        {
+          "uid": "b3fudy3nhc",
+          "bin": "mid",
+          "frequency": 35,
+          "observations": [
+            {
+              "bone": "H35972",
+              "component": "H35972",
+              "index": 0,
+              "position": 3
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 3,
+              "gpt_prior_once": 3,
+              "trigram": 2,
+              "trigram_prior_once": 2
+            }
+          }
+        },
+        {
+          "uid": "ch3eogm319",
+          "bin": "mid",
+          "frequency": 14,
+          "observations": [
+            {
+              "bone": "H18446",
+              "component": "H18446",
+              "index": 0,
+              "position": 3
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 32,
+              "gpt_prior_once": 32,
+              "trigram": 20,
+              "trigram_prior_once": 20
+            }
+          }
+        },
+        {
+          "uid": "em9wf77jqc",
+          "bin": "mid",
+          "frequency": 21,
+          "observations": [
+            {
+              "bone": "H128",
+              "component": "H128",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H4484",
+              "component": "H4484",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H19439",
+              "component": "H19439",
+              "index": 1,
+              "position": 2
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 16,
+              "gpt_prior_once": 16,
+              "trigram": 37,
+              "trigram_prior_once": 37
+            },
+            "3": {
+              "gpt": 7,
+              "gpt_prior_once": 1,
+              "trigram": 12,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "fd2xhqwsjk",
+          "bin": "mid",
+          "frequency": 49,
+          "observations": [
+            {
+              "bone": "H169",
+              "component": "H169",
+              "index": 2,
+              "position": 3
+            },
+            {
+              "bone": "H5087",
+              "component": "H5087",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H12829",
+              "component": "H12829",
+              "index": 0,
+              "position": 7
+            },
+            {
+              "bone": "H19332",
+              "component": "H19332",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H33208",
+              "component": "H33208",
+              "index": 0,
+              "position": 4
+            }
+          ],
+          "both_sides": 4,
+          "seen_pairs": 2,
+          "ranks": {
+            "1": {
+              "gpt": 3,
+              "gpt_prior_once": 3,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            },
+            "5": {
+              "gpt": 3,
+              "gpt_prior_once": 1,
+              "trigram": 3,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "g8k12dfmg6",
+          "bin": "mid",
+          "frequency": 50,
+          "observations": [
+            {
+              "bone": "H547",
+              "component": "H547",
+              "index": 3,
+              "position": 2
+            },
+            {
+              "bone": "H9547",
+              "component": "H9547",
+              "index": 0,
+              "position": 10
+            },
+            {
+              "bone": "H10030",
+              "component": "H10030",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H10059",
+              "component": "H10059",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H18156",
+              "component": "H18156",
+              "index": 0,
+              "position": 6
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 15,
+              "gpt_prior_once": 15,
+              "trigram": 6,
+              "trigram_prior_once": 6
+            },
+            "5": {
+              "gpt": 17,
+              "gpt_prior_once": 7,
+              "trigram": 14,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "gvea18bccm",
+          "bin": "mid",
+          "frequency": 7,
+          "observations": [
+            {
+              "bone": "H6819",
+              "component": "H6819",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H14269",
+              "component": "H14269",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H14261",
+              "component": "H14261",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H14268",
+              "component": "H14268",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 4,
+          "seen_pairs": 2,
+          "ranks": {
+            "1": {
+              "gpt": 39,
+              "gpt_prior_once": 39,
+              "trigram": 48,
+              "trigram_prior_once": 48
+            },
+            "4": {
+              "gpt": 26,
+              "gpt_prior_once": 2,
+              "trigram": 22,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "h0gzv3styy",
+          "bin": "common",
+          "frequency": 4124,
+          "observations": [
+            {
+              "bone": "H16",
+              "component": "H16",
+              "index": 1,
+              "position": 2
+            },
+            {
+              "bone": "H17",
+              "component": "H17",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H128",
+              "component": "H128",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H515",
+              "component": "H515",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H747",
+              "component": "H747",
+              "index": 0,
+              "position": 2
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 4,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "h1yvqbcpot",
+          "bin": "mid",
+          "frequency": 8,
+          "observations": [
+            {
+              "bone": "H5671",
+              "component": "H5671",
+              "index": 0,
+              "position": 7
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 28,
+              "gpt_prior_once": 28,
+              "trigram": 43,
+              "trigram_prior_once": 43
+            }
+          }
+        },
+        {
+          "uid": "h2mhpxskhk",
+          "bin": "common",
+          "frequency": 1048,
+          "observations": [
+            {
+              "bone": "H16",
+              "component": "H16",
+              "index": 1,
+              "position": 8
+            },
+            {
+              "bone": "H69",
+              "component": "H69",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H515",
+              "component": "H515",
+              "index": 0,
+              "position": 7
+            },
+            {
+              "bone": "H547",
+              "component": "H547",
+              "index": 3,
+              "position": 3
+            },
+            {
+              "bone": "H2824",
+              "component": "H2824",
+              "index": 0,
+              "position": 0
+            }
+          ],
+          "both_sides": 4,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 13,
+              "gpt_prior_once": 13,
+              "trigram": 2,
+              "trigram_prior_once": 2
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 3,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "h32m5ulkit",
+          "bin": "common",
+          "frequency": 986,
+          "observations": [
+            {
+              "bone": "H2497",
+              "component": "H2497",
+              "index": 2,
+              "position": 5
+            },
+            {
+              "bone": "H3270",
+              "component": "H3270",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H3833",
+              "component": "H3833",
+              "index": 1,
+              "position": 0
+            },
+            {
+              "bone": "H5336",
+              "component": "H5336",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H6997",
+              "component": "H6997",
+              "index": 0,
+              "position": 0
+            }
+          ],
+          "both_sides": 0,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 3,
+              "gpt_prior_once": 3,
+              "trigram": 3,
+              "trigram_prior_once": 3
+            },
+            "5": {
+              "gpt": 2,
+              "gpt_prior_once": 7,
+              "trigram": 1,
+              "trigram_prior_once": 2
+            }
+          }
+        },
+        {
+          "uid": "hftl4m18q0",
+          "bin": "common",
+          "frequency": 2121,
+          "observations": [
+            {
+              "bone": "H747",
+              "component": "H747",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H1358",
+              "component": "H1358",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H1746",
+              "component": "H1746",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H5087",
+              "component": "H5087",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H5182",
+              "component": "H5182",
+              "index": 1,
+              "position": 4
+            }
+          ],
+          "both_sides": 4,
+          "seen_pairs": 4,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 2,
+              "trigram_prior_once": 2
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "hjfwaxkb60",
+          "bin": "rare",
+          "frequency": 12,
+          "observations": [
+            {
+              "bone": "H19621",
+              "component": "H19621",
+              "index": 0,
+              "position": 65
+            }
+          ],
+          "both_sides": 0,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 22,
+              "gpt_prior_once": 22,
+              "trigram": 27,
+              "trigram_prior_once": 27
+            }
+          }
+        },
+        {
+          "uid": "ihsuhqgmdc",
+          "bin": "common",
+          "frequency": 577,
+          "observations": [
+            {
+              "bone": "H733",
+              "component": "H733",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H6725",
+              "component": "H6725",
+              "index": 1,
+              "position": 0
+            },
+            {
+              "bone": "H6954",
+              "component": "H6954",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H7130",
+              "component": "H7130",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H12050",
+              "component": "H12050",
+              "index": 1,
+              "position": 5
+            }
+          ],
+          "both_sides": 4,
+          "seen_pairs": 3,
+          "ranks": {
+            "1": {
+              "gpt": 8,
+              "gpt_prior_once": 8,
+              "trigram": 7,
+              "trigram_prior_once": 7
+            },
+            "5": {
+              "gpt": 2,
+              "gpt_prior_once": 1,
+              "trigram": 3,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "j5cl5jcqdz",
+          "bin": "mid",
+          "frequency": 11,
+          "observations": [
+            {
+              "bone": "H17051",
+              "component": "H17051",
+              "index": 1,
+              "position": 2
+            },
+            {
+              "bone": "H20810",
+              "component": "H20810",
+              "index": 0,
+              "position": 8
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 54,
+              "gpt_prior_once": 54,
+              "trigram": 54,
+              "trigram_prior_once": 54
+            },
+            "2": {
+              "gpt": 56,
+              "gpt_prior_once": 62,
+              "trigram": 54,
+              "trigram_prior_once": 57
+            }
+          }
+        },
+        {
+          "uid": "jbgbxt897u",
+          "bin": "common",
+          "frequency": 890,
+          "observations": [
+            {
+              "bone": "H1265",
+              "component": "H1265",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H1563",
+              "component": "H1563",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H1615",
+              "component": "H1615",
+              "index": 0,
+              "position": 8
+            },
+            {
+              "bone": "H1637",
+              "component": "H1637",
+              "index": 1,
+              "position": 1
+            },
+            {
+              "bone": "H1672",
+              "component": "H1672",
+              "index": 0,
+              "position": 10
+            }
+          ],
+          "both_sides": 4,
+          "seen_pairs": 3,
+          "ranks": {
+            "1": {
+              "gpt": 3,
+              "gpt_prior_once": 3,
+              "trigram": 2,
+              "trigram_prior_once": 2
+            },
+            "5": {
+              "gpt": 2,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "l7cyvm7kbt",
+          "bin": "common",
+          "frequency": 1096,
+          "observations": [
+            {
+              "bone": "H1404",
+              "component": "H1404",
+              "index": 0,
+              "position": 7
+            },
+            {
+              "bone": "H1867",
+              "component": "H1867",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H1873",
+              "component": "H1873",
+              "index": 0,
+              "position": 2
+            },
+            {
+              "bone": "H1930",
+              "component": "H1930",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H1981",
+              "component": "H1981",
+              "index": 1,
+              "position": 6
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 5,
+          "ranks": {
+            "1": {
+              "gpt": 2,
+              "gpt_prior_once": 2,
+              "trigram": 3,
+              "trigram_prior_once": 3
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "m2w1k92a5a",
+          "bin": "common",
+          "frequency": 603,
+          "observations": [
+            {
+              "bone": "H7",
+              "component": "H7",
+              "index": 1,
+              "position": 0
+            },
+            {
+              "bone": "H16",
+              "component": "H16",
+              "index": 1,
+              "position": 0
+            },
+            {
+              "bone": "H17",
+              "component": "H17",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H214",
+              "component": "H214",
+              "index": 0,
+              "position": 5
+            },
+            {
+              "bone": "H971",
+              "component": "H971",
+              "index": 0,
+              "position": 0
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 5,
+              "trigram_prior_once": 5
+            },
+            "5": {
+              "gpt": 2,
+              "gpt_prior_once": 2,
+              "trigram": 6,
+              "trigram_prior_once": 11
+            }
+          }
+        },
+        {
+          "uid": "mdwfmpr3c8",
+          "bin": "common",
+          "frequency": 515,
+          "observations": [
+            {
+              "bone": "H214",
+              "component": "H214",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H859",
+              "component": "H859",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H1981",
+              "component": "H1981",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H5336",
+              "component": "H5336",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H6934",
+              "component": "H6934",
+              "index": 0,
+              "position": 0
+            }
+          ],
+          "both_sides": 3,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 19,
+              "gpt_prior_once": 19,
+              "trigram": 23,
+              "trigram_prior_once": 23
+            },
+            "5": {
+              "gpt": 6,
+              "gpt_prior_once": 6,
+              "trigram": 7,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "oesivb520y",
+          "bin": "common",
+          "frequency": 410,
+          "observations": [
+            {
+              "bone": "H859",
+              "component": "H859",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H3072",
+              "component": "H3072",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H3191",
+              "component": "H3191",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H3827",
+              "component": "H3827",
+              "index": 0,
+              "position": 0
+            },
+            {
+              "bone": "H4331",
+              "component": "H4331",
+              "index": 0,
+              "position": 0
+            }
+          ],
+          "both_sides": 0,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 3,
+              "gpt_prior_once": 3,
+              "trigram": 3,
+              "trigram_prior_once": 3
+            },
+            "5": {
+              "gpt": 3,
+              "gpt_prior_once": 2,
+              "trigram": 3,
+              "trigram_prior_once": 10
+            }
+          }
+        },
+        {
+          "uid": "p77d58vew4",
+          "bin": "common",
+          "frequency": 337,
+          "observations": [
+            {
+              "bone": "H2890",
+              "component": "H2890",
+              "index": 2,
+              "position": 2
+            },
+            {
+              "bone": "H4206",
+              "component": "H4206",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H15337",
+              "component": "H15337",
+              "index": 0,
+              "position": 8
+            },
+            {
+              "bone": "H15600",
+              "component": "H15600",
+              "index": 1,
+              "position": 4
+            },
+            {
+              "bone": "H19452",
+              "component": "H19452",
+              "index": 0,
+              "position": 2
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 2,
+          "ranks": {
+            "1": {
+              "gpt": 2,
+              "gpt_prior_once": 2,
+              "trigram": 6,
+              "trigram_prior_once": 6
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 2,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "q71z8tnnc6",
+          "bin": "common",
+          "frequency": 632,
+          "observations": [
+            {
+              "bone": "H17",
+              "component": "H17",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H4004",
+              "component": "H4004",
+              "index": 0,
+              "position": 3
+            },
+            {
+              "bone": "H4159",
+              "component": "H4159",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H5336",
+              "component": "H5336",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H6954",
+              "component": "H6954",
+              "index": 0,
+              "position": 1
+            }
+          ],
+          "both_sides": 5,
+          "seen_pairs": 4,
+          "ranks": {
+            "1": {
+              "gpt": 13,
+              "gpt_prior_once": 13,
+              "trigram": 5,
+              "trigram_prior_once": 5
+            },
+            "5": {
+              "gpt": 7,
+              "gpt_prior_once": 7,
+              "trigram": 6,
+              "trigram_prior_once": 7
+            }
+          }
+        },
+        {
+          "uid": "qhmhxv0zyb",
+          "bin": "mid",
+          "frequency": 23,
+          "observations": [
+            {
+              "bone": "H3998",
+              "component": "H3998",
+              "index": 0,
+              "position": 6
+            }
+          ],
+          "both_sides": 1,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 34,
+              "gpt_prior_once": 34,
+              "trigram": 17,
+              "trigram_prior_once": 17
+            }
+          }
+        },
+        {
+          "uid": "r9cvuw9v1t",
+          "bin": "mid",
+          "frequency": 34,
+          "observations": [
+            {
+              "bone": "HD237",
+              "component": "HD237",
+              "index": 11,
+              "position": 8
+            }
+          ],
+          "both_sides": 0,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 17,
+              "gpt_prior_once": 17,
+              "trigram": 33,
+              "trigram_prior_once": 33
+            }
+          }
+        },
+        {
+          "uid": "xkubtjk815",
+          "bin": "common",
+          "frequency": 131,
+          "observations": [
+            {
+              "bone": "H8266",
+              "component": "H8266",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H9768",
+              "component": "H9768",
+              "index": 3,
+              "position": 3
+            },
+            {
+              "bone": "H9901",
+              "component": "H9901",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H10030",
+              "component": "H10030",
+              "index": 0,
+              "position": 7
+            },
+            {
+              "bone": "H9797",
+              "component": "H9797",
+              "index": 0,
+              "position": 4
+            }
+          ],
+          "both_sides": 2,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 4,
+              "trigram_prior_once": 2
+            }
+          }
+        },
+        {
+          "uid": "z0pbcna9kk",
+          "bin": "mid",
+          "frequency": 65,
+          "observations": [
+            {
+              "bone": "H23448",
+              "component": "H23448",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H30303",
+              "component": "H30303",
+              "index": 1,
+              "position": 10
+            },
+            {
+              "bone": "H30305",
+              "component": "H30305",
+              "index": 1,
+              "position": 1
+            },
+            {
+              "bone": "H30365",
+              "component": "H30365",
+              "index": 0,
+              "position": 6
+            }
+          ],
+          "both_sides": 3,
+          "seen_pairs": 0,
+          "ranks": {
+            "1": {
+              "gpt": 15,
+              "gpt_prior_once": 15,
+              "trigram": 26,
+              "trigram_prior_once": 26
+            },
+            "4": {
+              "gpt": 9,
+              "gpt_prior_once": 2,
+              "trigram": 7,
+              "trigram_prior_once": 1
+            }
+          }
+        },
+        {
+          "uid": "zr3h63w2fy",
+          "bin": "common",
+          "frequency": 286,
+          "observations": [
+            {
+              "bone": "H547",
+              "component": "H547",
+              "index": 2,
+              "position": 2
+            },
+            {
+              "bone": "H925",
+              "component": "H925",
+              "index": 0,
+              "position": 1
+            },
+            {
+              "bone": "H971",
+              "component": "H971",
+              "index": 0,
+              "position": 6
+            },
+            {
+              "bone": "H6414",
+              "component": "H6414",
+              "index": 0,
+              "position": 4
+            },
+            {
+              "bone": "H6467",
+              "component": "H6467",
+              "index": 0,
+              "position": 4
+            }
+          ],
+          "both_sides": 4,
+          "seen_pairs": 1,
+          "ranks": {
+            "1": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            },
+            "5": {
+              "gpt": 1,
+              "gpt_prior_once": 1,
+              "trigram": 1,
+              "trigram_prior_once": 1
+            }
+          }
+        }
+      ],
+      "training_oov_candidates": [
+        "x9q4jluo73"
+      ]
+    }
+  }
+}

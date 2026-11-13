@@ -1,0 +1,908 @@
+{
+  "seed": 17,
+  "splits": {
+    "train": {
+      "bones": 7979,
+      "components": 7944,
+      "rows": 12967,
+      "targets": 58634
+    },
+    "validation": {
+      "bones": 1016,
+      "components": 1013,
+      "rows": 1720,
+      "targets": 8115
+    },
+    "test": {
+      "bones": 977,
+      "components": 974,
+      "rows": 1569,
+      "targets": 7156
+    }
+  },
+  "joins": [
+    {
+      "bone_a": "H51",
+      "bone_b": "H64",
+      "source": "OBID-ACR:17749727:rejoining_data.json:1"
+    },
+    {
+      "bone_a": "H165",
+      "bone_b": "H2873",
+      "source": "OBID-ACR:17749727:rejoining_data.json:2"
+    },
+    {
+      "bone_a": "H4248",
+      "bone_b": "H954",
+      "source": "OBID-ACR:17749727:rejoining_data.json:3"
+    },
+    {
+      "bone_a": "H1923",
+      "bone_b": "H1942",
+      "source": "OBID-ACR:17749727:rejoining_data.json:4"
+    },
+    {
+      "bone_a": "H2924",
+      "bone_b": "H2925",
+      "source": "OBID-ACR:17749727:rejoining_data.json:5"
+    },
+    {
+      "bone_a": "H4113",
+      "bone_b": "H4126",
+      "source": "OBID-ACR:17749727:rejoining_data.json:6"
+    },
+    {
+      "bone_a": "H4170",
+      "bone_b": "H6962",
+      "source": "OBID-ACR:17749727:rejoining_data.json:7"
+    },
+    {
+      "bone_a": "H12936",
+      "bone_b": "H5280",
+      "source": "OBID-ACR:17749727:rejoining_data.json:8"
+    },
+    {
+      "bone_a": "H17399",
+      "bone_b": "H5392",
+      "source": "OBID-ACR:17749727:rejoining_data.json:9"
+    },
+    {
+      "bone_a": "H5426",
+      "bone_b": "H8182",
+      "source": "OBID-ACR:17749727:rejoining_data.json:10"
+    },
+    {
+      "bone_a": "H8034",
+      "bone_b": "H8035",
+      "source": "OBID-ACR:17749727:rejoining_data.json:11"
+    },
+    {
+      "bone_a": "H10154",
+      "bone_b": "H19611",
+      "source": "OBID-ACR:17749727:rejoining_data.json:12"
+    },
+    {
+      "bone_a": "H11759",
+      "bone_b": "H15149",
+      "source": "OBID-ACR:17749727:rejoining_data.json:13"
+    },
+    {
+      "bone_a": "H12853",
+      "bone_b": "H30457",
+      "source": "OBID-ACR:17749727:rejoining_data.json:14"
+    },
+    {
+      "bone_a": "H13197",
+      "bone_b": "H16994",
+      "source": "OBID-ACR:17749727:rejoining_data.json:15"
+    },
+    {
+      "bone_a": "H10706",
+      "bone_b": "H16704",
+      "source": "OBID-ACR:17749727:rejoining_data.json:16"
+    },
+    {
+      "bone_a": "H16847",
+      "bone_b": "H16870",
+      "source": "OBID-ACR:17749727:rejoining_data.json:17"
+    },
+    {
+      "bone_a": "H22973",
+      "bone_b": "H23254",
+      "source": "OBID-ACR:17749727:rejoining_data.json:18"
+    },
+    {
+      "bone_a": "H29737",
+      "bone_b": "H30922",
+      "source": "OBID-ACR:17749727:rejoining_data.json:19"
+    },
+    {
+      "bone_a": "H29791",
+      "bone_b": "H29792",
+      "source": "OBID-ACR:17749727:rejoining_data.json:20"
+    },
+    {
+      "bone_a": "H30246",
+      "bone_b": "H30258",
+      "source": "OBID-ACR:17749727:rejoining_data.json:21"
+    },
+    {
+      "bone_a": "H30488",
+      "bone_b": "H30945",
+      "source": "OBID-ACR:17749727:rejoining_data.json:22"
+    },
+    {
+      "bone_a": "H30480",
+      "bone_b": "H30663",
+      "source": "OBID-ACR:17749727:rejoining_data.json:23"
+    },
+    {
+      "bone_a": "H33227",
+      "bone_b": "H33234",
+      "source": "OBID-ACR:17749727:rejoining_data.json:24"
+    },
+    {
+      "bone_a": "H35410",
+      "bone_b": "H35741",
+      "source": "OBID-ACR:17749727:rejoining_data.json:25"
+    },
+    {
+      "bone_a": "H35660",
+      "bone_b": "H35908",
+      "source": "OBID-ACR:17749727:rejoining_data.json:26"
+    },
+    {
+      "bone_a": "H35751",
+      "bone_b": "H35884",
+      "source": "OBID-ACR:17749727:rejoining_data.json:27"
+    },
+    {
+      "bone_a": "H2642",
+      "bone_b": "H8028",
+      "source": "OBID-ACR:17749727:rejoining_data.json:28"
+    },
+    {
+      "bone_a": "H10727",
+      "bone_b": "H10729",
+      "source": "OBID-ACR:17749727:rejoining_data.json:29"
+    },
+    {
+      "bone_a": "H10727",
+      "bone_b": "H10730",
+      "source": "OBID-ACR:17749727:rejoining_data.json:29"
+    },
+    {
+      "bone_a": "H10729",
+      "bone_b": "H10730",
+      "source": "OBID-ACR:17749727:rejoining_data.json:29"
+    },
+    {
+      "bone_a": "H16672",
+      "bone_b": "H16705",
+      "source": "OBID-ACR:17749727:rejoining_data.json:30"
+    },
+    {
+      "bone_a": "H16672",
+      "bone_b": "H16714",
+      "source": "OBID-ACR:17749727:rejoining_data.json:30"
+    },
+    {
+      "bone_a": "H16705",
+      "bone_b": "H16714",
+      "source": "OBID-ACR:17749727:rejoining_data.json:30"
+    },
+    {
+      "bone_a": "H30282",
+      "bone_b": "H30970",
+      "source": "OBID-ACR:17749727:rejoining_data.json:31"
+    },
+    {
+      "bone_a": "H32995",
+      "bone_b": "H33062",
+      "source": "OBID-ACR:17749727:rejoining_data.json:32"
+    },
+    {
+      "bone_a": "H30548",
+      "bone_b": "H30549",
+      "source": "OBID-ACR:17749727:rejoining_data.json:33"
+    },
+    {
+      "bone_a": "H30548",
+      "bone_b": "H30550",
+      "source": "OBID-ACR:17749727:rejoining_data.json:33"
+    },
+    {
+      "bone_a": "H30549",
+      "bone_b": "H30550",
+      "source": "OBID-ACR:17749727:rejoining_data.json:33"
+    },
+    {
+      "bone_a": "H16742",
+      "bone_b": "H16756",
+      "source": "OBID-ACR:17749727:rejoining_data.json:34"
+    },
+    {
+      "bone_a": "H16742",
+      "bone_b": "H16773",
+      "source": "OBID-ACR:17749727:rejoining_data.json:34"
+    },
+    {
+      "bone_a": "H16742",
+      "bone_b": "H16776",
+      "source": "OBID-ACR:17749727:rejoining_data.json:34"
+    },
+    {
+      "bone_a": "H16756",
+      "bone_b": "H16773",
+      "source": "OBID-ACR:17749727:rejoining_data.json:34"
+    },
+    {
+      "bone_a": "H16756",
+      "bone_b": "H16776",
+      "source": "OBID-ACR:17749727:rejoining_data.json:34"
+    },
+    {
+      "bone_a": "H16773",
+      "bone_b": "H16776",
+      "source": "OBID-ACR:17749727:rejoining_data.json:34"
+    },
+    {
+      "bone_a": "H30106",
+      "bone_b": "H30107",
+      "source": "OBID-ACR:17749727:rejoining_data.json:35"
+    },
+    {
+      "bone_a": "H30106",
+      "bone_b": "H30108",
+      "source": "OBID-ACR:17749727:rejoining_data.json:35"
+    },
+    {
+      "bone_a": "H30106",
+      "bone_b": "H30109",
+      "source": "OBID-ACR:17749727:rejoining_data.json:35"
+    },
+    {
+      "bone_a": "H30106",
+      "bone_b": "H30110",
+      "source": "OBID-ACR:17749727:rejoining_data.json:35"
+    },
+    {
+      "bone_a": "H30107",
+      "bone_b": "H30108",
+      "source": "OBID-ACR:17749727:rejoining_data.json:35"
+    },
+    {
+      "bone_a": "H30107",
+      "bone_b": "H30109",
+      "source": "OBID-ACR:17749727:rejoining_data.json:35"
+    },
+    {
+      "bone_a": "H30107",
+      "bone_b": "H30110",
+      "source": "OBID-ACR:17749727:rejoining_data.json:35"
+    },
+    {
+      "bone_a": "H30108",
+      "bone_b": "H30109",
+      "source": "OBID-ACR:17749727:rejoining_data.json:35"
+    },
+    {
+      "bone_a": "H30108",
+      "bone_b": "H30110",
+      "source": "OBID-ACR:17749727:rejoining_data.json:35"
+    },
+    {
+      "bone_a": "H30109",
+      "bone_b": "H30110",
+      "source": "OBID-ACR:17749727:rejoining_data.json:35"
+    }
+  ],
+  "overlap_rows": {
+    "unflagged": 1051,
+    "exact": 279,
+    "near": 239
+  },
+  "baseline_alphas": {
+    "frequency": 0.5,
+    "bigram": 32.0,
+    "trigram": 32.0,
+    "retrieval": 32.0
+  },
+  "baseline_seconds": 1.304344124859199,
+  "baseline_validation_nll": {
+    "frequency": 5.268763214750241,
+    "bigram": 4.068607597398105,
+    "trigram": 3.950230279531696,
+    "retrieval": 3.922811950252899
+  },
+  "validation_selected_baseline": "retrieval",
+  "gpt": {
+    "seed": 117,
+    "parameters": 173504,
+    "context": 80,
+    "width": 64,
+    "layers": 2,
+    "heads": 4,
+    "max_batch": 64,
+    "steps": 2000,
+    "lr": 0.002,
+    "optimizer": "AdamW",
+    "dtype": "float32",
+    "training_and_validation_seconds": 5.9921977911144495,
+    "selected_step": 1750,
+    "validation_nll": 3.78659475650571,
+    "checkpoints": [
+      {
+        "step": 250,
+        "batch_nll": 4.230810165405273,
+        "validation_nll": 4.329659772100523,
+        "elapsed_seconds": 1.6932076250668615
+      },
+      {
+        "step": 500,
+        "batch_nll": 4.1048173904418945,
+        "validation_nll": 4.0171036970492064,
+        "elapsed_seconds": 2.342959958128631
+      },
+      {
+        "step": 750,
+        "batch_nll": 3.564619302749634,
+        "validation_nll": 3.89657227231962,
+        "elapsed_seconds": 2.960251250071451
+      },
+      {
+        "step": 1000,
+        "batch_nll": 3.895012617111206,
+        "validation_nll": 3.8060508289643837,
+        "elapsed_seconds": 3.5642905831336975
+      },
+      {
+        "step": 1250,
+        "batch_nll": 3.760042428970337,
+        "validation_nll": 3.797122746590856,
+        "elapsed_seconds": 4.17294158320874
+      },
+      {
+        "step": 1500,
+        "batch_nll": 2.9644317626953125,
+        "validation_nll": 3.803073564016149,
+        "elapsed_seconds": 4.751352375140414
+      },
+      {
+        "step": 1750,
+        "batch_nll": 3.115967273712158,
+        "validation_nll": 3.78659475650571,
+        "elapsed_seconds": 5.365152250044048
+      },
+      {
+        "step": 2000,
+        "batch_nll": 3.238412857055664,
+        "validation_nll": 3.7888009914002128,
+        "elapsed_seconds": 5.992067708168179
+      }
+    ],
+    "device": "Device(gpu, 0)",
+    "hardware": "Apple M5 Pro",
+    "mlx": "0.32.2",
+    "numpy": "2.5.3",
+    "python": "3.12.13",
+    "macos": "27.0.1",
+    "gpu": "Apple M5 Pro"
+  },
+  "metrics": {
+    "all": {
+      "frequency": {
+        "n": 7156,
+        "in_vocab": 7086,
+        "top1": 0.06987143655673561,
+        "top5": 0.21366685299049748,
+        "nll": 5.2263266450364885
+      },
+      "bigram": {
+        "n": 7156,
+        "in_vocab": 7086,
+        "top1": 0.23085522638345443,
+        "top5": 0.475684740078256,
+        "nll": 4.020111844247517
+      },
+      "trigram": {
+        "n": 7156,
+        "in_vocab": 7086,
+        "top1": 0.264533258803801,
+        "top5": 0.5079653437674678,
+        "nll": 3.9231729058736997
+      },
+      "retrieval": {
+        "n": 7156,
+        "in_vocab": 7086,
+        "top1": 0.27738960313024036,
+        "top5": 0.5117384013415316,
+        "nll": 3.911636611595502
+      },
+      "gpt": {
+        "n": 7156,
+        "in_vocab": 7086,
+        "top1": 0.2757126886528787,
+        "top5": 0.5034935718278368,
+        "nll": 3.772400601845665
+      }
+    },
+    "unflagged": {
+      "frequency": {
+        "n": 4646,
+        "in_vocab": 4583,
+        "top1": 0.06284976323719328,
+        "top5": 0.1909169177787344,
+        "nll": 5.427846684987098
+      },
+      "bigram": {
+        "n": 4646,
+        "in_vocab": 4583,
+        "top1": 0.1605682307361171,
+        "top5": 0.37602238484718037,
+        "nll": 4.613136038517321
+      },
+      "trigram": {
+        "n": 4646,
+        "in_vocab": 4583,
+        "top1": 0.17929401635815756,
+        "top5": 0.3981919931123547,
+        "nll": 4.628500133854101
+      },
+      "retrieval": {
+        "n": 4646,
+        "in_vocab": 4583,
+        "top1": 0.18123116659492036,
+        "top5": 0.39603960396039606,
+        "nll": 4.668353343925898
+      },
+      "gpt": {
+        "n": 4646,
+        "in_vocab": 4583,
+        "top1": 0.18252260008609555,
+        "top5": 0.39539388721480845,
+        "nll": 4.456483098834765
+      }
+    },
+    "short_2_4": {
+      "frequency": {
+        "n": 908,
+        "in_vocab": 900,
+        "top1": 0.03634361233480176,
+        "top5": 0.11563876651982379,
+        "nll": 5.641823059435074
+      },
+      "bigram": {
+        "n": 908,
+        "in_vocab": 900,
+        "top1": 0.15748898678414097,
+        "top5": 0.3667400881057269,
+        "nll": 4.621620991145672
+      },
+      "trigram": {
+        "n": 908,
+        "in_vocab": 900,
+        "top1": 0.1685022026431718,
+        "top5": 0.38215859030837,
+        "nll": 4.596246772297792
+      },
+      "retrieval": {
+        "n": 908,
+        "in_vocab": 900,
+        "top1": 0.17290748898678415,
+        "top5": 0.381057268722467,
+        "nll": 4.600273553125822
+      },
+      "gpt": {
+        "n": 908,
+        "in_vocab": 900,
+        "top1": 0.1762114537444934,
+        "top5": 0.3634361233480176,
+        "nll": 4.544237842352854
+      }
+    },
+    "common_100_plus": {
+      "frequency": {
+        "n": 5508,
+        "in_vocab": 5508,
+        "top1": 0.09077705156136529,
+        "top5": 0.27759622367465503,
+        "nll": 4.500416468064064
+      },
+      "bigram": {
+        "n": 5508,
+        "in_vocab": 5508,
+        "top1": 0.29139433551198257,
+        "top5": 0.5849673202614379,
+        "nll": 3.1634943718802035
+      },
+      "trigram": {
+        "n": 5508,
+        "in_vocab": 5508,
+        "top1": 0.3318809005083515,
+        "top5": 0.6163761801016703,
+        "nll": 3.015453791840648
+      },
+      "retrieval": {
+        "n": 5508,
+        "in_vocab": 5508,
+        "top1": 0.3404139433551198,
+        "top5": 0.6171023965141612,
+        "nll": 2.9898779821586374
+      },
+      "gpt": {
+        "n": 5508,
+        "in_vocab": 5508,
+        "top1": 0.3440450254175744,
+        "top5": 0.6147421931735657,
+        "nll": 2.9200396765167698
+      }
+    },
+    "clean_context": {
+      "frequency": {
+        "n": 3320,
+        "in_vocab": 3287,
+        "top1": 0.06506024096385542,
+        "top5": 0.19457831325301206,
+        "nll": 5.210344202161183
+      },
+      "bigram": {
+        "n": 3320,
+        "in_vocab": 3287,
+        "top1": 0.2575301204819277,
+        "top5": 0.5186746987951807,
+        "nll": 3.7333155585991284
+      },
+      "trigram": {
+        "n": 3320,
+        "in_vocab": 3287,
+        "top1": 0.2948795180722892,
+        "top5": 0.5563253012048193,
+        "nll": 3.600895012273774
+      },
+      "retrieval": {
+        "n": 3320,
+        "in_vocab": 3287,
+        "top1": 0.30873493975903615,
+        "top5": 0.5632530120481928,
+        "nll": 3.572792366138374
+      },
+      "gpt": {
+        "n": 3320,
+        "in_vocab": 3287,
+        "top1": 0.30783132530120483,
+        "top5": 0.5521084337349398,
+        "nll": 3.4617411511552674
+      }
+    },
+    "exact": {
+      "frequency": {
+        "n": 634,
+        "in_vocab": 634,
+        "top1": 0.06309148264984227,
+        "top5": 0.20977917981072555,
+        "nll": 4.855585370759253
+      },
+      "bigram": {
+        "n": 634,
+        "in_vocab": 634,
+        "top1": 0.3264984227129338,
+        "top5": 0.638801261829653,
+        "nll": 2.958599529001888
+      },
+      "trigram": {
+        "n": 634,
+        "in_vocab": 634,
+        "top1": 0.38958990536277605,
+        "top5": 0.6987381703470031,
+        "nll": 2.6328308604930806
+      },
+      "retrieval": {
+        "n": 634,
+        "in_vocab": 634,
+        "top1": 0.4416403785488959,
+        "top5": 0.722397476340694,
+        "nll": 2.4915072901162705
+      },
+      "gpt": {
+        "n": 634,
+        "in_vocab": 634,
+        "top1": 0.4305993690851735,
+        "top5": 0.6829652996845426,
+        "nll": 2.5719672446903017
+      }
+    },
+    "length_5_plus": {
+      "frequency": {
+        "n": 6248,
+        "in_vocab": 6186,
+        "top1": 0.07474391805377721,
+        "top5": 0.22791293213828426,
+        "nll": 5.165876148276267
+      },
+      "bigram": {
+        "n": 6248,
+        "in_vocab": 6186,
+        "top1": 0.24151728553137003,
+        "top5": 0.49151728553137003,
+        "nll": 3.9325983893156815
+      },
+      "trigram": {
+        "n": 6248,
+        "in_vocab": 6186,
+        "top1": 0.27848911651728553,
+        "top5": 0.5262483994878361,
+        "nll": 3.825247513086489
+      },
+      "retrieval": {
+        "n": 6248,
+        "in_vocab": 6186,
+        "top1": 0.29257362355953903,
+        "top5": 0.530729833546735,
+        "nll": 3.811446949879161
+      },
+      "gpt": {
+        "n": 6248,
+        "in_vocab": 6186,
+        "top1": 0.2901728553137004,
+        "top5": 0.5238476312419974,
+        "nll": 3.660106143963921
+      }
+    },
+    "marked_context": {
+      "frequency": {
+        "n": 3836,
+        "in_vocab": 3799,
+        "top1": 0.0740354535974974,
+        "top5": 0.23018769551616267,
+        "nll": 5.240155097189983
+      },
+      "bigram": {
+        "n": 3836,
+        "in_vocab": 3799,
+        "top1": 0.20776850886339937,
+        "top5": 0.43847758081334726,
+        "nll": 4.268255932409207
+      },
+      "trigram": {
+        "n": 3836,
+        "in_vocab": 3799,
+        "top1": 0.23826903023983315,
+        "top5": 0.46611053180396245,
+        "nll": 4.202016663773925
+      },
+      "retrieval": {
+        "n": 3836,
+        "in_vocab": 3799,
+        "top1": 0.2502606882168926,
+        "top5": 0.46715328467153283,
+        "nll": 4.204814035869674
+      },
+      "gpt": {
+        "n": 3836,
+        "in_vocab": 3799,
+        "top1": 0.24791449426485923,
+        "top5": 0.4614181438998957,
+        "nll": 4.041191761208481
+      }
+    },
+    "mid_10_99": {
+      "frequency": {
+        "n": 1272,
+        "in_vocab": 1272,
+        "top1": 0.0,
+        "top5": 0.0,
+        "nll": 7.339402785735667
+      },
+      "bigram": {
+        "n": 1272,
+        "in_vocab": 1272,
+        "top1": 0.036163522012578615,
+        "top5": 0.139937106918239,
+        "nll": 6.291545331586994
+      },
+      "trigram": {
+        "n": 1272,
+        "in_vocab": 1272,
+        "top1": 0.049528301886792456,
+        "top5": 0.18081761006289307,
+        "nll": 6.331569460141966
+      },
+      "retrieval": {
+        "n": 1272,
+        "in_vocab": 1272,
+        "top1": 0.08176100628930817,
+        "top5": 0.19654088050314467,
+        "nll": 6.359385361735276
+      },
+      "gpt": {
+        "n": 1272,
+        "in_vocab": 1272,
+        "top1": 0.0589622641509434,
+        "top5": 0.16430817610062892,
+        "nll": 6.125589543115933
+      }
+    },
+    "oov": {
+      "frequency": {
+        "n": 70,
+        "in_vocab": 0,
+        "top1": 0.0,
+        "top5": 0.0,
+        "nll": null
+      },
+      "bigram": {
+        "n": 70,
+        "in_vocab": 0,
+        "top1": 0.0,
+        "top5": 0.0,
+        "nll": null
+      },
+      "trigram": {
+        "n": 70,
+        "in_vocab": 0,
+        "top1": 0.0,
+        "top5": 0.0,
+        "nll": null
+      },
+      "retrieval": {
+        "n": 70,
+        "in_vocab": 0,
+        "top1": 0.0,
+        "top5": 0.0,
+        "nll": null
+      },
+      "gpt": {
+        "n": 70,
+        "in_vocab": 0,
+        "top1": 0.0,
+        "top5": 0.0,
+        "nll": null
+      }
+    },
+    "rare_1_9": {
+      "frequency": {
+        "n": 306,
+        "in_vocab": 306,
+        "top1": 0.0,
+        "top5": 0.0,
+        "nll": 9.508942343712164
+      },
+      "bigram": {
+        "n": 306,
+        "in_vocab": 306,
+        "top1": 0.0032679738562091504,
+        "top5": 0.013071895424836602,
+        "nll": 9.997189105369594
+      },
+      "trigram": {
+        "n": 306,
+        "in_vocab": 306,
+        "top1": 0.006535947712418301,
+        "top5": 0.032679738562091505,
+        "nll": 10.250743046608388
+      },
+      "retrieval": {
+        "n": 306,
+        "in_vocab": 306,
+        "top1": 0.0196078431372549,
+        "top5": 0.042483660130718956,
+        "nll": 10.328336352642747
+      },
+      "gpt": {
+        "n": 306,
+        "in_vocab": 306,
+        "top1": 0.00980392156862745,
+        "top5": 0.026143790849673203,
+        "nll": 9.333013815622703
+      }
+    },
+    "near": {
+      "frequency": {
+        "n": 1876,
+        "in_vocab": 1869,
+        "top1": 0.08955223880597014,
+        "top5": 0.27132196162046907,
+        "nll": 4.85793907135972
+      },
+      "bigram": {
+        "n": 1876,
+        "in_vocab": 1869,
+        "top1": 0.3726012793176972,
+        "top5": 0.6673773987206824,
+        "nll": 2.926034222806759
+      },
+      "trigram": {
+        "n": 1876,
+        "in_vocab": 1869,
+        "top1": 0.43336886993603413,
+        "top5": 0.7153518123667377,
+        "nll": 2.631338861431288
+      },
+      "retrieval": {
+        "n": 1876,
+        "in_vocab": 1869,
+        "top1": 0.4600213219616205,
+        "top5": 0.7270788912579957,
+        "nll": 2.5378159618082488
+      },
+      "gpt": {
+        "n": 1876,
+        "in_vocab": 1869,
+        "top1": 0.4541577825159915,
+        "top5": 0.7105543710021321,
+        "nll": 2.502162327225793
+      }
+    }
+  },
+  "paired_intervals": {
+    "all": {
+      "components": 974,
+      "top1_top5_nll_95": [
+        [
+          -0.010988994561286415,
+          0.007663936082256324
+        ],
+        [
+          -0.01749340237645502,
+          0.00014288387202894963
+        ],
+        [
+          -0.18148506409451146,
+          -0.09527393223866018
+        ]
+      ]
+    },
+    "unflagged": {
+      "components": 751,
+      "top1_top5_nll_95": [
+        [
+          -0.00910547640335715,
+          0.01132171707068661
+        ],
+        [
+          -0.011780995364531073,
+          0.010322786426823681
+        ],
+        [
+          -0.2687611833269278,
+          -0.15726332719902447
+        ]
+      ]
+    },
+    "rare_1_9": {
+      "components": 232,
+      "top1_top5_nll_95": [
+        [
+          -0.031446540880503145,
+          0.01
+        ],
+        [
+          -0.03741496598639456,
+          0.003268511351909182
+        ],
+        [
+          -1.366558516038758,
+          -0.6416325784940884
+        ]
+      ]
+    },
+    "short_2_4": {
+      "components": 338,
+      "top1_top5_nll_95": [
+        [
+          -0.019082377575605568,
+          0.025355466730302666
+        ],
+        [
+          -0.04039358038262553,
+          0.006550576667654054
+        ],
+        [
+          -0.16600439972810638,
+          0.05921081341351985
+        ]
+      ]
+    }
+  }
+}

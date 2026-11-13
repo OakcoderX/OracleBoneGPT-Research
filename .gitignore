@@ -1,0 +1,6 @@
+__pycache__/
+.DS_Store
+experiments/
+prepared/
+source/data.json
+source/Main-character.json
