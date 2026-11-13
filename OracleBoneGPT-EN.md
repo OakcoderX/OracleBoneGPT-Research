@@ -2,6 +2,8 @@
 
 ## What a Small Language Model Can Recover from Context and Rubbings
 
+**Li Zhen (李臻)** · Independent researcher
+
 Exploratory research report · 13 November 2026
 
 ### Abstract
